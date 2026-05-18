@@ -1,0 +1,10 @@
+LLaVA-1.5-7B baseline on POPE:
+
+Random:
+Accuracy 0.8957, Precision 0.8861, Recall 0.9080, F1 0.8969, Yes ratio 0.5123
+
+Popular:
+Accuracy 0.8620, Precision 0.8315, Recall 0.9080, F1 0.8681, Yes ratio 0.5460
+
+Adversarial:
+Accuracy 0.7980, Precision 0.7443, Recall 0.9080, F1 0.8180, Yes ratio 0.6100

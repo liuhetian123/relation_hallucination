@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# local env
+.conda/
+.env
+.env.*
+*.egg-info/
+
+# third-party repositories
+/LLaVA/
+/POPE/
+/R-Bench/
+/AMBER/
+/relsim/
+
+# RelSim data
+/data/relsim_images/
+/data/*.json
+/data/*.jsonl
+/data/*.zip
+/data/*.tar
+/data/*.tar.gz
+
+# checkpoints / weights
+/checkpoints/
+/outputs/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# cache / logs
+.cache/
+huggingface/
+wandb/
+runs/
+
+# raw model answers
+/eval_results/*/answers/*.json
+/eval_results/*/answers/*.jsonl
+
+# keep metric logs and summaries
+!/eval_results/*/logs/
+!/eval_results/*/logs/*.log
+!/eval_results/pope/summaries/
+!/eval_results/pope/summaries/*.md
