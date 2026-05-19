@@ -1,0 +1,68 @@
+Category: image-level_filterd, # samples: -1
+nocaps_image-level_rel_ids_1.json
+5449
+7692 7692 5498
+TP	FP	TN	FN	Total	
+2653	1486	1237	122	5498
+Accuracy: 0.7075300109130593
+Precision: 0.6409760796304034
+Recall: 0.9560360325908611
+F1 score: 0.7674235985413743
+Yes ratio: 0.752819206984358
+0.7075, 0.6410, 0.9560, 0.7674, 0.7528
+Total_num: 5498
+pos_num 2775 neg_num 2723
+nocaps_image-level_rel_ids_2.json
+5454
+7692 7692 5498
+TP	FP	TN	FN	Total	
+2651	1484	1239	124	5498
+Accuracy: 0.7075300109130593
+Precision: 0.6411124531049276
+Recall: 0.9553153118727375
+F1 score: 0.7672889686269709
+Yes ratio: 0.7520916696980721
+0.7075, 0.6411, 0.9553, 0.7673, 0.7521
+Total_num: 5498
+pos_num 2775 neg_num 2723
+nocaps_image-level_rel_ids_3.json
+5438
+7692 7692 5498
+TP	FP	TN	FN	Total	
+2657	1486	1237	118	5498
+Accuracy: 0.7082575481993452
+Precision: 0.6413227114619293
+Recall: 0.9574774740271081
+F1 score: 0.7681362745621492
+Yes ratio: 0.7535467442706438
+0.7083, 0.6413, 0.9575, 0.7681, 0.7535
+Total_num: 5498
+pos_num 2775 neg_num 2723
+nocaps_image-level_rel_ids_4.json
+5451
+7692 7692 5498
+TP	FP	TN	FN	Total	
+2652	1482	1238	126	5498
+Accuracy: 0.7075300109130593
+Precision: 0.6415094324104755
+Recall: 0.954643625073277
+F1 score: 0.7673563013549077
+Yes ratio: 0.7519097853765006
+0.7075, 0.6415, 0.9546, 0.7674, 0.7519
+Total_num: 5498
+pos_num 2778 neg_num 2720
+nocaps_image-level_rel_ids_5.json
+5457
+7692 7692 5498
+TP	FP	TN	FN	Total	
+2659	1483	1237	119	5498
+Accuracy: 0.7086213168424882
+Precision: 0.6419604040512786
+Recall: 0.9571634234803332
+F1 score: 0.7684923018969695
+Yes ratio: 0.7533648599490724
+0.7086, 0.6420, 0.9572, 0.7685, 0.7534
+Total_num: 5498
+pos_num 2778 neg_num 2720
+Average: [70.79 64.14 95.61 76.77 75.27]
+====================================
