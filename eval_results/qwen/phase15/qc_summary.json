@@ -1,0 +1,26 @@
+{
+  "total_questions": 200,
+  "unique_images": 200,
+  "training_overlap_count": 0,
+  "missing_images": 0,
+  "missing_captions": 0,
+  "unique_gt_relations": 120,
+  "answer_position_distribution": {
+    "B": 50,
+    "C": 50,
+    "A": 50,
+    "D": 50
+  },
+  "duplicate_options_count": 0,
+  "gt_missing_from_options_count": 0,
+  "heldout_pool_size": 23767,
+  "train_images_excluded": 1000,
+  "caption_index_size": 65946,
+  "relation_vocab_size": 3078,
+  "pool_skipped_no_relation": 41179,
+  "hard_constraints_ok": true,
+  "train_json": "/data/storage22t/lht/works/relation_hallucination/data/relsim_llava_1k.json",
+  "caption_json": "/data/lht/relsim_dataset/relsim_llava_100k.json",
+  "image_dir": "/data/lht/relsim_dataset/relsim_images",
+  "seed": 42
+}

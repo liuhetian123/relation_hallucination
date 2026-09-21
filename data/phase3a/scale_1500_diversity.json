@@ -1,0 +1,134 @@
+{
+  "n": 1500,
+  "unique_images": 1500,
+  "unique_relations": 252,
+  "unique_subjects": 532,
+  "unique_objects": 709,
+  "unique_subject_object": 1360,
+  "unique_subject_relation": 1062,
+  "unique_relation_object": 1212,
+  "unique_sro": 1435,
+  "max_relation_frac": 0.1,
+  "top_relations": [
+    [
+      "holding",
+      150
+    ],
+    [
+      "wearing",
+      127
+    ],
+    [
+      "sitting on",
+      81
+    ],
+    [
+      "standing on",
+      80
+    ],
+    [
+      "looking at",
+      50
+    ],
+    [
+      "contains",
+      48
+    ],
+    [
+      "lying on",
+      35
+    ],
+    [
+      "attached to",
+      34
+    ],
+    [
+      "supports",
+      33
+    ],
+    [
+      "hanging from",
+      30
+    ],
+    [
+      "touching",
+      28
+    ],
+    [
+      "carrying",
+      27
+    ],
+    [
+      "riding",
+      26
+    ],
+    [
+      "on",
+      25
+    ],
+    [
+      "surrounded by",
+      25
+    ],
+    [
+      "resting on",
+      23
+    ],
+    [
+      "beside",
+      21
+    ],
+    [
+      "jumping over",
+      21
+    ],
+    [
+      "standing next to",
+      17
+    ],
+    [
+      "standing in front of",
+      16
+    ],
+    [
+      "pointing at",
+      15
+    ],
+    [
+      "surrounding",
+      15
+    ],
+    [
+      "stands on",
+      15
+    ],
+    [
+      "covering",
+      14
+    ],
+    [
+      "standing beside",
+      13
+    ],
+    [
+      "climbing",
+      12
+    ],
+    [
+      "in front of",
+      11
+    ],
+    [
+      "form",
+      10
+    ],
+    [
+      "held by",
+      10
+    ],
+    [
+      "inside",
+      10
+    ]
+  ]
+}

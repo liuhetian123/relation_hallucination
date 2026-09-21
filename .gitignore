@@ -16,12 +16,16 @@ __pycache__/
 .env.*
 *.egg-info/
 
+# editor
+.cursor/
+
 # third-party repositories
 /LLaVA/
 /POPE/
 /R-Bench/
 /AMBER/
 /relsim/
+/MMRel/
 
 # RelSim data
 /data/relsim_images/
@@ -30,6 +34,11 @@ __pycache__/
 /data/*.zip
 /data/*.tar
 /data/*.tar.gz
+
+# QC / diagnostic images
+/data/**/qc/images/
+/eval_results/**/preview/
+/eval_results/**/composites/
 
 # checkpoints / weights
 /checkpoints/
@@ -54,8 +63,9 @@ wandb/
 runs/
 
 # raw model answers
-/eval_results/*/answers/*.json
-/eval_results/*/answers/*.jsonl
+/eval_results/**/answers/*.json
+/eval_results/**/answers/*.jsonl
+/eval_results/**/answers/
 
 # keep metric logs and summaries
 !/eval_results/*/logs/

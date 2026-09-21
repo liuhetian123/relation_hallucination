@@ -1,0 +1,87 @@
+Questions=1664 already=0 remaining=1664
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 14/824 [00:00<00:05, 135.95it/s]Loading weights:   4%|▍         | 36/824 [00:00<00:04, 184.39it/s]Loading weights:   7%|▋         | 55/824 [00:00<00:04, 177.33it/s]Loading weights:  10%|█         | 85/824 [00:00<00:03, 222.89it/s]Loading weights:  13%|█▎        | 108/824 [00:00<00:03, 217.67it/s]Loading weights:  16%|█▌        | 130/824 [00:00<00:03, 215.82it/s]Loading weights:  18%|█▊        | 152/824 [00:00<00:03, 215.10it/s]Loading weights:  21%|██        | 174/824 [00:00<00:03, 207.39it/s]Loading weights:  24%|██▍       | 197/824 [00:00<00:02, 210.26it/s]Loading weights:  27%|██▋       | 220/824 [00:01<00:02, 211.22it/s]Loading weights:  29%|██▉       | 243/824 [00:01<00:02, 216.21it/s]Loading weights:  32%|███▏      | 265/824 [00:01<00:02, 216.36it/s]Loading weights:  35%|███▌      | 289/824 [00:01<00:02, 210.22it/s]Loading weights:  38%|███▊      | 311/824 [00:01<00:02, 209.59it/s]Loading weights:  41%|████      | 334/824 [00:01<00:02, 213.33it/s]Loading weights:  43%|████▎     | 356/824 [00:01<00:02, 210.36it/s]Loading weights:  47%|████▋     | 384/824 [00:01<00:01, 227.71it/s]Loading weights:  49%|████▉     | 407/824 [00:01<00:01, 210.86it/s]Loading weights:  52%|█████▏    | 429/824 [00:02<00:01, 211.84it/s]Loading weights:  56%|█████▋    | 464/824 [00:02<00:01, 248.33it/s]Loading weights:  62%|██████▏   | 509/824 [00:02<00:01, 292.05it/s]Loading weights:  68%|██████▊   | 561/824 [00:02<00:00, 355.17it/s]Loading weights:  75%|███████▍  | 617/824 [00:02<00:00, 411.40it/s]Loading weights:  80%|████████  | 660/824 [00:02<00:00, 412.09it/s]Loading weights:  86%|████████▌ | 706/824 [00:02<00:00, 419.74it/s]Loading weights:  92%|█████████▏| 756/824 [00:02<00:00, 441.51it/s]Loading weights:  98%|█████████▊| 805/824 [00:02<00:00, 454.36it/s]Loading weights: 100%|██████████| 824/824 [00:02<00:00, 281.83it/s]
+[1/1664] 13557 'Yes, the person is walking on the grass.'
+[20/1664] 13576 'Yes, there is direct contact between the person and the grass. The child is'
+[40/1664] 13596 'There is no existence of a man in the image description, only a boy playing'
+[60/1664] 13616 "There is no existence of any contact between the boy's glasses and the football "
+[80/1664] 13636 'There is no existence of any direct contact between the person and the frisbee'
+[100/1664] 13656 'Yes, the person is walking on the paved path that runs through the forest.'
+[120/1664] 13676 'Yes, there is direct contact between the horse and the person riding it. The'
+[140/1664] 13696 'There is no existence of any direct contact between the person and the grass in '
+[160/1664] 13716 'Yes, there is direct contact between the bottle and the snow. The dog is'
+[180/1664] 13736 'There is no existence of a woman in the image description, so this instruction i'
+[200/1664] 13756 'Yes, the woman is directly holding the camera in her hands while taking a pictur'
+[220/1664] 13776 'There is no existence of any direct contact between the person and the sea in th'
+[240/1664] 13796 'There is no existence of any direct contact between the child and the lake in th'
+[260/1664] 13816 'Yes, there is direct contact between the football and the net. The ball has'
+[280/1664] 13836 'No, there is no direct contact between the melon and the wall in the'
+[300/1664] 13856 'There is no existence of any direct contact between the toy and the wall in the'
+[320/1664] 13876 'Yes, the airplane is directly in contact with the sky as it flies through it'
+[340/1664] 13896 'There is no existence of a ship in the image description, so this instruction is'
+[360/1664] 13916 'There is no existence of any direct contact between the bench and the forest in '
+[380/1664] 13936 'It is not possible to determine if there is direct contact between the plane and'
+[400/1664] 13956 'There is no existence of any direct contact between the person and the mountain '
+[420/1664] 13976 'Yes, the train is directly on top of the bridge, crossing over the water'
+[440/1664] 13996 'There is no existence of any direct contact between the dog and the wall in the'
+[460/1664] 14016 'There is no existence of any direct contact between the tree and grass in the im'
+[480/1664] 14036 'There is no existence of any direct contact between the person and the grass in '
+[500/1664] 14056 'Yes, there is direct contact between the sheep and the grass. The sheep are'
+[520/1664] 14076 'Yes, the truck is in direct contact with the ground as it drives on the'
+[540/1664] 14096 'Yes, the woman is directly in contact with the grass as she kicks the soccer'
+[560/1664] 14116 'There is no existence of any direct contact between the carrot and the necklace '
+[580/1664] 14136 'Yes, the red fire hydrant is sitting in the tall grass, indicating that'
+[600/1664] 14156 'There is no existence of any direct contact between the person and the grass in '
+[620/1664] 14176 'There is no existence of a tree in the image description, so it would be'
+[640/1664] 14196 'There is no existence of any direct contact between the tissue and holder in the'
+[660/1664] 14216 'There is no existence of any direct contact between the hydrant and the house in'
+[680/1664] 14236 'There is no existence of an electromobile or streetlamp in the image description'
+[700/1664] 14256 'Yes, there is direct contact between the bread and the plate. The hot dog'
+[720/1664] 14276 'There is no existence of any direct contact between the frisbee and the sea'
+[740/1664] 14296 'No, there is no direct contact between the tree and the grass in the image'
+[760/1664] 14316 'Yes, there is direct contact between the apple and the knife. The knife is'
+[780/1664] 14336 'Yes, the boy is holding the teddy bear close to his face, indicating'
+[800/1664] 14356 'There is no existence of any direct contact between the refrigerator and microwa'
+[820/1664] 14376 'There is no existence of any direct contact between the grass and the bench in t'
+[840/1664] 14396 'Yes, the dog is directly standing on the skateboard, with its feet firmly placed'
+[860/1664] 14416 'There is no existence of a car directly contacting a house in the image descript'
+[880/1664] 14436 'Yes, the woman is sitting on the sofa.'
+[900/1664] 14456 'Yes, there is direct contact between the pot and the cooktop. The pot'
+[920/1664] 14476 'There is no existence of any direct contact between the person and the sea in th'
+[940/1664] 14496 'Yes, there is direct contact between the chicken and the fence. The chicken is'
+[960/1664] 14516 'There is no existence of a forest in the image description, only trees and bushe'
+[980/1664] 14536 'It is not possible to determine if there is direct contact between the banana an'
+[1000/1664] 14556 'Yes, there is direct contact between the fork and the bread. The fork is'
+[1020/1664] 14576 'Yes, the cat and dog are sitting next to each other on the couch,'
+[1040/1664] 14596 'Yes, the house is directly connected to the ground through its foundation.'
+[1060/1664] 14616 'There is no existence of any pulp or direct contact with the beach in the image'
+[1080/1664] 14636 "Yes, the dog is standing directly on the water's surface at the beach."
+[1100/1664] 14656 'There is no existence of any direct contact between the elephant and grass in th'
+[1120/1664] 14676 'There is no existence of any direct contact between the person and the dog in th'
+[1140/1664] 14696 'Yes, the person is standing on the grass while playing with the frisbee'
+[1160/1664] 14716 'Yes, the ship is directly in contact with the sea. The image shows a'
+[1180/1664] 14736 'Yes, the dog is sitting directly on the ground.'
+[1200/1664] 14756 'There is no existence of any direct contact between the cup and the keyboard in '
+[1220/1664] 14776 'Yes, the train is in direct contact with the rail. The train is on'
+[1240/1664] 14796 'There is no existence of any direct contact between the refrigerator and the wal'
+[1260/1664] 14816 'There is no existence of any direct contact between the train and the forest in '
+[1280/1664] 14836 'Yes, the bench is directly on the ground.'
+[1300/1664] 14856 'Yes, the goose is directly in contact with the lake. The goose is swimming'
+[1320/1664] 14876 'Yes, there is direct contact between the doughnut and the tissue paper. The'
+[1340/1664] 14896 'There is no existence of any direct contact between the man and the sea in the'
+[1360/1664] 14916 'No, there is no direct contact between the giraffe and the tree in the'
+[1380/1664] 14936 'Yes, there is direct contact between the sea and the beach in the image.'
+[1400/1664] 14956 'Yes, the bear is directly in contact with the grass as it walks through the'
+[1420/1664] 14976 'There is no existence of a ship in the image description, so it would be'
+[1440/1664] 14996 'No, there is no direct contact between the mountain and the river in the image'
+[1460/1664] 15016 'No, there is no direct contact between the man and the curtain. The man'
+[1480/1664] 15036 'Yes, the cat is directly接触着草。'
+[1500/1664] 15056 'Yes, the deer is in close proximity to the forest. The image shows the'
+[1520/1664] 15076 'No, there is no direct contact between the camera and the grass in the image'
+[1540/1664] 15096 'No, there is no direct contact between the man and the sea in the image'
+[1560/1664] 15116 'Yes, the person is directly in contact with the paddle while paddling on the'
+[1580/1664] 15136 'The image shows an aerial view of a beach with waves crashing onto the shore.'
+[1600/1664] 15156 'No, there is no direct contact between the flowers and the grass in the image'
+[1620/1664] 15176 'No, there is no direct contact between the wall and the drawing. The drawing'
+[1640/1664] 15196 'Yes, there is direct contact between the strawberries and the cake. The strawber'
+[1660/1664] 15216 'No, there is no direct contact between the watermelon and the plate. The'
+Wrote eval_results/qwen/amber/answers/qwen25vl3b_typed_1k_amber_dr.jsonl

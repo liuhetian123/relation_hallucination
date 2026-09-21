@@ -1,0 +1,24 @@
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 17/824 [00:00<00:04, 169.38it/s]Loading weights:   6%|▌         | 50/824 [00:00<00:03, 246.22it/s]Loading weights:   9%|▉         | 75/824 [00:00<00:03, 247.46it/s]Loading weights:  12%|█▏        | 101/824 [00:00<00:03, 240.24it/s]Loading weights:  16%|█▋        | 135/824 [00:00<00:02, 267.05it/s]Loading weights:  20%|█▉        | 162/824 [00:00<00:02, 242.64it/s]Loading weights:  23%|██▎       | 187/824 [00:00<00:02, 239.49it/s]Loading weights:  26%|██▌       | 212/824 [00:00<00:02, 230.22it/s]Loading weights:  30%|██▉       | 245/824 [00:00<00:02, 254.71it/s]Loading weights:  34%|███▍      | 281/824 [00:01<00:01, 277.11it/s]Loading weights:  38%|███▊      | 317/824 [00:01<00:01, 298.80it/s]Loading weights:  42%|████▏     | 348/824 [00:01<00:01, 297.13it/s]Loading weights:  46%|████▌     | 378/824 [00:01<00:01, 290.44it/s]Loading weights:  51%|█████▏    | 424/824 [00:01<00:01, 335.65it/s]Loading weights:  66%|██████▌   | 540/824 [00:01<00:00, 572.54it/s]Loading weights:  78%|███████▊  | 644/824 [00:01<00:00, 707.95it/s]Loading weights:  90%|████████▉ | 740/824 [00:01<00:00, 779.71it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 427.76it/s]
+yes_ids=[9454, 9693] no_ids=[2753, 2152] device=cuda:0
+job mmrel_adv_questions.jsonl questions=384 already=0 remaining=384 fallback=True
+[1/384] 010l9bc0b9trxvw 'No'
+[20/384] 31j3wqk31oizgnn 'No'
+[40/384] 5owqb9zzyc1cnif 'No'
+[60/384] 7rmyiwgaj02w8fg 'No'
+[80/384] 9dzlh9pq3biqyjv 'No'
+[100/384] b8eouc1dlaq8egb 'No'
+[120/384] d5cfdhuz044z0at 'No'
+[140/384] f4ye0uoy02r11cv 'No'
+[160/384] h595uepuzul2p6n 'No'
+[180/384] idb4ippj7sa8x1w 'No'
+[200/384] jqoe30bbuzr465o 'No'
+[220/384] m1o6pld1ck023eb 'No'
+[240/384] nqixstt7uj0cv0n 'No'
+[260/384] ps919249fygxfla 'No'
+[280/384] ralh52iepoqao5y 'No'
+[300/384] tdfyob2bscio18q 'No'
+[320/384] vgvae8ffa30vbro 'No'
+[340/384] wvdjyvkyzp3fbf7 'No'
+[360/384] yf7mklbsdn634v7 'No'
+[380/384] zlepi9vs3fxchyh 'No'
+Wrote eval_results/qwen/phase5a/answers/clean_mmrel_adv_fast_textonly_fallback.jsonl

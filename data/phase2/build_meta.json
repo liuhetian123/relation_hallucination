@@ -1,0 +1,13 @@
+{
+  "n_positive": 955,
+  "n_train_replaceable": 534,
+  "n_heldout_replaceable": 193,
+  "n_train_random": 534,
+  "n_heldout_random": 193,
+  "n_hard_jobs": 3635,
+  "n_hard_jobs_train": 2670,
+  "n_hard_jobs_heldout": 965,
+  "vocab_size": 1754,
+  "train_seed": 42,
+  "heldout_seed": 123
+}

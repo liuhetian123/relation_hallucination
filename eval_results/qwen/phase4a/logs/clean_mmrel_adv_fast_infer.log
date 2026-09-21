@@ -1,0 +1,23 @@
+Questions=384 already=0 remaining=384
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 16/824 [00:00<00:05, 158.88it/s]Loading weights:   6%|▋         | 52/824 [00:00<00:02, 265.23it/s]Loading weights:  10%|█         | 85/824 [00:00<00:02, 270.43it/s]Loading weights:  15%|█▍        | 121/824 [00:00<00:02, 301.90it/s]Loading weights:  19%|█▉        | 157/824 [00:00<00:02, 314.09it/s]Loading weights:  23%|██▎       | 189/824 [00:00<00:02, 313.81it/s]Loading weights:  27%|██▋       | 221/824 [00:00<00:01, 307.49it/s]Loading weights:  31%|███       | 256/824 [00:00<00:01, 311.61it/s]Loading weights:  35%|███▍      | 288/824 [00:00<00:01, 302.68it/s]Loading weights:  39%|███▊      | 319/824 [00:01<00:01, 262.64it/s]Loading weights:  42%|████▏     | 347/824 [00:01<00:01, 254.28it/s]Loading weights:  46%|████▌     | 375/824 [00:01<00:01, 260.15it/s]Loading weights:  49%|████▉     | 402/824 [00:01<00:01, 238.28it/s]Loading weights:  52%|█████▏    | 427/824 [00:01<00:01, 238.35it/s]Loading weights:  66%|██████▌   | 544/824 [00:01<00:00, 488.80it/s]Loading weights:  83%|████████▎ | 680/824 [00:01<00:00, 728.22it/s]Loading weights: 100%|█████████▉| 821/824 [00:01<00:00, 907.38it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 433.32it/s]
+[1/384] 010l9bc0b9trxvw 'yes'
+[20/384] 31j3wqk31oizgnn 'No'
+[40/384] 5owqb9zzyc1cnif 'no'
+[60/384] 7rmyiwgaj02w8fg 'no'
+[80/384] 9dzlh9pq3biqyjv 'yes'
+[100/384] b8eouc1dlaq8egb 'yes'
+[120/384] d5cfdhuz044z0at 'yes'
+[140/384] f4ye0uoy02r11cv 'no'
+[160/384] h595uepuzul2p6n 'yes'
+[180/384] idb4ippj7sa8x1w 'No'
+[200/384] jqoe30bbuzr465o 'no'
+[220/384] m1o6pld1ck023eb 'No'
+[240/384] nqixstt7uj0cv0n 'yes'
+[260/384] ps919249fygxfla 'no'
+[280/384] ralh52iepoqao5y 'yes'
+[300/384] tdfyob2bscio18q 'Yes'
+[320/384] vgvae8ffa30vbro 'yes'
+[340/384] wvdjyvkyzp3fbf7 'no'
+[360/384] yf7mklbsdn634v7 'yes'
+[380/384] zlepi9vs3fxchyh 'yes'
+Wrote eval_results/qwen/phase4a/answers/clean_mmrel_adv_fast.jsonl

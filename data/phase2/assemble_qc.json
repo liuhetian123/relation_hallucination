@@ -1,0 +1,20 @@
+{
+  "internvl_status_counts": {
+    "heldout/no": 183,
+    "heldout/uncertain": 2,
+    "heldout/yes": 246,
+    "train/no": 490,
+    "train/uncertain": 3,
+    "train/yes": 807
+  },
+  "n_train_hard_images": 490,
+  "n_heldout_hard_images": 183,
+  "n_v1": 955,
+  "n_v2": 1489,
+  "n_v3": 1445,
+  "heldout_positive": 193,
+  "heldout_random_selected": 100,
+  "heldout_hard_selected": 100,
+  "heldout_total": 393,
+  "review_n": 100
+}

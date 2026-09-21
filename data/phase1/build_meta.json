@@ -1,0 +1,42 @@
+{
+  "train_prompt": "Describe the primary relation shown in this image in one short sentence.",
+  "n_typed_source": 1000,
+  "n_explicit_ok": 955,
+  "n_matched": 955,
+  "explicit_status_counts": {
+    "ok": 955,
+    "uncertain": 43,
+    "no_placeholder": 1,
+    "json_parse_error": 1
+  },
+  "typed_path": "data/phase1/qwen_typed_1k.json",
+  "explicit_path": "data/phase1/qwen_explicit_1k.json",
+  "example_typed": {
+    "id": "relsim_40d7bc164c67d77f79867cc557e6c838",
+    "image": "40d7bc164c67d77f79867cc557e6c838.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the primary relation shown in this image in one short sentence."
+      },
+      {
+        "from": "gpt",
+        "value": "Tiny {Animal} balancing on a person's {Body Part}."
+      }
+    ]
+  },
+  "example_explicit": {
+    "id": "relsim_40d7bc164c67d77f79867cc557e6c838",
+    "image": "40d7bc164c67d77f79867cc557e6c838.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the primary relation shown in this image in one short sentence."
+      },
+      {
+        "from": "gpt",
+        "value": "Tiny hamster balancing on a person's finger."
+      }
+    ]
+  }
+}

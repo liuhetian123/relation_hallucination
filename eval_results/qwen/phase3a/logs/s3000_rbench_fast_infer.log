@@ -1,0 +1,100 @@
+Questions=1924 already=0 remaining=1924
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   4%|▍         | 37/824 [00:00<00:02, 330.32it/s]Loading weights:   9%|▊         | 71/824 [00:00<00:02, 303.33it/s]Loading weights:  12%|█▏        | 102/824 [00:00<00:02, 279.29it/s]Loading weights:  16%|█▋        | 135/824 [00:00<00:02, 288.73it/s]Loading weights:  20%|██        | 165/824 [00:00<00:02, 290.13it/s]Loading weights:  24%|██▎       | 195/824 [00:00<00:02, 271.12it/s]Loading weights:  27%|██▋       | 223/824 [00:00<00:02, 266.14it/s]Loading weights:  30%|███       | 251/824 [00:00<00:02, 254.69it/s]Loading weights:  35%|███▍      | 285/824 [00:01<00:02, 258.68it/s]Loading weights:  38%|███▊      | 316/824 [00:01<00:01, 256.22it/s]Loading weights:  42%|████▏     | 342/824 [00:01<00:01, 253.73it/s]Loading weights:  46%|████▌     | 375/824 [00:01<00:01, 274.20it/s]Loading weights:  49%|████▉     | 403/824 [00:01<00:01, 258.09it/s]Loading weights:  54%|█████▍    | 444/824 [00:01<00:01, 298.77it/s]Loading weights:  66%|██████▌   | 544/824 [00:01<00:00, 493.95it/s]Loading weights:  77%|███████▋  | 632/824 [00:01<00:00, 603.70it/s]Loading weights:  92%|█████████▏| 762/824 [00:01<00:00, 799.42it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 418.20it/s]
+[1/1924] 13 'Yes, the man in the image is wearing a helmet.'
+[20/1924] 222 'Yes, the woman in the image is wearing a blue bikini.'
+[40/1924] 395 'No, there are no people visible in the image.'
+[60/1924] 515 'Yes, the seahorse is swimming near some plants in the image.'
+[80/1924] 667 'Yes, the ladybug is resting on a blade of grass in the image.'
+[100/1924] 840 'Yes, the animal in the image is a hedgehog.'
+[120/1924] 1003 'No, there are no dogs in the image standing on their own without their owners'
+[140/1924] 1147 'No, none of the women in the picture are holding a surfboard.'
+[160/1924] 1283 'Yes, the cookies on the pan are covered with parchment paper.'
+[180/1924] 1416 'Yes, the man in the image is wearing a hat.'
+[200/1924] 1640 'Yes, the players in the image appear to be playing a football game.'
+[220/1924] 1741 'Yes, the meat in the image appears to be cooked. It has a brown'
+[240/1924] 1914 'Yes, the pair of shorts is hanging from a wooden hanger.'
+[260/1924] 2062 'No, there are no plants or flowers visible on the sculpture in the image.'
+[280/1924] 2172 'No, there is no sand on the plate in the image. The plate appears'
+[300/1924] 2336 'No, the bottle of wine is not located in the center of the image.'
+[320/1924] 2420 'Yes, the nails in the picture appear to be fake. They have a polished'
+[340/1924] 2599 'No, the car is not parked on a driveway. It is parked on a'
+[360/1924] 2721 'Yes, the man in the image is wearing a brown sweater.'
+[380/1924] 2812 'Yes, the car in the image appears to be a luxury car. The sleek'
+[400/1924] 2926 'Yes, the man is holding his glove while standing on a baseball field.'
+[420/1924] 3047 'Yes, there is a window visible in the room.'
+[440/1924] 3192 'Yes, the woman in the image is wearing a bra.'
+[460/1924] 3345 'Yes, the dogs in the image are wearing harnesses.'
+[480/1924] 3495 'Yes, the bike cross is illuminated in red, indicating that cyclists should stop '
+[500/1924] 3646 'Yes, the animal in the image is swimming on its back.'
+[520/1924] 3788 'Yes, both men are wearing suits.'
+[540/1924] 3962 'Yes, there are people on the stage in the picture.'
+[560/1924] 4073 'Yes, the man is standing on a slope in the image.'
+[580/1924] 4276 'Yes, the man in the image is wearing a black shirt.'
+[600/1924] 4414 'There is no existence of a girl being on a stand or outside in the given'
+[620/1924] 4594 'Yes, the snow is being plowed by the tractor. The tractor is actively'
+[640/1924] 4722 'Yes, the otter is lying on the ice.'
+[660/1924] 4855 'No, the bull in the image is not wearing any shoes. It appears to'
+[680/1924] 4998 'Yes, the man is standing next to the jeep.'
+[700/1924] 5205 'There is no existence of non-palm trees in the image description.'
+[720/1924] 5402 'No, all the green balloons in the image are near buildings.'
+[740/1924] 5573 'Yes, the man is bending over and appears to be pumping air into the tire'
+[760/1924] 5762 'Yes, there are books on both the floor and on tables in the image.'
+[780/1924] 5886 'Yes, the pasta is on a white plate.'
+[800/1924] 6042 'Yes, the woman in the image is wearing a dress.'
+[820/1924] 6190 'Yes, the bee is sitting on the sunflower in the image.'
+[840/1924] 6316 'Yes, the glasses of beer are on the table.'
+[860/1924] 6450 'Yes, the burrito is served on a black plate.'
+[880/1924] 6599 'Yes, the person is parking their motorcycle on the sidewalk.'
+[900/1924] 6774 'Yes, the Christmas tree is located near the green cabinet in the image.'
+[920/1924] 6937 'Yes, there are grapes hanging from the tree limb in the image.'
+[940/1924] 7125 'Yes, the cat is sitting next to the alarm clock in the image.'
+[960/1924] 7278 'Yes, there is someone in the image holding a snowboard and sitting down.'
+[980/1924] 7466 'Yes, there are people wearing reflective vests in the image.'
+[1000/1924] 7609 'Yes, the coffee cup is on the saucer.'
+[1020/1924] 7805 'Yes, the person is holding the sandwich in their hand.'
+[1040/1924] 7977 'No, the man in the image is not smiling. He appears to be standing'
+[1060/1924] 8160 'Yes, the plant is inside the vase. The vase is green and contains the'
+[1080/1924] 8330 'Yes, the man in the image is wearing a helmet.'
+[1100/1924] 8484 'Yes, the microphone is placed in front of all three computers.'
+[1120/1924] 8648 'Yes, the giraffe in the image is eating grass.'
+[1140/1924] 8829 'No, the coffee cup is not empty. It contains a liquid, likely tea'
+[1160/1924] 9027 'No, the man in the image is not holding a trophy. He appears to'
+[1180/1924] 9181 'Yes, the woman in the image is carrying a white bag with the word "'
+[1200/1924] 9392 'No, there is no man present in the image. The image shows a woman'
+[1220/1924] 9543 'Yes, the man in the image is wearing a hat on his head.'
+[1240/1924] 9706 'No, there is no man present in the image. The image only features a'
+[1260/1924] 9845 'There is no existence of a soccer ball in the image description, so asking if'
+[1280/1924] 9938 'Yes, the blue starfish is lying on a piece of coral in the image'
+[1300/1924] 10095 'Yes, the sculpture is in an urban setting with buildings visible in the backgrou'
+[1320/1924] 10398 'Yes, the red race car is seen maneuvering around the track in the image'
+[1340/1924] 10631 'No, the person in the image is not riding a bicycle. They are skate'
+[1360/1924] 10752 'There is no existence of a rock in front of the house in the image description'
+[1380/1924] 10922 'No, the room is not empty. It appears to be a classroom with various'
+[1400/1924] 11063 'No, there are no green peaches in the image. The peaches are'
+[1420/1924] 11319 'Yes, the woman is holding a camera up to her face in the image.'
+[1440/1924] 11454 'Yes, the fig plants are growing on the tree. The image shows green fig'
+[1460/1924] 11674 'No, the raven is not sitting on the tree branch outside the tree building'
+[1480/1924] 11806 'Yes, the lemon is on the table. It is placed next to the fish'
+[1500/1924] 11953 'Yes, the man in the image is wearing a hat.'
+[1520/1924] 12067 'Yes, the man is holding a plate of food in his hand.'
+[1540/1924] 12152 'Yes, the woman in the image is wearing a tank top.'
+[1560/1924] 12303 'No, the man is not holding a tennis racket. He is rowing a'
+[1580/1924] 12458 'Yes, the child is wearing a pink swimsuit in the image.'
+[1600/1924] 12573 'Yes, the kangaroo in the image is wearing a blue harness around its neck'
+[1620/1924] 12750 'No, the woman in the image is not wearing a wedding dress. She appears'
+[1640/1924] 12968 'No, the woman is not holding the microphone. She appears to be speaking into'
+[1660/1924] 13121 'The vase is on the counter.'
+[1680/1924] 13251 'There is no existence of a doughnut in the image description, so asking if'
+[1700/1924] 13402 'Yes, the woman is standing at the bottom of the bowling alley.'
+[1720/1924] 13529 'Yes, the man in the image is wearing a straw hat.'
+[1740/1924] 13687 'Yes, the child is wearing a red baseball uniform in the image.'
+[1760/1924] 13832 'Yes, the two toothbrushes are in the same toothbrush holder.'
+[1780/1924] 13976 'Yes, there are people walking on the escalator in the image.'
+[1800/1924] 14110 'Yes, the car is parked on the beach.'
+[1820/1924] 14261 'Yes, the lizard is near the light bulb in the image.'
+[1840/1924] 14451 'Yes, the machine is likely powered by the cord connected to the wall. The'
+[1860/1924] 14614 'Yes, the sandwich in the image is cut in half.'
+[1880/1924] 14769 'No, the man is not holding a frisbee. He appears to be'
+[1900/1924] 14927 'Yes, the bride is wearing a white dress.'
+[1920/1924] 15103 "No, the red spots on the moth's body are not the same color as"
+Wrote eval_results/qwen/phase3a/answers/s3000_rbench_fast.jsonl

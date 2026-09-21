@@ -1,0 +1,16 @@
+{
+  "total_heldout": 200,
+  "reconstruction_ok": 193,
+  "uncertain": 7,
+  "parse_failure": 0,
+  "missing_placeholder": 0,
+  "relation_phrase_changed": 0,
+  "other_validation_failure": 0,
+  "status_counts": {
+    "ok": 193,
+    "uncertain": 7
+  },
+  "ok_explicit_for_eval": 193,
+  "typed_eval_n": 200,
+  "missing_recon": 0
+}

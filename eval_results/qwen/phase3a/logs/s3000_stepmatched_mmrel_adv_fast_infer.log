@@ -1,0 +1,23 @@
+Questions=384 already=0 remaining=384
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   1%|▏         | 11/824 [00:00<00:07, 106.67it/s]Loading weights:   4%|▍         | 37/824 [00:00<00:04, 172.71it/s]Loading weights:   7%|▋         | 54/824 [00:00<00:04, 164.57it/s]Loading weights:   9%|▉         | 75/824 [00:00<00:04, 180.65it/s]Loading weights:  12%|█▏        | 100/824 [00:00<00:03, 198.38it/s]Loading weights:  15%|█▌        | 124/824 [00:00<00:03, 198.63it/s]Loading weights:  18%|█▊        | 149/824 [00:00<00:03, 208.33it/s]Loading weights:  21%|██        | 173/824 [00:00<00:03, 214.08it/s]Loading weights:  24%|██▍       | 197/824 [00:00<00:02, 218.37it/s]Loading weights:  27%|██▋       | 225/824 [00:01<00:02, 235.33it/s]Loading weights:  30%|███       | 249/824 [00:01<00:02, 219.94it/s]Loading weights:  33%|███▎      | 272/824 [00:01<00:02, 215.90it/s]Loading weights:  36%|███▌      | 294/824 [00:01<00:02, 203.58it/s]Loading weights:  38%|███▊      | 317/824 [00:01<00:02, 209.21it/s]Loading weights:  41%|████▏     | 340/824 [00:01<00:02, 214.36it/s]Loading weights:  44%|████▍     | 364/824 [00:01<00:02, 214.69it/s]Loading weights:  47%|████▋     | 388/824 [00:01<00:02, 211.94it/s]Loading weights:  50%|████▉     | 411/824 [00:01<00:01, 207.92it/s]Loading weights:  55%|█████▍    | 450/824 [00:02<00:01, 258.08it/s]Loading weights:  63%|██████▎   | 522/824 [00:02<00:00, 386.86it/s]Loading weights:  72%|███████▏  | 592/824 [00:02<00:00, 472.88it/s]Loading weights:  82%|████████▏ | 672/824 [00:02<00:00, 564.95it/s]Loading weights:  90%|█████████ | 743/824 [00:02<00:00, 597.68it/s]Loading weights:  99%|█████████▉| 814/824 [00:02<00:00, 628.24it/s]Loading weights: 100%|██████████| 824/824 [00:02<00:00, 312.37it/s]
+[1/384] 010l9bc0b9trxvw 'yes'
+[20/384] 31j3wqk31oizgnn 'Yes'
+[40/384] 5owqb9zzyc1cnif 'no'
+[60/384] 7rmyiwgaj02w8fg 'yes'
+[80/384] 9dzlh9pq3biqyjv 'yes'
+[100/384] b8eouc1dlaq8egb 'yes'
+[120/384] d5cfdhuz044z0at 'yes'
+[140/384] f4ye0uoy02r11cv 'no'
+[160/384] h595uepuzul2p6n 'yes'
+[180/384] idb4ippj7sa8x1w 'No'
+[200/384] jqoe30bbuzr465o 'no'
+[220/384] m1o6pld1ck023eb 'No'
+[240/384] nqixstt7uj0cv0n 'yes'
+[260/384] ps919249fygxfla 'yes'
+[280/384] ralh52iepoqao5y 'yes'
+[300/384] tdfyob2bscio18q 'Yes'
+[320/384] vgvae8ffa30vbro 'yes'
+[340/384] wvdjyvkyzp3fbf7 'no'
+[360/384] yf7mklbsdn634v7 'no'
+[380/384] zlepi9vs3fxchyh 'yes'
+Wrote eval_results/qwen/phase3a/answers/s3000_stepmatched_mmrel_adv_fast.jsonl

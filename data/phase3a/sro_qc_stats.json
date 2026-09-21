@@ -1,0 +1,12 @@
+{
+  "n_raw": 6559,
+  "n_ok": 5000,
+  "status": {
+    "ok": 5000,
+    "meta_or_attribute": 1341,
+    "subject_eq_object": 168,
+    "non_entity": 28,
+    "too_long": 9,
+    "has_digit": 13
+  }
+}

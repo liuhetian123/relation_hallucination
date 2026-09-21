@@ -1,0 +1,23 @@
+Questions=393 already=0 remaining=393
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   1%|          | 5/824 [00:00<00:17, 47.53it/s]Loading weights:   4%|▍         | 35/824 [00:00<00:04, 192.57it/s]Loading weights:   7%|▋         | 55/824 [00:00<00:04, 178.91it/s]Loading weights:  10%|▉         | 81/824 [00:00<00:03, 203.04it/s]Loading weights:  13%|█▎        | 109/824 [00:00<00:03, 219.73it/s]Loading weights:  17%|█▋        | 137/824 [00:00<00:02, 235.26it/s]Loading weights:  20%|█▉        | 164/824 [00:00<00:02, 240.87it/s]Loading weights:  24%|██▎       | 195/824 [00:00<00:02, 259.01it/s]Loading weights:  28%|██▊       | 229/824 [00:00<00:02, 277.96it/s]Loading weights:  31%|███       | 257/824 [00:01<00:02, 233.89it/s]Loading weights:  34%|███▍      | 282/824 [00:01<00:02, 224.99it/s]Loading weights:  37%|███▋      | 306/824 [00:01<00:02, 220.48it/s]Loading weights:  40%|███▉      | 329/824 [00:01<00:02, 213.10it/s]Loading weights:  43%|████▎     | 352/824 [00:01<00:02, 214.79it/s]Loading weights:  46%|████▌     | 376/824 [00:01<00:02, 221.63it/s]Loading weights:  48%|████▊     | 399/824 [00:01<00:02, 207.55it/s]Loading weights:  51%|█████▏    | 423/824 [00:01<00:01, 205.75it/s]Loading weights:  59%|█████▉    | 488/824 [00:02<00:01, 323.85it/s]Loading weights:  71%|███████▏  | 588/824 [00:02<00:00, 508.08it/s]Loading weights:  85%|████████▌ | 702/824 [00:02<00:00, 685.40it/s]Loading weights:  97%|█████████▋| 802/824 [00:02<00:00, 774.22it/s]Loading weights: 100%|██████████| 824/824 [00:02<00:00, 345.46it/s]
+[1/393] relsim_033e43dd0433601ab2529e1be5d8a27e__hard__climbing_on 'No'
+[20/393] relsim_25ef9f946d7ac7f697f4d10a9baff6f0__hard__behind 'Yes'
+[40/393] relsim_4de1476961e665525b5b24ab8e287b2a__hard__climbing_on 'No'
+[60/393] relsim_80f7072df29ee266e0ae3113eca6c848__hard__falling_from 'No'
+[80/393] relsim_b910783a8441f2979318abc70fa26b0f__hard__in_front_of 'Yes'
+[100/393] relsim_ddd46b8cb2267a5ed61f238a74dec957__hard__playing_with 'Yes'
+[120/393] relsim_175eef459f074eba0559214349277ab6__pos 'Yes'
+[140/393] relsim_2add1e05dd56d979d8d52e1b5acaa139__pos 'Yes'
+[160/393] relsim_44dc36afa36f4370a448c0f3755c6f99__pos 'Yes'
+[180/393] relsim_563b210316278d411c3b848ce0c45ac4__pos 'Yes'
+[200/393] relsim_74cff7aae4c90085bc6d86ff9df44a47__pos 'Yes'
+[220/393] relsim_8f7997d5ac6cfe69c330d5081b7baab8__pos 'Yes'
+[240/393] relsim_a7bd3e643c109e84aa4eb181dc4573be__pos 'Yes'
+[260/393] relsim_ba6bcc5a71e5bdac84088c2d7813dce0__pos 'Yes'
+[280/393] relsim_d12cc83c72982b442263dbc31288b5f8__pos 'Yes'
+[300/393] relsim_1014555354c75c127852bd3b1fb6e46b__random_negative__floating_beside 'No'
+[320/393] relsim_329db8de42857ebe703283430ee635e2__random_negative__unified_in 'No'
+[340/393] relsim_5ded2c3d2478654ff471f6b1e612b5e5__random_negative__encasing 'Yes'
+[360/393] relsim_8f938db75f1ef164b7b3247f151f8240__random_negative__styled_to 'Yes'
+[380/393] relsim_b647eae0abf16b5c125eb5f54aa5488a__random_negative__bursting_into 'No'
+Wrote eval_results/qwen/phase3a/answers/s3000_heldout.jsonl

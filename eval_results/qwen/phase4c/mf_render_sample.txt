@@ -1,0 +1,198 @@
+Phase 4C multi-format render QC sample
+seed=42; 15 F2 + 15 F3 from train_mf.json
+
+===== F2  relsim_886883bfcbe29c1876ff3d705b45201f__pos  label=Yes  subset=positive =====
+statement: A cat is chasing a mouse.
+subject=cat  relation=chasing  object=mouse
+prompt:
+Is a cat chasing a mouse?
+Answer Yes or No.
+
+===== F2  relsim_9c7ec2ef117fb14ebb591fbbd5e345e3__neg  label=No  subset=clean_negative =====
+statement: A boy is listening from an elderly person.
+subject=boy  relation=listening from  object=elderly person
+prompt:
+Is a boy listening from an elderly person?
+Answer Yes or No.
+
+===== F2  relsim_dd206d8c3614f7efdc16651df834cc3b__pos  label=Yes  subset=positive =====
+statement: A woman is standing in front of a grid of faces.
+subject=woman  relation=standing in front of  object=grid of faces
+prompt:
+Is a woman standing in front of a grid of faces?
+Answer Yes or No.
+
+===== F2  relsim_63c61953e5e350c0fc05933728ced4aa__pos  label=Yes  subset=positive =====
+statement: A woman is standing beside an ink splatter.
+subject=woman  relation=standing beside  object=ink splatter
+prompt:
+Is a woman standing beside an ink splatter?
+Answer Yes or No.
+
+===== F2  relsim_2941f28686e1719b52eb5ff7072ee381__pos  label=Yes  subset=positive =====
+statement: A tornado is touching a ground.
+subject=tornado  relation=touching  object=ground
+prompt:
+Is a tornado touching a ground?
+Answer Yes or No.
+
+===== F2  relsim_390a753ccfbf65fd9bab6a25f6ffb9d4__pos  label=Yes  subset=positive =====
+statement: A zebra is standing beside a tree.
+subject=zebra  relation=standing beside  object=tree
+prompt:
+Is a zebra standing beside a tree?
+Answer Yes or No.
+
+===== F2  relsim_901f92f6f001b3483cc15b780a79ed7d__pos  label=Yes  subset=positive =====
+statement: A bee is flying towards a flower.
+subject=bee  relation=flying towards  object=flower
+prompt:
+Is a bee flying towards a flower?
+Answer Yes or No.
+
+===== F2  relsim_ce42a14b70aa71d95d58bca05b0f032c__neg  label=No  subset=clean_negative =====
+statement: A paper doll is standing on a dress.
+subject=paper doll  relation=standing on  object=dress
+prompt:
+Is a paper doll standing on a dress?
+Answer Yes or No.
+
+===== F2  relsim_9ba156a696c8aac72f3bab0b70123726__pos  label=Yes  subset=positive =====
+statement: An astronaut is sitting on a chair.
+subject=astronaut  relation=sitting on  object=chair
+prompt:
+Is an astronaut sitting on a chair?
+Answer Yes or No.
+
+===== F2  relsim_0831dd7e3e3a4f0d872005490a4b97eb__neg  label=No  subset=clean_negative =====
+statement: A girl is leaning on a doll.
+subject=girl  relation=leaning on  object=doll
+prompt:
+Is a girl leaning on a doll?
+Answer Yes or No.
+
+===== F2  relsim_70ef12c590ce3a77a3cbc35b9b61e5c5__pos  label=Yes  subset=positive =====
+statement: A car is parked on a street.
+subject=car  relation=parked on  object=street
+prompt:
+Is a car parked on a street?
+Answer Yes or No.
+
+===== F2  relsim_b88e33fedc13217a0d04b5e9147260fe__pos  label=Yes  subset=positive =====
+statement: A bicycle handlebars is casting a shadow of a person.
+subject=bicycle handlebars  relation=casting a shadow of  object=person
+prompt:
+Is a bicycle handlebars casting a shadow of a person?
+Answer Yes or No.
+
+===== F2  relsim_740c0510aa71c82b5b0800813076d4c4__pos  label=Yes  subset=positive =====
+statement: A person is standing on a bridge.
+subject=person  relation=standing on  object=bridge
+prompt:
+Is a person standing on a bridge?
+Answer Yes or No.
+
+===== F2  relsim_958cdf767be687f0014f10cfcfadafe7__neg  label=No  subset=clean_negative =====
+statement: A blue creature is looking at a cookie.
+subject=blue creature  relation=looking at  object=cookie
+prompt:
+Is a blue creature looking at a cookie?
+Answer Yes or No.
+
+===== F2  relsim_bb1b0ffc31597e0de3ad8f6142b4325f__neg  label=No  subset=clean_negative =====
+statement: A bear is climbing onto a window.
+subject=bear  relation=climbing onto  object=window
+prompt:
+Is a bear climbing onto a window?
+Answer Yes or No.
+
+===== F3  relsim_b1412bf0d84fa66083619450562dd734__neg  label=No  subset=clean_negative =====
+statement: A finger is positioned above a toys.
+subject=finger  relation=positioned above  object=toys
+prompt:
+Is a finger positioned above a toys in the image? Please answer with one word.
+
+===== F3  relsim_7280955d10a2d8a8b5a465f8959fa584__neg  label=No  subset=clean_negative =====
+statement: An owl is climbing on a tree.
+subject=owl  relation=climbing on  object=tree
+prompt:
+Is an owl climbing on a tree in the image? Please answer with one word.
+
+===== F3  relsim_2cc633dbcc4d72552cef2a178f563ed0__pos  label=Yes  subset=positive =====
+statement: A boxes is forming a structure.
+subject=boxes  relation=forming  object=structure
+prompt:
+Is a boxes forming a structure in the image? Please answer with one word.
+
+===== F3  relsim_0719486a398de93cf87577aab42a30e5__neg  label=No  subset=clean_negative =====
+statement: A bicycle is leaning on a snow.
+subject=bicycle  relation=leaning on  object=snow
+prompt:
+Is a bicycle leaning on a snow in the image? Please answer with one word.
+
+===== F3  relsim_31ad9ddeeab8d2df733cad7cbed69f3d__pos  label=Yes  subset=positive =====
+statement: A statue is lying on a ground.
+subject=statue  relation=lying on  object=ground
+prompt:
+Is a statue lying on a ground in the image? Please answer with one word.
+
+===== F3  relsim_ae1526ae446128dc041de7bda7864185__pos  label=Yes  subset=positive =====
+statement: A cat is sitting on a counter.
+subject=cat  relation=sitting on  object=counter
+prompt:
+Is a cat sitting on a counter in the image? Please answer with one word.
+
+===== F3  relsim_70bcb3d8860384891f6bc264ab4f16b8__pos  label=Yes  subset=positive =====
+statement: A man is inside a jar.
+subject=man  relation=inside  object=jar
+prompt:
+Is a man inside a jar in the image? Please answer with one word.
+
+===== F3  relsim_d2acb82f6bfe6a1c5626bf0fa8590b52__neg  label=No  subset=clean_negative =====
+statement: A dog is jumping from a platform.
+subject=dog  relation=jumping from  object=platform
+prompt:
+Is a dog jumping from a platform in the image? Please answer with one word.
+
+===== F3  relsim_d04f79bfa25f720ac3bb4ed5ca3d2092__pos  label=Yes  subset=positive =====
+statement: A banana is attached to a strawberry.
+subject=banana  relation=attached to  object=strawberry
+prompt:
+Is a banana attached to a strawberry in the image? Please answer with one word.
+
+===== F3  relsim_13efc72a56b7f6ec821c681d1bb300a4__neg  label=No  subset=clean_negative =====
+statement: A chandelier is hanging above a flowers.
+subject=chandelier  relation=hanging above  object=flowers
+prompt:
+Is a chandelier hanging above a flowers in the image? Please answer with one word.
+
+===== F3  relsim_159acd95f4f9eb54aca42ec406541cc6__pos  label=Yes  subset=positive =====
+statement: A scissors is touching a flower.
+subject=scissors  relation=touching  object=flower
+prompt:
+Is a scissors touching a flower in the image? Please answer with one word.
+
+===== F3  relsim_740c0510aa71c82b5b0800813076d4c4__neg  label=No  subset=clean_negative =====
+statement: A person is looking at a bridge.
+subject=person  relation=looking at  object=bridge
+prompt:
+Is a person looking at a bridge in the image? Please answer with one word.
+
+===== F3  relsim_c1b5abb8b72dcdaa4d333ed9cf894f4f__pos  label=Yes  subset=positive =====
+statement: A man with glasses is looking at a man with mustache.
+subject=man with glasses  relation=looking at  object=man with mustache
+prompt:
+Is a man with glasses looking at a man with mustache in the image? Please answer with one word.
+
+===== F3  relsim_7dcbc6ceb5b04dc23c60d3b4f7abba4b__pos  label=Yes  subset=positive =====
+statement: A person is sitting on a suitcase.
+subject=person  relation=sitting on  object=suitcase
+prompt:
+Is a person sitting on a suitcase in the image? Please answer with one word.
+
+===== F3  relsim_7023e8c40bf3c36df121943cdb566276__pos  label=Yes  subset=positive =====
+statement: A bicycle is leaning on a wall.
+subject=bicycle  relation=leaning on  object=wall
+prompt:
+Is a bicycle leaning on a wall in the image? Please answer with one word.
+

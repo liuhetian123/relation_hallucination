@@ -1,0 +1,23 @@
+Questions=384 already=0 remaining=384
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 16/824 [00:00<00:05, 156.44it/s]Loading weights:   6%|▌         | 51/824 [00:00<00:02, 267.18it/s]Loading weights:   9%|▉         | 78/824 [00:00<00:02, 251.82it/s]Loading weights:  14%|█▎        | 113/824 [00:00<00:02, 287.70it/s]Loading weights:  18%|█▊        | 147/824 [00:00<00:02, 297.27it/s]Loading weights:  21%|██▏       | 177/824 [00:00<00:02, 274.13it/s]Loading weights:  25%|██▍       | 205/824 [00:00<00:02, 272.94it/s]Loading weights:  28%|██▊       | 233/824 [00:00<00:02, 269.19it/s]Loading weights:  32%|███▏      | 261/824 [00:00<00:02, 264.73it/s]Loading weights:  35%|███▌      | 289/824 [00:01<00:02, 263.18it/s]Loading weights:  38%|███▊      | 316/824 [00:01<00:02, 216.05it/s]Loading weights:  41%|████▏     | 341/824 [00:01<00:02, 215.42it/s]Loading weights:  47%|████▋     | 385/824 [00:01<00:01, 272.19it/s]Loading weights:  50%|█████     | 414/824 [00:01<00:01, 232.87it/s]Loading weights:  58%|█████▊    | 478/824 [00:01<00:01, 331.81it/s]Loading weights:  69%|██████▉   | 571/824 [00:01<00:00, 485.86it/s]Loading weights:  81%|████████  | 669/824 [00:01<00:00, 618.76it/s]Loading weights:  94%|█████████▍| 773/824 [00:02<00:00, 735.43it/s]Loading weights: 100%|██████████| 824/824 [00:02<00:00, 389.68it/s]
+[1/384] 010l9bc0b9trxvw 'Yes.'
+[20/384] 31j3wqk31oizgnn 'No.'
+[40/384] 5owqb9zzyc1cnif 'No.'
+[60/384] 7rmyiwgaj02w8fg 'Yes.'
+[80/384] 9dzlh9pq3biqyjv 'Yes.'
+[100/384] b8eouc1dlaq8egb 'Yes.'
+[120/384] d5cfdhuz044z0at 'No.'
+[140/384] f4ye0uoy02r11cv 'No.'
+[160/384] h595uepuzul2p6n 'Yes.'
+[180/384] idb4ippj7sa8x1w 'No.'
+[200/384] jqoe30bbuzr465o 'Yes.'
+[220/384] m1o6pld1ck023eb 'No.'
+[240/384] nqixstt7uj0cv0n 'Yes.'
+[260/384] ps919249fygxfla 'No.'
+[280/384] ralh52iepoqao5y 'Yes.'
+[300/384] tdfyob2bscio18q 'Yes.'
+[320/384] vgvae8ffa30vbro 'No.'
+[340/384] wvdjyvkyzp3fbf7 'No.'
+[360/384] yf7mklbsdn634v7 'Yes.'
+[380/384] zlepi9vs3fxchyh 'Yes.'
+Wrote eval_results/qwen/phase2b5/answers/base_mmrel_adv_matched.jsonl

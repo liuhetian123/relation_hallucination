@@ -1,0 +1,44 @@
+{
+  "all": {
+    "n": 1489,
+    "TP": 811,
+    "FP": 303,
+    "TN": 231,
+    "FN": 144,
+    "Accuracy": 0.699798522498321,
+    "Precision": 0.7280071813285458,
+    "Recall": 0.8492146596858638,
+    "F1": 0.7839536007733204,
+    "Yes_ratio": 0.748153122901276,
+    "skipped_empty": 0,
+    "subset": "all"
+  },
+  "positive": {
+    "n": 955,
+    "TP": 811,
+    "FP": 0,
+    "TN": 0,
+    "FN": 144,
+    "Accuracy": 0.8492146596858638,
+    "Precision": 1.0,
+    "Recall": 0.8492146596858638,
+    "F1": 0.9184597961494904,
+    "Yes_ratio": 0.8492146596858638,
+    "skipped_empty": 0,
+    "subset": "positive"
+  },
+  "random_negative": {
+    "n": 534,
+    "TP": 0,
+    "FP": 303,
+    "TN": 231,
+    "FN": 0,
+    "Accuracy": 0.43258426966292135,
+    "Precision": 0.0,
+    "Recall": 0.0,
+    "F1": 0.0,
+    "Yes_ratio": 0.5674157303370787,
+    "skipped_empty": 0,
+    "subset": "random_negative"
+  }
+}

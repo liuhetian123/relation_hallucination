@@ -1,0 +1,23 @@
+jobs=393 already=0 remaining=393
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 15/824 [00:00<00:05, 137.33it/s]Loading weights:   4%|▍         | 37/824 [00:00<00:05, 156.96it/s]Loading weights:   7%|▋         | 58/824 [00:00<00:04, 177.79it/s]Loading weights:   9%|▉         | 76/824 [00:00<00:04, 175.18it/s]Loading weights:  12%|█▏        | 99/824 [00:00<00:03, 193.15it/s]Loading weights:  14%|█▍        | 119/824 [00:00<00:03, 193.51it/s]Loading weights:  18%|█▊        | 145/824 [00:00<00:03, 214.14it/s]Loading weights:  20%|██        | 167/824 [00:00<00:03, 214.21it/s]Loading weights:  23%|██▎       | 189/824 [00:00<00:03, 205.39it/s]Loading weights:  25%|██▌       | 210/824 [00:01<00:03, 186.51it/s]Loading weights:  28%|██▊       | 232/824 [00:01<00:03, 188.96it/s]Loading weights:  31%|███       | 255/824 [00:01<00:02, 194.83it/s]Loading weights:  33%|███▎      | 276/824 [00:01<00:02, 197.05it/s]Loading weights:  36%|███▌      | 296/824 [00:01<00:02, 184.71it/s]Loading weights:  39%|███▉      | 321/824 [00:01<00:02, 201.11it/s]Loading weights:  42%|████▏     | 342/824 [00:01<00:02, 192.54it/s]Loading weights:  44%|████▍     | 364/824 [00:01<00:02, 191.87it/s]Loading weights:  47%|████▋     | 388/824 [00:02<00:02, 187.91it/s]Loading weights:  50%|█████     | 412/824 [00:02<00:02, 199.13it/s]Loading weights:  53%|█████▎    | 440/824 [00:02<00:01, 219.95it/s]Loading weights:  60%|█████▉    | 493/824 [00:02<00:01, 305.28it/s]Loading weights:  67%|██████▋   | 552/824 [00:02<00:00, 384.53it/s]Loading weights:  73%|███████▎  | 605/824 [00:02<00:00, 419.11it/s]Loading weights:  79%|███████▊  | 648/824 [00:02<00:00, 412.27it/s]Loading weights:  84%|████████▎ | 690/824 [00:02<00:00, 392.20it/s]Loading weights:  90%|█████████ | 743/824 [00:02<00:00, 427.20it/s]Loading weights:  97%|█████████▋| 797/824 [00:02<00:00, 457.89it/s]Loading weights: 100%|██████████| 824/824 [00:03<00:00, 271.65it/s]
+[1/393] heldout_typed relsim_00209e22e3fb7d2da9b578c0ddca0940 full=3.59375 rel=3.109375
+[20/393] heldout_explicit relsim_08f4b241039d13b984c13678ac2ed693 full=4.125 rel=2.0
+[40/393] heldout_typed relsim_175eef459f074eba0559214349277ab6 full=3.109375 rel=8.5
+[60/393] heldout_typed relsim_1ea339dfe8223a9462eea4b41e7ef9f1 full=3.140625 rel=2.546875
+[80/393] heldout_explicit relsim_2a70b6795a5974bc597219b6f4431172 full=2.546875 rel=2.5
+[100/393] heldout_explicit relsim_325e23333ffcd90954116c93e6743df8 full=3.984375 rel=8.0
+[120/393] heldout_typed relsim_44b539f21aaa08b1a40d53bc3c4a76c0 full=3.21875 rel=7.78125
+[140/393] heldout_typed relsim_4bca8b00b634031b81793e6be406ff77 full=2.78125 rel=1.59375
+[160/393] heldout_typed relsim_550873153dd47433af125b2bbee03690 full=2.875 rel=2.296875
+[180/393] heldout_explicit relsim_5f8636e95860ba66c3792662a8aa662e full=3.6875 rel=3.515625
+[200/393] heldout_explicit relsim_72ea5a4c0cb37b9e787e477b7f5eaa25 full=3.09375 rel=4.96875
+[220/393] heldout_explicit relsim_7aded29e8eb7461bceffc091ccc0c561 full=3.390625 rel=4.625
+[240/393] heldout_typed relsim_88a4cd634aee87d9945f8a5568e06771 full=4.28125 rel=10.5625
+[260/393] heldout_explicit relsim_99d20471b44e13af7232db9cfb3e2c09 full=3.0625 rel=1.5703125
+[280/393] heldout_explicit relsim_a6477321e4b84a5e446df81764db5032 full=3.015625 rel=3.421875
+[300/393] heldout_explicit relsim_ae26f16596e6a05c3c92c9f89eea5c61 full=2.84375 rel=4.59375
+[320/393] heldout_explicit relsim_b8538cab40eabc176af76f82837d72cc full=3.875 rel=5.21875
+[340/393] heldout_typed relsim_c374ccc2e1ca9574cee89744feb5912e full=3.171875 rel=1.34375
+[360/393] heldout_typed relsim_ce093014690b8b6585f57ff182299697 full=4.15625 rel=7.0625
+[380/393] heldout_typed relsim_d7a313430fa979279483131db7573180 full=2.1875 rel=0.9296875
+Wrote /data/storage22t/lht/works/relation_hallucination/eval_results/qwen/phase16b/scores/base.jsonl

@@ -1,0 +1,190 @@
+{
+  "n_attempts": 3000,
+  "n_clean": 2156,
+  "n_dropped": 844,
+  "keep_rate": 0.7186666666666667,
+  "drop_reasons": {
+    "no_high_confidence_candidate": 844
+  },
+  "candidate_rank": {
+    "0": 1061,
+    "1": 688,
+    "2": 407
+  },
+  "positive_relation_family": {
+    "contact": 861,
+    "spatial": 1108,
+    "other": 187
+  },
+  "unique_negative_relations": 359,
+  "unique_old_negative_relations": 420,
+  "n_negative_equals_old": 3,
+  "old_negative_grammar_smell": 343,
+  "clean_negative_grammar_smell": 14,
+  "old_negative_grammar_smell_rate": 0.1590909090909091,
+  "clean_negative_grammar_smell_rate": 0.006493506493506494,
+  "top_negative_relations": [
+    [
+      "looking at",
+      166
+    ],
+    [
+      "leaning on",
+      121
+    ],
+    [
+      "attached to",
+      93
+    ],
+    [
+      "pushing",
+      84
+    ],
+    [
+      "standing on",
+      69
+    ],
+    [
+      "leaning against",
+      65
+    ],
+    [
+      "jumping from",
+      56
+    ],
+    [
+      "playing with",
+      54
+    ],
+    [
+      "in front of",
+      53
+    ],
+    [
+      "carrying",
+      52
+    ],
+    [
+      "holding",
+      46
+    ],
+    [
+      "sitting on",
+      40
+    ],
+    [
+      "beside",
+      39
+    ],
+    [
+      "covering",
+      32
+    ],
+    [
+      "landing on",
+      31
+    ],
+    [
+      "lying on",
+      29
+    ],
+    [
+      "chasing",
+      28
+    ],
+    [
+      "flying over",
+      28
+    ],
+    [
+      "touching",
+      28
+    ],
+    [
+      "hanging from",
+      28
+    ]
+  ],
+  "top_old_negative_relations": [
+    [
+      "sleeping on",
+      12
+    ],
+    [
+      "taller than",
+      12
+    ],
+    [
+      "driving over",
+      12
+    ],
+    [
+      "punching",
+      11
+    ],
+    [
+      "reflecting in",
+      11
+    ],
+    [
+      "flying over",
+      10
+    ],
+    [
+      "watering",
+      10
+    ],
+    [
+      "crossed by",
+      10
+    ],
+    [
+      "casting a shadow of",
+      10
+    ],
+    [
+      "hanging above",
+      10
+    ],
+    [
+      "forms an arch over",
+      10
+    ],
+    [
+      "falling towards",
+      10
+    ],
+    [
+      "working at",
+      10
+    ],
+    [
+      "sliding down",
+      10
+    ],
+    [
+      "covered with",
+      10
+    ],
+    [
+      "offering food to",
+      10
+    ],
+    [
+      "pressing",
+      10
+    ],
+    [
+      "missing from",
+      10
+    ],
+    [
+      "carrying",
+      10
+    ],
+    [
+      "walking towards",
+      10
+    ]
+  ]
+}

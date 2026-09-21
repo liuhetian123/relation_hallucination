@@ -1,0 +1,41 @@
+{
+  "n_total": 1500,
+  "positive": {
+    "n": 500,
+    "plausible_rate": 0.89,
+    "implausible_rate": 0.11,
+    "parse_error_rate": 0.0,
+    "shortcut_acc_implausible_means_negative": 0.89,
+    "n_pred_neg": 55,
+    "n_pred_pos": 445,
+    "gold_is_negative": false
+  },
+  "clean_negative": {
+    "n": 500,
+    "plausible_rate": 1.0,
+    "implausible_rate": 0.0,
+    "parse_error_rate": 0.0,
+    "shortcut_acc_implausible_means_negative": 0.0,
+    "n_pred_neg": 0,
+    "n_pred_pos": 500,
+    "gold_is_negative": true
+  },
+  "old_negative": {
+    "n": 500,
+    "plausible_rate": 0.338,
+    "implausible_rate": 0.662,
+    "parse_error_rate": 0.0,
+    "shortcut_acc_implausible_means_negative": 0.662,
+    "n_pred_neg": 331,
+    "n_pred_pos": 169,
+    "gold_is_negative": true
+  },
+  "paired_old_textonly_acc": {
+    "n": 1000,
+    "acc": 0.776
+  },
+  "paired_clean_textonly_acc": {
+    "n": 1000,
+    "acc": 0.445
+  }
+}

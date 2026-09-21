@@ -1,0 +1,76 @@
+Questions=1445 already=0 remaining=1445
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 14/824 [00:00<00:06, 132.99it/s]Loading weights:   5%|▍         | 41/824 [00:00<00:03, 203.82it/s]Loading weights:   9%|▉         | 76/824 [00:00<00:02, 256.14it/s]Loading weights:  13%|█▎        | 110/824 [00:00<00:02, 278.09it/s]Loading weights:  17%|█▋        | 138/824 [00:00<00:02, 268.77it/s]Loading weights:  20%|██        | 165/824 [00:00<00:02, 251.71it/s]Loading weights:  23%|██▎       | 192/824 [00:00<00:02, 255.14it/s]Loading weights:  27%|██▋       | 219/824 [00:00<00:02, 259.39it/s]Loading weights:  30%|██▉       | 246/824 [00:00<00:02, 259.12it/s]Loading weights:  34%|███▎      | 277/824 [00:01<00:02, 273.30it/s]Loading weights:  37%|███▋      | 305/824 [00:01<00:02, 239.97it/s]Loading weights:  41%|████      | 334/824 [00:01<00:01, 251.45it/s]Loading weights:  44%|████▍     | 364/824 [00:01<00:01, 254.27it/s]Loading weights:  47%|████▋     | 390/824 [00:01<00:01, 237.71it/s]Loading weights:  51%|█████     | 420/824 [00:01<00:01, 249.61it/s]Loading weights:  57%|█████▋    | 473/824 [00:01<00:01, 325.47it/s]Loading weights:  62%|██████▏   | 510/824 [00:01<00:00, 336.70it/s]Loading weights:  66%|██████▌   | 545/824 [00:01<00:00, 330.28it/s]Loading weights:  71%|███████▏  | 588/824 [00:02<00:00, 358.45it/s]Loading weights:  79%|███████▉  | 650/824 [00:02<00:00, 433.66it/s]Loading weights:  87%|████████▋ | 719/824 [00:02<00:00, 500.97it/s]Loading weights:  95%|█████████▍| 779/824 [00:02<00:00, 516.62it/s]Loading weights: 100%|██████████| 824/824 [00:02<00:00, 327.11it/s]
+[1/1445] relsim_32163055126eedfb37cafb745e3b28d0__pos 'No'
+[20/1445] relsim_3574e85c40cc16d87640a97abafa99d7__hard__blocking 'Yes'
+[40/1445] relsim_4241615bb6ecc9905d29d906b7c466d7__hard__biting 'Yes'
+[60/1445] relsim_3740982f64dbacaf4e310252541f1197__pos 'Yes'
+[80/1445] relsim_45697d8cdb502cf1ea6ed881b26a3935__hard__in_front_of 'Yes'
+[100/1445] relsim_40d7bc164c67d77f79867cc557e6c838__hard__floating_on 'No'
+[120/1445] relsim_50bffbf8796e75cc5a7f8e99b46d640d__pos 'Yes'
+[140/1445] relsim_4c174b48be9b5332963934c562d8e9a4__pos 'Yes'
+[160/1445] relsim_44a9e9c55980fa224234ea17b4a22570__pos 'Yes'
+[180/1445] relsim_2fed342aaf45eea0ab9b96dab196a80e__pos 'Yes'
+[200/1445] relsim_3dbf0dbc4eb88ffd2d85409bf9a3a684__pos 'Yes'
+[220/1445] relsim_50771b1197c9e66963746562fe6e8dae__pos 'Yes'
+[240/1445] relsim_54f9b8107bf60448cdce4c0e3a1ca431__pos 'Yes'
+[260/1445] relsim_44f16d374caa55b76d942b995a55a2a3__hard__behind 'Yes'
+[280/1445] relsim_4bf915aada3ab23f5078d59cccfb284b__hard__biting 'Yes'
+[300/1445] relsim_4d040b74998b6990d517ed3f16cdf820__hard__biting 'Yes'
+[320/1445] relsim_3484f9665e566e4cc331b189d5db014a__pos 'Yes'
+[340/1445] relsim_332fce2c80e7eb6c471adc62dc94c4cf__pos 'Yes'
+[360/1445] relsim_4ea1f21783f6b8ba156fe95991948e58__pos 'No'
+[380/1445] relsim_322eb0aebaaa1cc978a32fdc176720f7__pos 'Yes'
+[400/1445] relsim_51a7f97e30f11b187fa899923c5610f4__pos 'No'
+[420/1445] relsim_323074e1b141bb7a6f90bf8f152684c8__pos 'Yes'
+[440/1445] relsim_43cd3df90b076017a195cfee148a48ba__pos 'Yes'
+[460/1445] relsim_3fd546c1416a98980a1e2f7514a60d34__pos 'Yes'
+[480/1445] relsim_3c97e31c17f3567740ab0b65c9eb30c6__pos 'Yes'
+[500/1445] relsim_364fb6f83af0dad407049236359778b4__hard__biting 'No'
+[520/1445] relsim_52ec8ace8aab302ad86e2ec1b216dd68__pos 'Yes'
+[540/1445] relsim_41a44df3c172c6e6dfe215bb0c61bb06__pos 'Yes'
+[560/1445] relsim_3b406c7b38b02a337babd9b8cf6769c7__hard__floating_on 'Yes'
+[580/1445] relsim_40f3313c70dcb266f4dd5e0a6d0b1d15__pos 'Yes'
+[600/1445] relsim_5024c127dcbecb6eb078596407e2547b__pos 'Yes'
+[620/1445] relsim_3cc0d69411539c0ecfeed1940954cf08__hard__biting 'No'
+[640/1445] relsim_3f28cceaf688716a6404ba7b0cb3df2b__pos 'Yes'
+[660/1445] relsim_5d81e23d6c96ae7019cc8cf96c14fd72__pos 'Yes'
+[680/1445] relsim_488d7657f6839e99ebbffe9ef89cf4db__pos 'Yes'
+[700/1445] relsim_51b6aed572985fcd818d3906fea68700__pos 'Yes'
+[720/1445] relsim_458461dad6e57933eda47a49080d876d__pos 'Yes'
+[740/1445] relsim_4e23944588c4c3bbd367eab88389dd30__hard__biting 'Yes'
+[760/1445] relsim_5a6ca2134a0c38e532b23364e8810f28__hard__swimming_in 'No'
+[780/1445] relsim_50bffbf8796e75cc5a7f8e99b46d640d__hard__swimming_in 'No'
+[800/1445] relsim_4853d6e9e3a2250b285ca946b98ad0db__hard__biting 'No'
+[820/1445] relsim_33e9514f45f6dafcd2dc3dd0ad8d75e2__pos 'Yes'
+[840/1445] relsim_3e020c345e5145f12f83ee2373af4c60__hard__swimming_in 'No'
+[860/1445] relsim_390df82b4cba474733954a7c21013b57__pos 'Yes'
+[880/1445] relsim_5614d19cbf42e3553ca417c968fdce56__hard__biting 'Yes'
+[900/1445] relsim_41c1f640e533a11ccfd0e50d3535b41e__pos 'Yes'
+[920/1445] relsim_5864c2fe49e26587c47c5996f7781af7__pos 'Yes'
+[940/1445] relsim_58eb68c074b412952d0ed197c4b8cf59__pos 'No'
+[960/1445] relsim_43308ce2d8b710f7d1ddc4e5159684f0__pos 'Yes'
+[980/1445] relsim_53ab47d5d8eb7f1dc4b805a565d79af7__pos 'Yes'
+[1000/1445] relsim_48b4ffb9456e8710879965081927d795__hard__biting 'No'
+[1020/1445] relsim_5b95efd3fb70ebe46a45b6f746d35abc__hard__blocking 'Yes'
+[1040/1445] relsim_553b6f8307acbff93c38cc9b0290ed1a__pos 'Yes'
+[1060/1445] relsim_57c8a4a61e9214dd5f5a224b5c423c66__pos 'Yes'
+[1080/1445] relsim_51a7f97e30f11b187fa899923c5610f4__hard__attached_to 'No'
+[1100/1445] relsim_5874109de9d269ea0cd2424a29aafa31__hard__biting 'No'
+[1120/1445] relsim_3546860362d9a55c040d557545d20978__hard__biting 'Yes'
+[1140/1445] relsim_32c504c579a194bdf163143236ece2d6__pos 'Yes'
+[1160/1445] relsim_436c5dfc23befb0e4f7e6cf6b6e512b1__hard__biting 'No'
+[1180/1445] relsim_5997574a92cfb1869c11f526972c4f65__pos 'Yes'
+[1200/1445] relsim_5e1905626b4d9aaa81af317327729020__hard__biting 'No'
+[1220/1445] relsim_391deb21276a328f754e4c5117484a8a__pos 'Yes'
+[1240/1445] relsim_47d647cdfbf3d0509144e84d65050e81__pos 'No'
+[1260/1445] relsim_5d93d51952a7fb7512ffc633e996b304__pos 'No'
+[1280/1445] relsim_4f261fb07bb05e0d92cf0b43d10de3ac__pos 'Yes'
+[1300/1445] relsim_577aaf256bf4eb40a5e3b3e28aaccd6e__hard__attached_to 'Yes'
+[1320/1445] relsim_4d29e373e51da5673c0b6925bbf5a9dc__hard__biting 'Yes'
+[1340/1445] relsim_50ab7bb362596758f0accf59d095044e__pos 'Yes'
+[1360/1445] relsim_35ca129544b001324c413b6de9acfc98__pos 'Yes'
+[1380/1445] relsim_51159e19843817b8f8fe230936db7d43__pos 'Yes'
+[1400/1445] relsim_3a14f37718ce66ed18e52be4fc54aa15__hard__climbing_on 'No'
+[1420/1445] relsim_51d4b1067655a39f19e818f6cfbb79ba__pos 'Yes'
+[1440/1445] relsim_38f3fcdd4ead6505731028d400fed153__pos 'No'
+Wrote eval_results/qwen/phase2/answers/v3_train.jsonl

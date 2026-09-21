@@ -1,0 +1,9 @@
+{
+  "total": 955,
+  "successfully_located_relation": 534,
+  "failed_relation_location": 421,
+  "multi_match": 0,
+  "empty_relation": 421,
+  "used_for_relation_token_nll": 534,
+  "used_for_full_target_nll": 955
+}

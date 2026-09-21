@@ -1,0 +1,60 @@
+{
+  "all": {
+    "n": 393,
+    "TP": 163,
+    "FP": 114,
+    "TN": 86,
+    "FN": 30,
+    "Accuracy": 0.6335877862595419,
+    "Precision": 0.5884476534296029,
+    "Recall": 0.844559585492228,
+    "F1": 0.6936170212765957,
+    "Yes_ratio": 0.7048346055979644,
+    "skipped_empty": 0,
+    "subset": "all"
+  },
+  "hard_negative": {
+    "n": 100,
+    "TP": 0,
+    "FP": 52,
+    "TN": 48,
+    "FN": 0,
+    "Accuracy": 0.48,
+    "Precision": 0.0,
+    "Recall": 0.0,
+    "F1": 0.0,
+    "Yes_ratio": 0.52,
+    "skipped_empty": 0,
+    "subset": "hard_negative",
+    "hard_fp_rate": 0.52,
+    "hard_negative_accuracy": 0.48
+  },
+  "positive": {
+    "n": 193,
+    "TP": 163,
+    "FP": 0,
+    "TN": 0,
+    "FN": 30,
+    "Accuracy": 0.844559585492228,
+    "Precision": 1.0,
+    "Recall": 0.844559585492228,
+    "F1": 0.9157303370786517,
+    "Yes_ratio": 0.844559585492228,
+    "skipped_empty": 0,
+    "subset": "positive"
+  },
+  "random_negative": {
+    "n": 100,
+    "TP": 0,
+    "FP": 62,
+    "TN": 38,
+    "FN": 0,
+    "Accuracy": 0.38,
+    "Precision": 0.0,
+    "Recall": 0.0,
+    "F1": 0.0,
+    "Yes_ratio": 0.62,
+    "skipped_empty": 0,
+    "subset": "random_negative"
+  }
+}

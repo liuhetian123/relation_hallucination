@@ -1,0 +1,83 @@
+{
+  "accuracy": {
+    "Base": {
+      "correct": 153,
+      "wrong": 47,
+      "invalid": 0,
+      "accuracy": 0.765,
+      "mean_gt_margin": 1.245499267578125
+    },
+    "Explicit-1k": {
+      "correct": 152,
+      "wrong": 48,
+      "invalid": 0,
+      "accuracy": 0.76,
+      "mean_gt_margin": 1.2262734985351562
+    },
+    "Typed-1k": {
+      "correct": 154,
+      "wrong": 46,
+      "invalid": 0,
+      "accuracy": 0.77,
+      "mean_gt_margin": 1.1787881469726562
+    }
+  },
+  "deltas": {
+    "Explicit - Base": -0.0050000000000000044,
+    "Typed - Base": 0.0050000000000000044,
+    "Typed - Explicit": 0.010000000000000009
+  },
+  "transitions": {
+    "Base wrong \u2192 Explicit correct": 2,
+    "Base correct \u2192 Explicit wrong": 3,
+    "Base wrong \u2192 Typed correct": 2,
+    "Base correct \u2192 Typed wrong": 1
+  },
+  "agreement": {
+    "Base / Explicit": 0.975,
+    "Base / Typed": 0.985,
+    "Explicit / Typed": 0.97
+  },
+  "tests": {
+    "Explicit vs Base": {
+      "mcnemar": {
+        "n01_a_wrong_b_correct": 2,
+        "n10_a_correct_b_wrong": 3,
+        "chi2": 0.0,
+        "p": 1.0
+      },
+      "bootstrap_acc_diff": {
+        "diff": -0.0050000000000000044,
+        "ci95_low": -0.029999999999999916,
+        "ci95_high": 0.015000000000000013
+      }
+    },
+    "Typed vs Base": {
+      "mcnemar": {
+        "n01_a_wrong_b_correct": 2,
+        "n10_a_correct_b_wrong": 1,
+        "chi2": 0.0,
+        "p": 1.0
+      },
+      "bootstrap_acc_diff": {
+        "diff": 0.0050000000000000044,
+        "ci95_low": -0.010000000000000009,
+        "ci95_high": 0.02499999999999991
+      }
+    },
+    "Typed vs Explicit": {
+      "mcnemar": {
+        "n01_a_wrong_b_correct": 4,
+        "n10_a_correct_b_wrong": 2,
+        "chi2": 0.16666666666666666,
+        "p": 0.6830913983096087
+      },
+      "bootstrap_acc_diff": {
+        "diff": 0.010000000000000009,
+        "ci95_low": -0.015000000000000013,
+        "ci95_high": 0.03500000000000003
+      }
+    }
+  },
+  "decision": "Phase 1.5-B:\nTraining intervention too weak / no measurable adaptation."
+}

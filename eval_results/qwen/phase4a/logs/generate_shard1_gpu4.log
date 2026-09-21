@@ -1,0 +1,440 @@
+master=3000 already=837 ok=587 dropped=250 shard=1/5 todo=433 text_filter=True visual_filter=True
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/841 [00:00<?, ?it/s]Loading weights:   0%|          | 1/841 [00:00<05:15,  2.66it/s]Loading weights:   2%|▏         | 15/841 [00:00<00:20, 39.60it/s]Loading weights:   3%|▎         | 26/841 [00:00<00:14, 57.70it/s]Loading weights:   4%|▍         | 37/841 [00:00<00:11, 70.79it/s]Loading weights:   6%|▌         | 48/841 [00:00<00:09, 79.90it/s]Loading weights:   7%|▋         | 59/841 [00:00<00:09, 86.23it/s]Loading weights:   8%|▊         | 70/841 [00:01<00:08, 90.19it/s]Loading weights:  10%|▉         | 81/841 [00:01<00:08, 91.94it/s]Loading weights:  11%|█         | 92/841 [00:01<00:07, 94.33it/s]Loading weights:  12%|█▏        | 103/841 [00:01<00:07, 96.37it/s]Loading weights:  14%|█▎        | 114/841 [00:01<00:07, 97.95it/s]Loading weights:  15%|█▍        | 125/841 [00:01<00:07, 98.97it/s]Loading weights:  16%|█▌        | 136/841 [00:01<00:07, 98.79it/s]Loading weights:  17%|█▋        | 147/841 [00:01<00:07, 97.64it/s]Loading weights:  19%|█▉        | 158/841 [00:01<00:07, 97.25it/s]Loading weights:  20%|██        | 169/841 [00:02<00:06, 96.90it/s]Loading weights:  21%|██▏       | 180/841 [00:02<00:06, 96.87it/s]Loading weights:  23%|██▎       | 191/841 [00:02<00:06, 95.77it/s]Loading weights:  24%|██▍       | 202/841 [00:02<00:06, 93.30it/s]Loading weights:  25%|██▌       | 213/841 [00:02<00:06, 91.29it/s]Loading weights:  27%|██▋       | 224/841 [00:02<00:06, 90.59it/s]Loading weights:  28%|██▊       | 235/841 [00:02<00:06, 90.12it/s]Loading weights:  29%|██▉       | 246/841 [00:02<00:06, 89.58it/s]Loading weights:  31%|███       | 257/841 [00:03<00:06, 89.77it/s]Loading weights:  32%|███▏      | 268/841 [00:03<00:06, 90.97it/s]Loading weights:  33%|███▎      | 279/841 [00:03<00:06, 90.74it/s]Loading weights:  34%|███▍      | 290/841 [00:03<00:05, 93.34it/s]Loading weights:  36%|███▌      | 301/841 [00:03<00:05, 96.11it/s]Loading weights:  37%|███▋      | 312/841 [00:03<00:05, 96.97it/s]Loading weights:  38%|███▊      | 323/841 [00:03<00:05, 98.69it/s]Loading weights:  40%|███▉      | 334/841 [00:03<00:05, 99.93it/s]Loading weights:  41%|████      | 345/841 [00:03<00:04, 99.63it/s]Loading weights:  42%|████▏     | 356/841 [00:04<00:04, 100.02it/s]Loading weights:  44%|████▎     | 367/841 [00:04<00:04, 99.98it/s] Loading weights:  45%|████▍     | 378/841 [00:04<00:04, 99.60it/s]Loading weights:  46%|████▋     | 389/841 [00:04<00:04, 95.45it/s]Loading weights:  48%|████▊     | 404/841 [00:04<00:04, 108.88it/s]Loading weights:  70%|██████▉   | 587/841 [00:04<00:00, 582.94it/s]Loading weights:  89%|████████▉ | 747/841 [00:04<00:00, 864.24it/s]Loading weights: 100%|██████████| 841/841 [00:04<00:00, 177.96it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie model.language_model.embed_tokens.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+InternVL loaded path=/data/storage22t/lht/hf_cache/models--OpenGVLab--InternVL3_5-8B-HF/snapshots/741a7d03020411e666c6109218ab71e08151ef86 device=cuda:0 cuda=True max_patches=4
+GPU NVIDIA RTX 6000 Ada Generation free_gb=30.39
+[1/433] relsim_7b47d5082c9321defb10055c3e5f950d status=ok neg=playing with reason=None ok=588 drop=250 eta_min=66.7
+[2/433] relsim_91863b7c9086b02265e05dac52ffc639 status=dropped neg=None reason=no_high_confidence_candidate ok=588 drop=251 eta_min=110.8
+[3/433] relsim_bf41474c9c9d5018b2e4b9e967ecbe8b status=ok neg=barking at reason=None ok=589 drop=251 eta_min=90.5
+[4/433] relsim_04ba293f41e96896b85cb649578e7b09 status=ok neg=beside reason=None ok=590 drop=251 eta_min=81.9
+[5/433] relsim_43f5f14a28910f4dfd4842d846fc3837 status=dropped neg=None reason=no_high_confidence_candidate ok=590 drop=252 eta_min=95.1
+[6/433] relsim_36bbc40e1bf0423753e66947ea2e905c status=ok neg=attached to reason=None ok=591 drop=252 eta_min=102.2
+[7/433] relsim_dae549b2df429b50fa3a53793d5b6ee2 status=ok neg=beside reason=None ok=592 drop=252 eta_min=94.5
+[8/433] relsim_51195d4c55bf574e37aadb1b10a807cd status=dropped neg=None reason=no_high_confidence_candidate ok=592 drop=253 eta_min=101.1
+[9/433] relsim_9ad774e49ae0e82aa637b6cb06deab1b status=dropped neg=None reason=no_high_confidence_candidate ok=592 drop=254 eta_min=104.9
+[10/433] relsim_6038e612ae9fdbab15262961ae9eb8ec status=dropped neg=None reason=no_high_confidence_candidate ok=592 drop=255 eta_min=110.0
+[11/433] relsim_5279c9daf3fcb6e3fce8ca10391b2529 status=dropped neg=None reason=no_high_confidence_candidate ok=592 drop=256 eta_min=118.9
+[12/433] relsim_a156994021be9675ddda78b10091380f status=dropped neg=None reason=no_high_confidence_candidate ok=592 drop=257 eta_min=119.5
+[13/433] relsim_8bc71cd9b85467fa515c3cb7a9d5bcf0 status=ok neg=leaning on reason=None ok=593 drop=257 eta_min=114.2
+[14/433] relsim_d32b8673d5ae565ec81f290e491718e0 status=ok neg=jumping on reason=None ok=594 drop=257 eta_min=109.5
+[15/433] relsim_9054dbbf803fe7adc8c50537ccfa9706 status=ok neg=standing behind reason=None ok=595 drop=257 eta_min=116.2
+[16/433] relsim_ba36542ee70d266d9e359b4086016403 status=ok neg=pushing reason=None ok=596 drop=257 eta_min=111.9
+[17/433] relsim_8f025bf9d151dee7966f53df56172822 status=dropped neg=None reason=no_high_confidence_candidate ok=596 drop=258 eta_min=113.8
+[18/433] relsim_b7aa7cee39ea0871e4522e9a868fb042 status=ok neg=climbing on reason=None ok=597 drop=258 eta_min=109.9
+[19/433] relsim_71a05dd9eb99ba629d973209ed34408b status=ok neg=carrying reason=None ok=598 drop=258 eta_min=106.3
+[20/433] relsim_cf40e1b598c100870edbbf313442f2fd status=ok neg=resting against reason=None ok=599 drop=258 eta_min=109.0
+[21/433] relsim_bb240cb043154f2a2d98deebda8637d6 status=dropped neg=None reason=no_high_confidence_candidate ok=599 drop=259 eta_min=110.9
+[22/433] relsim_b7855ff509a134fb4b43341f0c192bbe status=ok neg=behind reason=None ok=600 drop=259 eta_min=107.8
+[23/433] relsim_0f0fd4c6710ea97277fc1b75346e03e8 status=ok neg=pushing reason=None ok=601 drop=259 eta_min=104.9
+[24/433] relsim_2da90ba61ee26f959a04bd7c7b366848 status=ok neg=below reason=None ok=602 drop=259 eta_min=102.3
+[25/433] relsim_00e43d2c648c8b5131355b88cf8b3f8b status=ok neg=carrying reason=None ok=603 drop=259 eta_min=100.0
+[26/433] relsim_92d8c906ca7a2f52e1c949962cfa0cb3 status=ok neg=looking at reason=None ok=604 drop=259 eta_min=97.9
+[27/433] relsim_b04e68b7378743dbaf64d1f7d63708da status=ok neg=sitting on reason=None ok=605 drop=259 eta_min=96.0
+[28/433] relsim_9a7801522b9a39d817eb44c44b6fff5e status=dropped neg=None reason=no_high_confidence_candidate ok=605 drop=260 eta_min=99.1
+[29/433] relsim_947dc66829dabd7633d9e097474d298f status=ok neg=climbing on reason=None ok=606 drop=260 eta_min=97.4
+[30/433] relsim_6ee3011aa21a11732035cec276cdf7dd status=ok neg=attached to reason=None ok=607 drop=260 eta_min=95.4
+[31/433] relsim_6212258eda3b748eeba43a83b216df82 status=dropped neg=None reason=no_high_confidence_candidate ok=607 drop=261 eta_min=97.6
+[32/433] relsim_65d8c7f4263c01ba99200ae1b99db71f status=ok neg=driving on reason=None ok=608 drop=261 eta_min=95.9
+[33/433] relsim_35d51c289d011ebda49e1c1d0923ade8 status=ok neg=biting reason=None ok=609 drop=261 eta_min=94.4
+[34/433] relsim_8e98aaecd647cbe2051aecf17f4ee7aa status=ok neg=looking at reason=None ok=610 drop=261 eta_min=92.9
+[35/433] relsim_9444700ed7c651fd695b19522c0c1fd5 status=dropped neg=None reason=no_high_confidence_candidate ok=610 drop=262 eta_min=93.9
+[36/433] relsim_1792f32e0f958567279b62c169bad282 status=ok neg=pushing reason=None ok=611 drop=262 eta_min=92.3
+[37/433] relsim_ae521b31dd13db6660b81b34b00d4507 status=ok neg=flying over reason=None ok=612 drop=262 eta_min=90.9
+[38/433] relsim_39f46636d47d05e96c7389a229a4f585 status=dropped neg=None reason=no_high_confidence_candidate ok=612 drop=263 eta_min=97.6
+[39/433] relsim_7ec31ab11bb3e48585711179995db352 status=ok neg=looking at reason=None ok=613 drop=263 eta_min=96.3
+[40/433] relsim_82edd1febe2661df185dfdc4daa6804d status=ok neg=standing beside reason=None ok=614 drop=263 eta_min=95.3
+[41/433] relsim_7f6670f91bcf992bd371693d0c3c7ac1 status=dropped neg=None reason=no_high_confidence_candidate ok=614 drop=264 eta_min=98.6
+[42/433] relsim_46e8c3325c0a6d2d3528ed0e417b1d61 status=ok neg=standing on reason=None ok=615 drop=264 eta_min=97.6
+[43/433] relsim_c1f9186016c9b9447c306532a5e7bde1 status=ok neg=landing on reason=None ok=616 drop=264 eta_min=96.8
+[44/433] relsim_01f464c6d1c6f90908b5138e2c06c7fe status=dropped neg=None reason=no_high_confidence_candidate ok=616 drop=265 eta_min=99.0
+[45/433] relsim_55c4576791b1e6bcee1f17a5bfeb1fff status=ok neg=leaning on reason=None ok=617 drop=265 eta_min=98.2
+[46/433] relsim_a1fb05efb35f65dadfa3e0c30cac53db status=dropped neg=None reason=no_high_confidence_candidate ok=617 drop=266 eta_min=99.7
+[47/433] relsim_d217116f753a1ea37c431d42a2e10934 status=ok neg=hanging from reason=None ok=618 drop=266 eta_min=98.4
+[48/433] relsim_a260d6247dde507dd487bde6073e407c status=ok neg=playing with reason=None ok=619 drop=266 eta_min=97.1
+[49/433] relsim_b703bea550726679fabe8c3db7a2e591 status=ok neg=supporting reason=None ok=620 drop=266 eta_min=96.7
+[50/433] relsim_7cce352354595b1de8d2872923ef9127 status=ok neg=protecting reason=None ok=621 drop=266 eta_min=95.8
+[51/433] relsim_dae1329375789230015eee05bde05fe4 status=ok neg=floating above reason=None ok=622 drop=266 eta_min=94.6
+[52/433] relsim_314771ec0d1ec9c36b6854f5d7d55941 status=dropped neg=None reason=no_high_confidence_candidate ok=622 drop=267 eta_min=95.2
+[53/433] relsim_44fd9d0bf008884e37e321d9a9d43d1b status=ok neg=looking at reason=None ok=623 drop=267 eta_min=95.6
+[54/433] relsim_1518dff19f0dc1a7af2f04b9332e241e status=ok neg=attached to reason=None ok=624 drop=267 eta_min=94.4
+[55/433] relsim_5fbae9a6c39ae285f5fbd5301d3f2e57 status=ok neg=beside reason=None ok=625 drop=267 eta_min=94.2
+[56/433] relsim_23ac27b1e92a509228146b003904aada status=dropped neg=None reason=no_high_confidence_candidate ok=625 drop=268 eta_min=95.3
+[57/433] relsim_72b5e4f40cfc217a3074992f84158d20 status=ok neg=under reason=None ok=626 drop=268 eta_min=95.4
+[58/433] relsim_91c4f93239c92946394f5869f4f8604c status=ok neg=wearing reason=None ok=627 drop=268 eta_min=95.1
+[59/433] relsim_1547c20bca839d1cd2c8e0ea364bcb33 status=ok neg=holding reason=None ok=628 drop=268 eta_min=94.2
+[60/433] relsim_a7b78a6d8768f29ffe2daa6c675ad2ad status=ok neg=above reason=None ok=629 drop=268 eta_min=93.1
+[61/433] relsim_de690121af6f61cbfc6b3ff3ce6abdbb status=ok neg=beside reason=None ok=630 drop=268 eta_min=92.3
+[62/433] relsim_d2eac6dd37c256a1b4752864f2f0a5f2 status=ok neg=standing on reason=None ok=631 drop=268 eta_min=92.5
+[63/433] relsim_5d0dce91846baa202cda5a9af7a0b032 status=dropped neg=None reason=no_high_confidence_candidate ok=631 drop=269 eta_min=94.0
+[64/433] relsim_376da0a88c533cd4b39b06e52da1f612 status=ok neg=surrounded by reason=None ok=632 drop=269 eta_min=94.0
+[65/433] relsim_573dd6660ccd24eb828ba34080fc3047 status=dropped neg=None reason=no_high_confidence_candidate ok=632 drop=270 eta_min=96.4
+[66/433] relsim_0fda092eb95eb9356e43c7cdf9a40bd9 status=ok neg=sitting on reason=None ok=633 drop=270 eta_min=96.9
+[67/433] relsim_cabc14a297ed317948a0324729518c7d status=ok neg=lying on reason=None ok=634 drop=270 eta_min=96.0
+[68/433] relsim_3e73bba35a07a42d0ed9e76a4057687b status=dropped neg=None reason=no_high_confidence_candidate ok=634 drop=271 eta_min=97.2
+[69/433] relsim_035c15c026c7789f45b95334b6dd97fa status=dropped neg=None reason=no_high_confidence_candidate ok=634 drop=272 eta_min=98.1
+[70/433] relsim_b01a002cf2799cf32edb7d5aa6309a68 status=dropped neg=None reason=no_high_confidence_candidate ok=634 drop=273 eta_min=98.6
+[71/433] relsim_739194b93e130c0c52c91e4eb7c4425b status=dropped neg=None reason=no_high_confidence_candidate ok=634 drop=274 eta_min=99.2
+[72/433] relsim_65134d4f142ed41718566745edd73278 status=ok neg=looking at reason=None ok=635 drop=274 eta_min=98.2
+[73/433] relsim_39765c3124a676bd929c3d0676afef34 status=ok neg=leaning on reason=None ok=636 drop=274 eta_min=97.3
+[74/433] relsim_3eb574df10378c66acc28b5e47066754 status=ok neg=sitting on reason=None ok=637 drop=274 eta_min=98.0
+[75/433] relsim_460d828fb7853ad46905f8e6c4a0db3d status=ok neg=reflecting on reason=None ok=638 drop=274 eta_min=97.1
+[76/433] relsim_ad68922c103b54c9f86a2aabd04332ca status=dropped neg=None reason=no_high_confidence_candidate ok=638 drop=275 eta_min=99.6
+[77/433] relsim_78c2721c198d7f0695c114f7f9e7280f status=ok neg=playing with reason=None ok=639 drop=275 eta_min=104.3
+[78/433] relsim_bda469d5699e58adf4e248a416ac5fa8 status=dropped neg=None reason=no_high_confidence_candidate ok=639 drop=276 eta_min=132.3
+[79/433] relsim_05949dadc1434680c23304f9968fdc09 status=dropped neg=None reason=no_high_confidence_candidate ok=639 drop=277 eta_min=157.3
+[80/433] relsim_9b2a72c2bd9c89c1f6a02d5c4a7d57b7 status=dropped neg=None reason=no_high_confidence_candidate ok=639 drop=278 eta_min=173.6
+[81/433] relsim_8b3b87bf3b3c44aec6fff687781338b0 status=dropped neg=None reason=no_high_confidence_candidate ok=639 drop=279 eta_min=202.1
+[82/433] relsim_67b6d9d86be4cbfac423a35f99bc6c6e status=ok neg=standing next to reason=None ok=640 drop=279 eta_min=211.3
+[83/433] relsim_96e9b6f05871c2b0a5dbd9cba2246adb status=ok neg=leaning against reason=None ok=641 drop=279 eta_min=210.9
+[84/433] relsim_0135b662a7fb50bb19ca5064fbf95742 status=ok neg=in front of reason=None ok=642 drop=279 eta_min=208.5
+[85/433] relsim_d6a475574b3e68fdedca86427f675261 status=ok neg=slides on reason=None ok=643 drop=279 eta_min=206.1
+[86/433] relsim_34d09776c27d45ff163cac18122c9ac8 status=ok neg=looking at reason=None ok=644 drop=279 eta_min=203.7
+[87/433] relsim_7613993ecc54f8a4554ee0039c3b582c status=ok neg=looking at reason=None ok=645 drop=279 eta_min=201.4
+[88/433] relsim_9773dcc191e79e0dbda80e4a064896dd status=dropped neg=None reason=no_high_confidence_candidate ok=645 drop=280 eta_min=200.7
+[89/433] relsim_da0964e8efea8a47f60e66d813f2fd0a status=ok neg=landing near reason=None ok=646 drop=280 eta_min=198.4
+[90/433] relsim_c6829f66b88421053b641e74a462b5d5 status=dropped neg=None reason=no_high_confidence_candidate ok=646 drop=281 eta_min=197.9
+[91/433] relsim_6a832aa9dca384d05af9ec45bda67b6e status=ok neg=jumping over reason=None ok=647 drop=281 eta_min=195.8
+[92/433] relsim_15a818efa2cfbe0559eb8956b9b2278a status=ok neg=above reason=None ok=648 drop=281 eta_min=194.5
+[93/433] relsim_87356455c08a65268812ccf429e0d1a3 status=dropped neg=None reason=no_high_confidence_candidate ok=648 drop=282 eta_min=193.7
+[94/433] relsim_4780e206f4528ad6f7a363c3e361919f status=ok neg=jumping over reason=None ok=649 drop=282 eta_min=191.6
+[95/433] relsim_7da2594f92b614800cc849ddf746721e status=dropped neg=None reason=no_high_confidence_candidate ok=649 drop=283 eta_min=190.9
+[96/433] relsim_c85ae0088df2d2fc815d661cc3afdaae status=ok neg=carrying reason=None ok=650 drop=283 eta_min=189.0
+[97/433] relsim_8ef2437c02d240e6e45faa6c0aa46925 status=ok neg=behind reason=None ok=651 drop=283 eta_min=187.1
+[98/433] relsim_643ef2ad07913e103b5dc4da62ba1d10 status=ok neg=spilling reason=None ok=652 drop=283 eta_min=186.4
+[99/433] relsim_061b3e7dc459b29cf0e1a69070ae41f8 status=ok neg=riding reason=None ok=653 drop=283 eta_min=184.4
+[100/433] relsim_b02996608825a11e7a01a49ed8b7b191 status=dropped neg=None reason=no_high_confidence_candidate ok=653 drop=284 eta_min=183.4
+[101/433] relsim_14750ebc99aa3ee47ee44eced0904b12 status=dropped neg=None reason=no_high_confidence_candidate ok=653 drop=285 eta_min=182.3
+[102/433] relsim_132ed36d6396f70a30fe5b2748b6fd16 status=dropped neg=None reason=no_high_confidence_candidate ok=653 drop=286 eta_min=181.3
+[103/433] relsim_d9c189132910bfc385d482462352a907 status=ok neg=standing on reason=None ok=654 drop=286 eta_min=179.5
+[104/433] relsim_93b0165b795b35b0fd9e65bc268913f1 status=dropped neg=None reason=no_high_confidence_candidate ok=654 drop=287 eta_min=178.9
+[105/433] relsim_9412558170044285d9b0e9a65dd6ed8e status=ok neg=hanging from reason=None ok=655 drop=287 eta_min=177.5
+[106/433] relsim_d2c42dd52ec526684763c05d4e8e6acd status=ok neg=holding reason=None ok=656 drop=287 eta_min=175.8
+[107/433] relsim_c80903fb1e8cb6ead7a46c74f250cbda status=dropped neg=None reason=no_high_confidence_candidate ok=656 drop=288 eta_min=175.2
+[108/433] relsim_71214c6a4cb40b37a148212f3f8776f0 status=ok neg=looking at reason=None ok=657 drop=288 eta_min=174.4
+[109/433] relsim_0449283bdff5df8ed0488ae132021e39 status=dropped neg=None reason=no_high_confidence_candidate ok=657 drop=289 eta_min=173.9
+[110/433] relsim_768bc4ace205d1cc4b2a025912965d40 status=ok neg=attached to reason=None ok=658 drop=289 eta_min=172.2
+[111/433] relsim_9cdafe25abe74b3b1de699c80e1fc4b0 status=dropped neg=None reason=no_high_confidence_candidate ok=658 drop=290 eta_min=171.2
+[112/433] relsim_5be744e144431975466bc2c17c3bfb0a status=ok neg=moving towards reason=None ok=659 drop=290 eta_min=169.5
+[113/433] relsim_c4bc7b5ee820437e90a60655706a0f3a status=ok neg=drying reason=None ok=660 drop=290 eta_min=167.9
+[114/433] relsim_2c926e586c1e5e75beeb276f08d70ca4 status=dropped neg=None reason=no_high_confidence_candidate ok=660 drop=291 eta_min=167.3
+[115/433] relsim_2f0f1a0e790a698cbef5f03e8278cf01 status=dropped neg=None reason=no_high_confidence_candidate ok=660 drop=292 eta_min=166.4
+[116/433] relsim_62da2e3c0dc8de8839f7bdcebde19d4c status=ok neg=pushing reason=None ok=661 drop=292 eta_min=164.8
+[117/433] relsim_4f86b2bc6aa856b41979c2d2ce1deca5 status=ok neg=overlapping with reason=None ok=662 drop=292 eta_min=163.3
+[118/433] relsim_433b02f4e5c85bda3af91578876f62d5 status=ok neg=on top of reason=None ok=663 drop=292 eta_min=162.0
+[119/433] relsim_0abfb24c9f4e3f3d900864730d02b0d7 status=ok neg=lying on reason=None ok=664 drop=292 eta_min=160.5
+[120/433] relsim_53770c99ef28bf05facbb6eced3e8730 status=ok neg=hanging from reason=None ok=665 drop=292 eta_min=159.1
+[121/433] relsim_49e460384051fb7b37603ac12914f212 status=dropped neg=None reason=no_high_confidence_candidate ok=665 drop=293 eta_min=158.5
+[122/433] relsim_0533cb0c6ff1279269bff947fa11f577 status=ok neg=attached to reason=None ok=666 drop=293 eta_min=157.9
+[123/433] relsim_0ea7f5cd0becad3ce4cf4094e41feee0 status=dropped neg=None reason=no_high_confidence_candidate ok=666 drop=294 eta_min=157.2
+[124/433] relsim_6dc1799bfeef5a220ff2630b5d9b4fc3 status=ok neg=perched on reason=None ok=667 drop=294 eta_min=156.5
+[125/433] relsim_27e4c8f02e8bad2292598b54363f1a83 status=ok neg=in front of reason=None ok=668 drop=294 eta_min=155.4
+[126/433] relsim_bac22f79e31619664828eafc34e3978f status=dropped neg=None reason=no_high_confidence_candidate ok=668 drop=295 eta_min=154.8
+[127/433] relsim_bffe5baefb96c9ca14a0949e869f0be6 status=dropped neg=None reason=no_high_confidence_candidate ok=668 drop=296 eta_min=154.0
+[128/433] relsim_b5014023d78801abe771f5d8be6b3ec0 status=ok neg=attached to reason=None ok=669 drop=296 eta_min=152.6
+[129/433] relsim_751a8298f069b2d6ceb036b0564ecb93 status=ok neg=pushing reason=None ok=670 drop=296 eta_min=151.2
+[130/433] relsim_94b20b9af1554144bc0a4d0981bf95e2 status=ok neg=beside reason=None ok=671 drop=296 eta_min=149.9
+[131/433] relsim_5f582ce1371d3fc9f928232805bacefa status=ok neg=beside reason=None ok=672 drop=296 eta_min=148.7
+[132/433] relsim_8f6e06c9fa758e35a0e40e23bba3aaae status=ok neg=in front of reason=None ok=673 drop=296 eta_min=147.4
+[133/433] relsim_91a9be333d580ff1730672ac9e040ad7 status=ok neg=in front of reason=None ok=674 drop=296 eta_min=146.6
+[134/433] relsim_570a482b528b1650a70a6e5b83c7f46c status=ok neg=painted on reason=None ok=675 drop=296 eta_min=145.6
+[135/433] relsim_11c0fd6f1dd55880b04eefa48f962ba2 status=dropped neg=None reason=no_high_confidence_candidate ok=675 drop=297 eta_min=145.0
+[136/433] relsim_85a6773b5f1576dc6a7a19b2f526327b status=ok neg=on top of reason=None ok=676 drop=297 eta_min=144.9
+[137/433] relsim_0ec91b03d6d2b592fcc61c0312ab2b81 status=ok neg=holding reason=None ok=677 drop=297 eta_min=143.7
+[138/433] relsim_62e0def53485e09dc98955fba5904967 status=ok neg=positioned above reason=None ok=678 drop=297 eta_min=143.4
+[139/433] relsim_6fe18a95ca3ef86ea6288530d339b9a2 status=ok neg=sitting on reason=None ok=679 drop=297 eta_min=142.3
+[140/433] relsim_0c5a1cf036df7c71b531bcb1f4145b42 status=ok neg=playing with reason=None ok=680 drop=297 eta_min=141.1
+[141/433] relsim_cd356ee3b64f933ebb8147c627107400 status=ok neg=climbing reason=None ok=681 drop=297 eta_min=139.9
+[142/433] relsim_987064cf8a7f53c230b52fbfc9f2ebf6 status=ok neg=pushing reason=None ok=682 drop=297 eta_min=138.7
+[143/433] relsim_ae5c4c176ee93017e77f3676cd52d49f status=ok neg=holding reason=None ok=683 drop=297 eta_min=137.5
+[144/433] relsim_362c570324f0e56507ee85389b0261bc status=ok neg=indicating to reason=None ok=684 drop=297 eta_min=136.4
+[145/433] relsim_3b19e959719e8c36e0ae5531fd799c7f status=ok neg=is positioned above reason=None ok=685 drop=297 eta_min=135.3
+[146/433] relsim_996aa25651c2f225687b4de659253843 status=ok neg=jumping on reason=None ok=686 drop=297 eta_min=134.2
+[147/433] relsim_86247519ed8687c44ca83896a1337683 status=ok neg=holding reason=None ok=687 drop=297 eta_min=133.1
+[148/433] relsim_9b184ebea4fddd917c55282f66195ccc status=ok neg=moving towards reason=None ok=688 drop=297 eta_min=132.2
+[149/433] relsim_8c7b7956d89298f94387f2aae937001e status=dropped neg=None reason=no_high_confidence_candidate ok=688 drop=298 eta_min=131.6
+[150/433] relsim_60a16e4cf0cd1df8b0ef4e43baf765d7 status=dropped neg=None reason=no_high_confidence_candidate ok=688 drop=299 eta_min=131.1
+[151/433] relsim_bd8f8ad99bcb7270555087dbe57c99ed status=ok neg=picking up reason=None ok=689 drop=299 eta_min=130.6
+[152/433] relsim_dd9986a4fd438fed445e3be8262347f9 status=ok neg=attached to reason=None ok=690 drop=299 eta_min=129.6
+[153/433] relsim_2f1b751174330382f917bec56e1ea122 status=ok neg=hovering above reason=None ok=691 drop=299 eta_min=128.6
+[154/433] relsim_91ba756f8cd7da62756d75129866a74c status=ok neg=hiding behind reason=None ok=692 drop=299 eta_min=127.5
+[155/433] relsim_c25ab00bc77607791418cea0316a0ee2 status=ok neg=leaning on reason=None ok=693 drop=299 eta_min=126.5
+[156/433] relsim_84c918768f80b96b9b7d7e032735900b status=dropped neg=None reason=no_high_confidence_candidate ok=693 drop=300 eta_min=126.2
+[157/433] relsim_5d42bed73ddaf3ab4967e6741394bc03 status=ok neg=leaning on reason=None ok=694 drop=300 eta_min=126.0
+[158/433] relsim_0c60c1c246a5479b8a0a3e3dcbaf82ca status=dropped neg=None reason=no_high_confidence_candidate ok=694 drop=301 eta_min=125.7
+[159/433] relsim_959395d3d656f2b20e13931fb5fbdf16 status=ok neg=leaning on reason=None ok=695 drop=301 eta_min=124.8
+[160/433] relsim_7f0480abf81cab2e32ba378ac35d771b status=ok neg=leaning on reason=None ok=696 drop=301 eta_min=124.1
+[161/433] relsim_21d519ca985993f7f373b33e4cfa15fa status=ok neg=looking at reason=None ok=697 drop=301 eta_min=123.3
+[162/433] relsim_b43cd4bbb84545fd65cefcafb73913d6 status=ok neg=beside reason=None ok=698 drop=301 eta_min=122.4
+[163/433] relsim_cbb22b859a6e1f2929ca53ea0aa5fdc7 status=ok neg=reflecting reason=None ok=699 drop=301 eta_min=121.7
+[164/433] relsim_244394dd69bbcb0bbf5400b83e9dc375 status=ok neg=standing on reason=None ok=700 drop=301 eta_min=120.8
+[165/433] relsim_03ea0739e4250963a1de1b59d3a9820e status=dropped neg=None reason=no_high_confidence_candidate ok=700 drop=302 eta_min=120.4
+[166/433] relsim_3d21a5bd46b6c187a4a06863c4845b92 status=ok neg=filming reason=None ok=701 drop=302 eta_min=119.4
+[167/433] relsim_6b02c56909294126a869cb691be6ee7e status=ok neg=looking at reason=None ok=702 drop=302 eta_min=118.9
+[168/433] relsim_03834192eebc5831fd332020d2ba8c7d status=ok neg=jumping from reason=None ok=703 drop=302 eta_min=117.9
+[169/433] relsim_244a1bb03c39828f47c4b4caad0913c9 status=ok neg=looking at reason=None ok=704 drop=302 eta_min=117.0
+[170/433] relsim_6beb133a35eefaf274eadab641baa369 status=dropped neg=None reason=no_high_confidence_candidate ok=704 drop=303 eta_min=116.7
+[171/433] relsim_d44e2e5a22dc2b368e4a0dc90d11a878 status=dropped neg=None reason=no_high_confidence_candidate ok=704 drop=304 eta_min=118.1
+[172/433] relsim_86fb62ea80fb99e54ea4c4a13cb80b7b status=ok neg=parked on reason=None ok=705 drop=304 eta_min=117.2
+[173/433] relsim_c10eaf024733c916dd15eb5b41e12016 status=ok neg=jumping from reason=None ok=706 drop=304 eta_min=116.6
+[174/433] relsim_d0aeff34f70c303450575b34d5643bd7 status=dropped neg=None reason=no_high_confidence_candidate ok=706 drop=305 eta_min=117.8
+[175/433] relsim_977ec8df978b333de7e2cde2b2079110 status=ok neg=looking at reason=None ok=707 drop=305 eta_min=117.1
+[176/433] relsim_82c66f768e5a9857a3e1e40f678f76bf status=dropped neg=None reason=no_high_confidence_candidate ok=707 drop=306 eta_min=117.7
+[177/433] relsim_1c866e58310b59daedc9ed8ae4f4a4f8 status=ok neg=beside reason=None ok=708 drop=306 eta_min=117.0
+[178/433] relsim_9ac683d9b5a6de3535f8d657bc7eab75 status=ok neg=carrying reason=None ok=709 drop=306 eta_min=116.2
+[179/433] relsim_1ba563119e76d1cf6d04155ab24797eb status=dropped neg=None reason=no_high_confidence_candidate ok=709 drop=307 eta_min=115.8
+[180/433] relsim_64baf41e76744ee1f8082b2a67093031 status=ok neg=sitting on reason=None ok=710 drop=307 eta_min=114.9
+[181/433] relsim_4e0b8a6cce2e4cc7f2bff0194e7f95f6 status=dropped neg=None reason=no_high_confidence_candidate ok=710 drop=308 eta_min=114.5
+[182/433] relsim_d466afb9e06e512f217bcf8d5e52b551 status=ok neg=hanging over reason=None ok=711 drop=308 eta_min=113.7
+[183/433] relsim_9668d4c04c52e06ca5fb66b25bbac634 status=ok neg=shadowing reason=None ok=712 drop=308 eta_min=112.8
+[184/433] relsim_7e2c60a51f68b788424301038200ff44 status=ok neg=standing on reason=None ok=713 drop=308 eta_min=112.0
+[185/433] relsim_89c14016b37f8c413bfc78e25a990c0d status=ok neg=playing on reason=None ok=714 drop=308 eta_min=111.2
+[186/433] relsim_277a4a40315f54f586739a25042c8266 status=ok neg=looking at reason=None ok=715 drop=308 eta_min=110.3
+[187/433] relsim_2fc3bd0f39a80ecef8ae3cfd71d62e1a status=ok neg=painted on reason=None ok=716 drop=308 eta_min=109.7
+[188/433] relsim_964d7a0ea874d26e6111144ae8883350 status=ok neg=covering reason=None ok=717 drop=308 eta_min=108.9
+[189/433] relsim_2582ed93a9ac13197797bccd97a13d47 status=ok neg=standing on reason=None ok=718 drop=308 eta_min=109.1
+[190/433] relsim_61f388784dfc396b08bf76309f228714 status=ok neg=touching reason=None ok=719 drop=308 eta_min=108.3
+[191/433] relsim_c933621cdc60f9d7392b42472fafeaab status=ok neg=leaning on reason=None ok=720 drop=308 eta_min=107.5
+[192/433] relsim_8eeac59e5f0e0829c0c23106588148f2 status=dropped neg=None reason=no_high_confidence_candidate ok=720 drop=309 eta_min=107.3
+[193/433] relsim_821476d4fec64981ac9c50bcd4ae0af9 status=ok neg=sitting on reason=None ok=721 drop=309 eta_min=106.5
+[194/433] relsim_9358751c4f72ee8fcda177f9e38efb02 status=dropped neg=None reason=no_high_confidence_candidate ok=721 drop=310 eta_min=106.0
+[195/433] relsim_9487b82f6182972d0adf011276b8f4e5 status=ok neg=attached to reason=None ok=722 drop=310 eta_min=105.8
+[196/433] relsim_434d205d4eb9a45e56d0390f8d5e9f80 status=ok neg=practicing on reason=None ok=723 drop=310 eta_min=105.3
+[197/433] relsim_c280ec85ee4f795962b3fb73b51e1bc4 status=ok neg=behind reason=None ok=724 drop=310 eta_min=104.9
+[198/433] relsim_21f2d4b930c2aeec9e775bd5ef5efd35 status=ok neg=in front of reason=None ok=725 drop=310 eta_min=104.2
+[199/433] relsim_292e9e6b5390e05b830003ce8024ebfb status=ok neg=jumping over reason=None ok=726 drop=310 eta_min=104.0
+[200/433] relsim_be55b295ba067942c6e7200ce4531224 status=dropped neg=None reason=no_high_confidence_candidate ok=726 drop=311 eta_min=103.8
+[201/433] relsim_0d2cc03aa7e6fa770ce5d0457be0c3ae status=ok neg=playing with reason=None ok=727 drop=311 eta_min=103.4
+[202/433] relsim_410999d73a2ff1bd3c55828660b10e4e status=ok neg=wearing reason=None ok=728 drop=311 eta_min=102.7
+[203/433] relsim_2bed0df143ca80fd3954035a5019d85b status=dropped neg=None reason=no_high_confidence_candidate ok=728 drop=312 eta_min=102.9
+[204/433] relsim_a756def303d88ed171239724cdc579d9 status=ok neg=hiding behind reason=None ok=729 drop=312 eta_min=102.7
+[205/433] relsim_07dd1f8ba32828cf94ecb757a3076a6f status=ok neg=hanging from reason=None ok=730 drop=312 eta_min=102.1
+[206/433] relsim_927fed25172ee4ad7e2cf4eb32d50291 status=ok neg=looking at reason=None ok=731 drop=312 eta_min=101.5
+[207/433] relsim_b319cee6e9843a21d28bc24d6daa9cfd status=ok neg=lying on reason=None ok=732 drop=312 eta_min=100.7
+[208/433] relsim_828f5e4d064a290cee97629b3cee216d status=dropped neg=None reason=no_high_confidence_candidate ok=732 drop=313 eta_min=100.4
+[209/433] relsim_cfbcc442496b66a27d1d7e90e0575dce status=dropped neg=None reason=no_high_confidence_candidate ok=732 drop=314 eta_min=100.1
+[210/433] relsim_2e45dd895d29083705db8d0cfd5f91a6 status=dropped neg=None reason=no_high_confidence_candidate ok=732 drop=315 eta_min=99.7
+[211/433] relsim_89d16610aa75db078e6ada6075763b89 status=dropped neg=None reason=no_high_confidence_candidate ok=732 drop=316 eta_min=99.4
+[212/433] relsim_ae32ba9f066e31a1b118def3faf78fd6 status=ok neg=jumping over reason=None ok=733 drop=316 eta_min=98.7
+[213/433] relsim_b4aea421a73fef0334ca45d24f17fcd1 status=ok neg=chasing reason=None ok=734 drop=316 eta_min=97.9
+[214/433] relsim_d6cfb2a929fad5eecc5f6a9b41f97a2b status=ok neg=floating above reason=None ok=735 drop=316 eta_min=97.2
+[215/433] relsim_0d0a50e435f0f036531b9ad848c29eda status=ok neg=jumping over reason=None ok=736 drop=316 eta_min=96.4
+[216/433] relsim_7b85e24ed772fd07413e54e413e2fc81 status=ok neg=standing in front of reason=None ok=737 drop=316 eta_min=95.8
+[217/433] relsim_5f11cd23c28dab347f77455e8f31d53c status=ok neg=covered by reason=None ok=738 drop=316 eta_min=95.4
+[218/433] relsim_b71f14c4ad1de683b9a7a68ed71faa9c status=ok neg=covering reason=None ok=739 drop=316 eta_min=95.1
+[219/433] relsim_71dffd4285982353a3f405016462acaf status=dropped neg=None reason=no_high_confidence_candidate ok=739 drop=317 eta_min=95.1
+[220/433] relsim_3a1f55341a57ad6e706156994c015b9e status=ok neg=rising behind reason=None ok=740 drop=317 eta_min=95.1
+[221/433] relsim_b3a32b43e37c76815d028cf536145595 status=ok neg=firing reason=None ok=741 drop=317 eta_min=94.4
+[222/433] relsim_5a19b42ce787b7720adba44fd182a799 status=ok neg=riding on reason=None ok=742 drop=317 eta_min=93.8
+[223/433] relsim_74f9303f57543da71ac27d3d681fb822 status=ok neg=standing on reason=None ok=743 drop=317 eta_min=93.1
+[224/433] relsim_b653b368e1fad54457c48a2adc317820 status=ok neg=leaning against reason=None ok=744 drop=317 eta_min=92.4
+[225/433] relsim_ae2604f5889f1a602069d959f27c1c0d status=ok neg=leading reason=None ok=745 drop=317 eta_min=91.7
+[226/433] relsim_ca05688e518e5b96f3a5e0b41d749efb status=ok neg=sitting on reason=None ok=746 drop=317 eta_min=91.0
+[227/433] relsim_72fca395671d9c8f4649745cd9a8c50e status=ok neg=dropped by reason=None ok=747 drop=317 eta_min=90.3
+[228/433] relsim_377033259c084cba177c48a0f6552c1f status=ok neg=sitting on reason=None ok=748 drop=317 eta_min=90.0
+[229/433] relsim_470d0a965738126316c3fdf9a6580227 status=ok neg=leaning on reason=None ok=749 drop=317 eta_min=89.4
+[230/433] relsim_07f700dc84e4b4642471f3dc333f0485 status=ok neg=flying over reason=None ok=750 drop=317 eta_min=88.8
+[231/433] relsim_4f5064ea7a72418adf845210039df9c0 status=dropped neg=None reason=no_high_confidence_candidate ok=750 drop=318 eta_min=88.4
+[232/433] relsim_cc8a4999f9eda193d0423a487e6a1866 status=dropped neg=None reason=no_high_confidence_candidate ok=750 drop=319 eta_min=88.0
+[233/433] relsim_c6e15a10364221ad8dc30a1417a4e365 status=dropped neg=None reason=no_high_confidence_candidate ok=750 drop=320 eta_min=87.5
+[234/433] relsim_123aa6c899a193031badf02bb985f2e7 status=ok neg=leaning on reason=None ok=751 drop=320 eta_min=86.8
+[235/433] relsim_146784431370eb492381884e830a75d9 status=ok neg=leaning on reason=None ok=752 drop=320 eta_min=86.2
+[236/433] relsim_5915e6126002ded6d48751caa1673842 status=dropped neg=None reason=no_high_confidence_candidate ok=752 drop=321 eta_min=86.0
+[237/433] relsim_008bc3608f84bf31df87908e71190088 status=ok neg=leaning on reason=None ok=753 drop=321 eta_min=85.3
+[238/433] relsim_685db61dd9cd4b5666bc8dc092c85228 status=ok neg=looking at reason=None ok=754 drop=321 eta_min=84.8
+[239/433] relsim_68f23426bb41f942f2275837e76e8139 status=dropped neg=None reason=no_high_confidence_candidate ok=754 drop=322 eta_min=84.5
+[240/433] relsim_a31395a81b86835f9d97bca3c9d5dbce status=ok neg=leaning on reason=None ok=755 drop=322 eta_min=83.8
+[241/433] relsim_5b4bfdb024607483ad8aa8e0df50b995 status=ok neg=attached to reason=None ok=756 drop=322 eta_min=83.4
+[242/433] relsim_d6fc8df4d04e5e36bfba633172bdfecb status=ok neg=leaning on reason=None ok=757 drop=322 eta_min=83.3
+[243/433] relsim_9a1121c7e438af6472fd166f0906beea status=ok neg=overlooks reason=None ok=758 drop=322 eta_min=82.9
+[244/433] relsim_d26faec5df1ffc1aecb7b17699f4fe7b status=ok neg=lying on reason=None ok=759 drop=322 eta_min=82.3
+[245/433] relsim_5573f0433369c5c3afa102701b25b0d6 status=dropped neg=None reason=no_high_confidence_candidate ok=759 drop=323 eta_min=82.1
+[246/433] relsim_af4975a540653d85beff2786aa23717f status=ok neg=jumping from reason=None ok=760 drop=323 eta_min=81.5
+[247/433] relsim_959001265a6a8868191d2c3600d3733d status=ok neg=leaning on reason=None ok=761 drop=323 eta_min=80.8
+[248/433] relsim_44356f48919826ef49d684f39cf9b233 status=dropped neg=None reason=no_high_confidence_candidate ok=761 drop=324 eta_min=80.5
+[249/433] relsim_aa0a7e44dfc4b4157f11ac3775bea201 status=ok neg=falling towards reason=None ok=762 drop=324 eta_min=79.8
+[250/433] relsim_bf98b75f03778c5bb1e001d0cfb53d5c status=dropped neg=None reason=no_high_confidence_candidate ok=762 drop=325 eta_min=79.5
+[251/433] relsim_d457b70e598023b262b36db75378095b status=ok neg=standing on reason=None ok=763 drop=325 eta_min=78.9
+[252/433] relsim_38b4cc3a491d799f6ee76e84d4661f78 status=ok neg=sitting on reason=None ok=764 drop=325 eta_min=78.3
+[253/433] relsim_cfd3a95ace7ac2333d66ae85e915557b status=dropped neg=None reason=no_high_confidence_candidate ok=764 drop=326 eta_min=78.0
+[254/433] relsim_3114db29bf59e7963640f38e4b4573ad status=ok neg=playing on reason=None ok=765 drop=326 eta_min=77.5
+[255/433] relsim_0128dae0f219a4717de3aa408e6d921b status=ok neg=near reason=None ok=766 drop=326 eta_min=76.9
+[256/433] relsim_dccce7c6f4b0ca1d2022d0335cb94195 status=ok neg=hanging from reason=None ok=767 drop=326 eta_min=76.3
+[257/433] relsim_22c9e36eb12ee0e5337160cba5599e17 status=dropped neg=None reason=no_high_confidence_candidate ok=767 drop=327 eta_min=76.2
+[258/433] relsim_7a1b8f71a87cc26e40c625d15cc341be status=ok neg=reflecting light from reason=None ok=768 drop=327 eta_min=75.8
+[259/433] relsim_7bb1059b9f52bc5a19c57a0bbbb27802 status=ok neg=driving on reason=None ok=769 drop=327 eta_min=75.3
+[260/433] relsim_3e9b03b9f14613dd2532c6a776ff63f9 status=ok neg=pushing reason=None ok=770 drop=327 eta_min=74.7
+[261/433] relsim_bd03bafbe3d4b00cdab3b3c75cc9f9df status=dropped neg=None reason=no_high_confidence_candidate ok=770 drop=328 eta_min=74.6
+[262/433] relsim_8c5135b07e616bf001adeaac0d17586a status=ok neg=standing on reason=None ok=771 drop=328 eta_min=74.1
+[263/433] relsim_0fd1fce5d9fe464fd128f55627a0dd54 status=dropped neg=None reason=no_high_confidence_candidate ok=771 drop=329 eta_min=73.8
+[264/433] relsim_d23db71025f72ac4f885d3e3bc7c5ec1 status=ok neg=positioned beside reason=None ok=772 drop=329 eta_min=73.7
+[265/433] relsim_b36d7227ef286621fdb8c751b64fd874 status=ok neg=leaning against reason=None ok=773 drop=329 eta_min=73.1
+[266/433] relsim_b3eea2f43814cb4e771e43087d6e64a6 status=ok neg=jumping off reason=None ok=774 drop=329 eta_min=72.5
+[267/433] relsim_72428eb85c7a4f6b83a1c1f480140292 status=ok neg=climbing reason=None ok=775 drop=329 eta_min=71.9
+[268/433] relsim_d0a6a4dc0d9dd3d5498493915c21b506 status=ok neg=climbing up reason=None ok=776 drop=329 eta_min=71.4
+[269/433] relsim_a50e37ba2c18b576ea1adf0f34a3111a status=ok neg=playing with reason=None ok=777 drop=329 eta_min=70.8
+[270/433] relsim_8b1395ab957e909e8b265b8bf051a8c4 status=ok neg=climbing on reason=None ok=778 drop=329 eta_min=70.2
+[271/433] relsim_5ec15a8116799a804f84c39971f245f6 status=ok neg=sheltering reason=None ok=779 drop=329 eta_min=69.6
+[272/433] relsim_ab1912914c2a3e3222a087ad4d8dabc0 status=ok neg=in front of reason=None ok=780 drop=329 eta_min=69.0
+[273/433] relsim_b19649c84ff79a5e7c03b0ecb29b832e status=ok neg=under reason=None ok=781 drop=329 eta_min=68.4
+[274/433] relsim_c89c8900fbc8c1ece6a250f5154c630b status=dropped neg=None reason=no_high_confidence_candidate ok=781 drop=330 eta_min=68.0
+[275/433] relsim_ad5b6296caeb85a07b424761169e2e93 status=ok neg=leaning on reason=None ok=782 drop=330 eta_min=67.5
+[276/433] relsim_4ffe82db5bc71a10908bdcf9d4cd9954 status=ok neg=leaning against reason=None ok=783 drop=330 eta_min=66.9
+[277/433] relsim_0562ae762a71a1582c5449cff4e773e8 status=ok neg=casting light on reason=None ok=784 drop=330 eta_min=66.4
+[278/433] relsim_1e0783b1451ca6e9401dfe11c353d7fe status=ok neg=beside reason=None ok=785 drop=330 eta_min=65.9
+[279/433] relsim_30d263a889389d2ce6e6368b10a22baa status=ok neg=shrouded by reason=None ok=786 drop=330 eta_min=65.3
+[280/433] relsim_719d562f8f8a3c6050855cb7a53d7887 status=dropped neg=None reason=no_high_confidence_candidate ok=786 drop=331 eta_min=65.0
+[281/433] relsim_6d3fcc1bb20a20c5485bf794493d7c84 status=ok neg=resting on reason=None ok=787 drop=331 eta_min=64.6
+[282/433] relsim_3ec661872bff2b38966e8ffd14862000 status=ok neg=chasing reason=None ok=788 drop=331 eta_min=64.0
+[283/433] relsim_be455cf91173217b0871983dd2f34105 status=ok neg=playing with reason=None ok=789 drop=331 eta_min=63.5
+[284/433] relsim_8b29d2d080b8d2b1a7d70d7efe2de6ec status=dropped neg=None reason=no_high_confidence_candidate ok=789 drop=332 eta_min=63.1
+[285/433] relsim_d5ae9d31d485d41c2499059d328af7a7 status=ok neg=jumping over reason=None ok=790 drop=332 eta_min=62.7
+[286/433] relsim_4c4a4633705e48656f321f775aa51bcf status=ok neg=cleaning reason=None ok=791 drop=332 eta_min=62.2
+[287/433] relsim_44dcfae483eff7e059c4df9d504b0987 status=dropped neg=None reason=no_high_confidence_candidate ok=791 drop=333 eta_min=63.0
+[288/433] relsim_7e22ea45ec0131d00b61bfcc3586cd7d status=ok neg=surrounding reason=None ok=792 drop=333 eta_min=63.5
+[289/433] relsim_b1460bded067f73f210d0a685b811864 status=ok neg=hanging from reason=None ok=793 drop=333 eta_min=63.1
+[290/433] relsim_b3762c6459844d9ef785ab356a79e3f3 status=ok neg=touching reason=None ok=794 drop=333 eta_min=62.8
+[291/433] relsim_6f4879b343eab9520e0bdd7f1c514a93 status=ok neg=driving through reason=None ok=795 drop=333 eta_min=62.3
+[292/433] relsim_dccb55572dc59e8955f1b0a0580e0774 status=ok neg=in front of reason=None ok=796 drop=333 eta_min=61.7
+[293/433] relsim_5aea9cf42ddd103f173f464586821ed9 status=ok neg=looking at reason=None ok=797 drop=333 eta_min=61.1
+[294/433] relsim_8dbef40996776d3adb13214ada141abe status=ok neg=looking at reason=None ok=798 drop=333 eta_min=60.6
+[295/433] relsim_9ce863aa08b96bcd50a3314fb95afa81 status=dropped neg=None reason=no_high_confidence_candidate ok=798 drop=334 eta_min=60.3
+[296/433] relsim_7089877d99dbc5f6a3ce3e9d4ea85629 status=ok neg=hanging from reason=None ok=799 drop=334 eta_min=59.7
+[297/433] relsim_1163193b6cf66a492b5668af13bec884 status=ok neg=on top of reason=None ok=800 drop=334 eta_min=59.3
+[298/433] relsim_8e0e255af1b70ec74baa7d0743b061ec status=ok neg=reflecting reason=None ok=801 drop=334 eta_min=58.8
+[299/433] relsim_dd53541c59b69eb6bdbdef55192d8536 status=ok neg=attached to reason=None ok=802 drop=334 eta_min=58.3
+[300/433] relsim_24e45cabe9ad94eb2f9ebb16376d9b7f status=dropped neg=None reason=no_high_confidence_candidate ok=802 drop=335 eta_min=57.9
+[301/433] relsim_b11f5dc52df8a29673f3c07ca69443b7 status=dropped neg=None reason=no_high_confidence_candidate ok=802 drop=336 eta_min=57.5
+[302/433] relsim_aaa2c0bc5a1ca48d91147f4ef672b3fc status=dropped neg=None reason=no_high_confidence_candidate ok=802 drop=337 eta_min=57.1
+[303/433] relsim_6f7174ade3acd1c7bba9eea0c2f69034 status=ok neg=leaning on reason=None ok=803 drop=337 eta_min=56.5
+[304/433] relsim_7c26c0416d333ee3cebdd6a884e5ba67 status=ok neg=talking to reason=None ok=804 drop=337 eta_min=56.0
+[305/433] relsim_70f01a14d5325039bb8afcc5e96c54bc status=ok neg=near reason=None ok=805 drop=337 eta_min=55.5
+[306/433] relsim_97b0e7e84f9fa9096adec39342618134 status=ok neg=leaning against reason=None ok=806 drop=337 eta_min=54.9
+[307/433] relsim_7b12809e36d453cf828aebc3585f71e9 status=dropped neg=None reason=no_high_confidence_candidate ok=806 drop=338 eta_min=54.6
+[308/433] relsim_9910a9a01445e57c42948423f6c02b8c status=ok neg=jumping from reason=None ok=807 drop=338 eta_min=54.1
+[309/433] relsim_7261b14fef08e6bcfb0e0c4c7f20e34f status=ok neg=pushing reason=None ok=808 drop=338 eta_min=53.5
+[310/433] relsim_15e89c27c199a307a875f8c499fc2a2b status=ok neg=attached to reason=None ok=809 drop=338 eta_min=53.0
+[311/433] relsim_9213e8d0c182646ab3657e4f7361f0bd status=ok neg=leaning against reason=None ok=810 drop=338 eta_min=52.4
+[312/433] relsim_6b6000b7a7815ec45c3e41ed0179cba2 status=ok neg=looking at reason=None ok=811 drop=338 eta_min=51.9
+[313/433] relsim_a12e3dff568481c1960a4e067978f11b status=ok neg=attached to reason=None ok=812 drop=338 eta_min=51.4
+[314/433] relsim_3766263464e457b234bf8984c48c01dd status=ok neg=ignoring reason=None ok=813 drop=338 eta_min=51.2
+[315/433] relsim_be2f50e4d7ab3e7401d736bd7731d6fc status=ok neg=standing on reason=None ok=814 drop=338 eta_min=51.2
+[316/433] relsim_a9fc731d3dd0d5555984880a14cd85a5 status=ok neg=behind reason=None ok=815 drop=338 eta_min=52.0
+[317/433] relsim_d219f64f68d05fe021de2413850a8188 status=ok neg=holding reason=None ok=816 drop=338 eta_min=51.9
+[318/433] relsim_049b0ec9d06ead60449b9ad41a9e7941 status=ok neg=looking at reason=None ok=817 drop=338 eta_min=51.8
+[319/433] relsim_9713bfa76b9d9cd9a5db9d42f08b215b status=dropped neg=None reason=no_high_confidence_candidate ok=817 drop=339 eta_min=53.0
+[320/433] relsim_841d0354a3e67004268bfb3ba4bd4b8c status=ok neg=leaning against reason=None ok=818 drop=339 eta_min=53.7
+[321/433] relsim_b6f47af0597028d5549dedc86079dbc3 status=dropped neg=None reason=no_high_confidence_candidate ok=818 drop=340 eta_min=54.8
+[322/433] relsim_d9f4d404da0f121228d4a879e6a6853e status=dropped neg=None reason=no_high_confidence_candidate ok=818 drop=341 eta_min=55.9
+[323/433] relsim_4dc12ab9ec64771fa0452bb8068c5806 status=dropped neg=None reason=no_high_confidence_candidate ok=818 drop=342 eta_min=56.4
+[324/433] relsim_ce2048fa0b9ce9f2407d062a211a3ff8 status=dropped neg=None reason=no_high_confidence_candidate ok=818 drop=343 eta_min=56.0
+[325/433] relsim_422929a80e80fc0638623a72f7cf50f2 status=ok neg=observing reason=None ok=819 drop=343 eta_min=55.6
+[326/433] relsim_90a50d3943ec416f78e7bc827f891658 status=dropped neg=None reason=no_high_confidence_candidate ok=819 drop=344 eta_min=56.0
+[327/433] relsim_991d8ba0ea695581fcc96a5dc7220675 status=ok neg=emitting smoke reason=None ok=820 drop=344 eta_min=56.5
+[328/433] relsim_c930956d5e3ddc81724ba7063193f6cf status=ok neg=in front of reason=None ok=821 drop=344 eta_min=56.5
+[329/433] relsim_45328b5df29c23adc88fb4de5322bb68 status=ok neg=moving through reason=None ok=822 drop=344 eta_min=56.7
+[330/433] relsim_8ccd4abcb1762c335366c3a5f4fa7b27 status=ok neg=standing beside reason=None ok=823 drop=344 eta_min=56.6
+[331/433] relsim_07218e93f8d523ae4f7024b69a974e46 status=ok neg=riding reason=None ok=824 drop=344 eta_min=56.6
+[332/433] relsim_8acd2ab43b96e8094a9f567bad3c2dea status=dropped neg=None reason=no_high_confidence_candidate ok=824 drop=345 eta_min=57.1
+[333/433] relsim_872b09fdcebf9f9f0bf93924696df489 status=ok neg=standing near reason=None ok=825 drop=345 eta_min=56.9
+[334/433] relsim_6a546b9262e50adf2c599b3fc45d7d7b status=ok neg=reflecting reason=None ok=826 drop=345 eta_min=56.9
+[335/433] relsim_a18e0fdc5d2f682de81c2b8c8881c4dd status=ok neg=perched on reason=None ok=827 drop=345 eta_min=56.7
+[336/433] relsim_2e851b3d0b38a672e9a5236eb71a52d0 status=ok neg=landing on reason=None ok=828 drop=345 eta_min=56.6
+[337/433] relsim_4a01cc66686597f6ce8b015cf5314716 status=ok neg=hiding behind reason=None ok=829 drop=345 eta_min=56.3
+[338/433] relsim_0bab812a4df29de7d65a5067bb54af9c status=dropped neg=None reason=no_high_confidence_candidate ok=829 drop=346 eta_min=56.0
+[339/433] relsim_de0c8e702f514535ce48ab5bfc523604 status=ok neg=hovering above reason=None ok=830 drop=346 eta_min=55.3
+[340/433] relsim_7751294f062603031497c9125f73bf31 status=ok neg=hiding reason=None ok=831 drop=346 eta_min=54.6
+[341/433] relsim_032d18e8c0ce307ece260ac6c209f33c status=ok neg=beside reason=None ok=832 drop=346 eta_min=54.1
+[342/433] relsim_0836cab49ae68446ab4151167bdc2558 status=ok neg=leaning against reason=None ok=833 drop=346 eta_min=54.8
+[343/433] relsim_6671d95f64af74597671cf321e13a37b status=ok neg=jumping over reason=None ok=834 drop=346 eta_min=54.1
+[344/433] relsim_0db9bb68e2d502a5d55ef154e1a4e27a status=ok neg=lying in reason=None ok=835 drop=346 eta_min=54.3
+[345/433] relsim_8765a40fbb5d9615936430e8232ee254 status=ok neg=enclosing reason=None ok=836 drop=346 eta_min=54.3
+[346/433] relsim_290a72c1fa5a2a469be4d85d76069dbc status=ok neg=holding reason=None ok=837 drop=346 eta_min=53.6
+[347/433] relsim_af439c57bb55e6130b353e4bf7b78384 status=ok neg=looking at reason=None ok=838 drop=346 eta_min=52.9
+[348/433] relsim_b97b9517d285f4e6922efd96a71bbfdf status=ok neg=leaning on reason=None ok=839 drop=346 eta_min=52.2
+[349/433] relsim_da3967597132e23945316885f596a4ef status=ok neg=jumping over reason=None ok=840 drop=346 eta_min=52.0
+[350/433] relsim_7c20b657fbdb2ee40b74cc666e818b5f status=ok neg=chasing reason=None ok=841 drop=346 eta_min=51.7
+[351/433] relsim_1c5b039c004a5f4a0be7fde100f36ad1 status=ok neg=over reason=None ok=842 drop=346 eta_min=51.3
+[352/433] relsim_d6698750f40c55d7c6d46f0cd7ba6cbb status=dropped neg=None reason=no_high_confidence_candidate ok=842 drop=347 eta_min=50.9
+[353/433] relsim_c033a535180ac1c65151439e80839aa8 status=dropped neg=None reason=no_high_confidence_candidate ok=842 drop=348 eta_min=51.2
+[354/433] relsim_90cb05afade412da11621b2a709cca06 status=ok neg=leaning on reason=None ok=843 drop=348 eta_min=50.7
+[355/433] relsim_c13110d0a03794c30c7696cd1e5b806e status=dropped neg=None reason=no_high_confidence_candidate ok=843 drop=349 eta_min=50.2
+[356/433] relsim_472158e8e6018d2005e11ecff66151c7 status=ok neg=reaching for reason=None ok=844 drop=349 eta_min=49.6
+[357/433] relsim_8ec833558c90caeb3404b8a01235728c status=dropped neg=None reason=no_high_confidence_candidate ok=844 drop=350 eta_min=49.0
+[358/433] relsim_0d64ca16df039bd19e01f85746281126 status=ok neg=charging reason=None ok=845 drop=350 eta_min=48.3
+[359/433] relsim_4002ecd1904318c81b796c7590046623 status=ok neg=perching on reason=None ok=846 drop=350 eta_min=47.6
+[360/433] relsim_a9c5f243fa104988695992f9cd68e9a8 status=ok neg=following reason=None ok=847 drop=350 eta_min=47.4
+[361/433] relsim_a007dd80ee90c6f1f37c596584246e57 status=ok neg=climbing on reason=None ok=848 drop=350 eta_min=46.9
+[362/433] relsim_7370c4c9d66569d0870a8bf2a7ad6b8c status=ok neg=leading reason=None ok=849 drop=350 eta_min=46.4
+[363/433] relsim_18a0b5276bf3343fe9e29d69ba22b872 status=ok neg=enclosing reason=None ok=850 drop=350 eta_min=45.9
+[364/433] relsim_8c8a49c5290feb6c2c6bb0208e30cc05 status=ok neg=enclosing reason=None ok=851 drop=350 eta_min=45.4
+[365/433] relsim_6c859bd19650b26ca96116c7b34cc31f status=dropped neg=None reason=no_high_confidence_candidate ok=851 drop=351 eta_min=45.4
+[366/433] relsim_a6260b6d711231847cc2ab894ae1b32f status=ok neg=pushing reason=None ok=852 drop=351 eta_min=44.8
+[367/433] relsim_4e49c912a8c24cae424971bebccac323 status=dropped neg=None reason=no_high_confidence_candidate ok=852 drop=352 eta_min=44.7
+[368/433] relsim_1beae17e35da7068e382f4f83d0c1a92 status=dropped neg=None reason=no_high_confidence_candidate ok=852 drop=353 eta_min=44.1
+[369/433] relsim_c7457e840423a3db2d1642288d941e51 status=dropped neg=None reason=no_high_confidence_candidate ok=852 drop=354 eta_min=43.4
+[370/433] relsim_409cd5b2236cd1331a53006637cfb21b status=ok neg=pushing reason=None ok=853 drop=354 eta_min=42.7
+[371/433] relsim_3bb68eef474aa54791c2cb91645c84ab status=ok neg=underneath reason=None ok=854 drop=354 eta_min=42.0
+[372/433] relsim_a7644a1625c782700ff7f674819a730b status=dropped neg=None reason=no_high_confidence_candidate ok=854 drop=355 eta_min=41.4
+[373/433] relsim_a5b35ff2f1a64971f94d7aabfdb01a23 status=ok neg=facing reason=None ok=855 drop=355 eta_min=40.7
+[374/433] relsim_bf0fe5a6e25faa6d664731318e311cf6 status=ok neg=flying over reason=None ok=856 drop=355 eta_min=39.9
+[375/433] relsim_096dd88e5b196562e1704ca1e8d8e4b6 status=ok neg=missing reason=None ok=857 drop=355 eta_min=39.2
+[376/433] relsim_54143b814bf5af76e68c64df08ecf2f3 status=dropped neg=None reason=no_high_confidence_candidate ok=857 drop=356 eta_min=38.7
+[377/433] relsim_aae5fd9a458c8d5538417129b2663e2c status=ok neg=above reason=None ok=858 drop=356 eta_min=38.0
+[378/433] relsim_ae13466970ddaba5127c982095253c09 status=dropped neg=None reason=no_high_confidence_candidate ok=858 drop=357 eta_min=37.6
+[379/433] relsim_7ed2d4be1d4ff9fe522ad42c9b0c491b status=ok neg=beside reason=None ok=859 drop=357 eta_min=37.0
+[380/433] relsim_19b5973f62c19451c3192ab637d8eff8 status=ok neg=floating above reason=None ok=860 drop=357 eta_min=36.5
+[381/433] relsim_8ce8fd9079296bc7a50f0b411aefa1be status=ok neg=playing with reason=None ok=861 drop=357 eta_min=36.2
+[382/433] relsim_0d2d58a5dc8892fba10f880c6b398c8b status=ok neg=looking at reason=None ok=862 drop=357 eta_min=35.6
+[383/433] relsim_3969a90db2231dd138e891a33ff5be1b status=ok neg=contains reason=None ok=863 drop=357 eta_min=34.8
+[384/433] relsim_8668dc2cc9b864419a480e43563bd295 status=ok neg=leaning on reason=None ok=864 drop=357 eta_min=34.1
+[385/433] relsim_3c1b42c6c8741cd739ceb9ef0b8783ed status=ok neg=hanging from reason=None ok=865 drop=357 eta_min=33.3
+[386/433] relsim_6fc69e515d599a795a544b34cc19f355 status=ok neg=extending from reason=None ok=866 drop=357 eta_min=32.7
+[387/433] relsim_590ca46000360cf0b18b097fe74d476e status=ok neg=moving towards reason=None ok=867 drop=357 eta_min=32.2
+[388/433] relsim_6c8cd01ba708c6ab0680b20e04e446e7 status=ok neg=lying on reason=None ok=868 drop=357 eta_min=31.6
+[389/433] relsim_ab1d78ed5059282ddd4cec023e4e0e56 status=ok neg=attached to reason=None ok=869 drop=357 eta_min=30.9
+[390/433] relsim_01419fa6f6761d09393661f8391387c4 status=ok neg=hiding under reason=None ok=870 drop=357 eta_min=30.1
+[391/433] relsim_cfd8d1d288f0bd2720d3748eee8bbdff status=ok neg=chasing reason=None ok=871 drop=357 eta_min=29.4
+[392/433] relsim_140d5ab58f772c58e2f7e402a26b8184 status=ok neg=pulling reason=None ok=872 drop=357 eta_min=28.8
+[393/433] relsim_91272b5a6a182f9d42aa98eabff66f63 status=ok neg=looking into reason=None ok=873 drop=357 eta_min=28.2
+[394/433] relsim_54bf11446b8f953a9ab364a53e88f3b3 status=ok neg=chasing reason=None ok=874 drop=357 eta_min=27.5
+[395/433] relsim_91209f82526fc85ba6afe34d7bd36ff6 status=ok neg=leaning against reason=None ok=875 drop=357 eta_min=26.8
+[396/433] relsim_b327ff02ddcb48da17fa14da5371cdbe status=dropped neg=None reason=no_high_confidence_candidate ok=875 drop=358 eta_min=26.1
+[397/433] relsim_46ed936b1ab37cf3b4f57d5169dd9695 status=dropped neg=None reason=no_high_confidence_candidate ok=875 drop=359 eta_min=25.8
+[398/433] relsim_7f438c74d88954e1159a020a7953d6a2 status=dropped neg=None reason=no_high_confidence_candidate ok=875 drop=360 eta_min=25.1
+[399/433] relsim_3f55b154aa9f6137afce8f0e7937b06a status=ok neg=beside reason=None ok=876 drop=360 eta_min=24.4
+[400/433] relsim_b34ac77d358c468816734039641991a7 status=ok neg=looking at reason=None ok=877 drop=360 eta_min=23.8
+[401/433] relsim_6c53d856fdb9af7c073550b2385513a1 status=dropped neg=None reason=no_high_confidence_candidate ok=877 drop=361 eta_min=23.3
+[402/433] relsim_d5492bd160f4b92e2710365a4289cc0c status=ok neg=blocking reason=None ok=878 drop=361 eta_min=22.5
+[403/433] relsim_6fe002291c9f907f6d6d22294d3cad71 status=ok neg=surrounded by reason=None ok=879 drop=361 eta_min=21.8
+[404/433] relsim_d59ebfb0a55359d1b034a7aa7c3e0dcd status=ok neg=looking at reason=None ok=880 drop=361 eta_min=21.1
+[405/433] relsim_1b27037fd7db3f3938e7cff278d6ff7a status=ok neg=resting on reason=None ok=881 drop=361 eta_min=20.4
+[406/433] relsim_8bfd502ec60e3f4f930732ab18c62d48 status=ok neg=pushing reason=None ok=882 drop=361 eta_min=19.6
+[407/433] relsim_3d4a68df4c354843c7ea8555df294488 status=dropped neg=None reason=no_high_confidence_candidate ok=882 drop=362 eta_min=19.0
+[408/433] relsim_8f902a4de2764d88ecb09f3030807d7d status=ok neg=moving away from reason=None ok=883 drop=362 eta_min=18.3
+[409/433] relsim_5be04d7137deeabf7686b5a0a0c52ea0 status=ok neg=orbiting around reason=None ok=884 drop=362 eta_min=17.5
+[410/433] relsim_a3512d1f596c7feb5f4d011951f6d014 status=ok neg=reflecting on reason=None ok=885 drop=362 eta_min=16.8
+[411/433] relsim_572bf02a8b3357127669f68fb34d5274 status=ok neg=flying over reason=None ok=886 drop=362 eta_min=16.1
+[412/433] relsim_26dc513b179e589c9bbbdc65edab1eb2 status=ok neg=attached to reason=None ok=887 drop=362 eta_min=15.4
+[413/433] relsim_d34a38a82941fd5430066a559c5c2b27 status=dropped neg=None reason=no_high_confidence_candidate ok=887 drop=363 eta_min=14.7
+[414/433] relsim_753518aca6f470278a82502827bc4ed7 status=ok neg=crawling into reason=None ok=888 drop=363 eta_min=13.9
+[415/433] relsim_71edba89ae57bef0c929ba9250b3772a status=ok neg=falling from reason=None ok=889 drop=363 eta_min=13.1
+[416/433] relsim_3bc4deb378825b38018708b46b0b6186 status=ok neg=overlapping reason=None ok=890 drop=363 eta_min=12.4
+[417/433] relsim_858cb3a8a70fc4bcabc1bf930c4da3ed status=dropped neg=None reason=no_high_confidence_candidate ok=890 drop=364 eta_min=11.7
+[418/433] relsim_d70475963d61573d27e518df48308f62 status=ok neg=attached to reason=None ok=891 drop=364 eta_min=10.9
+[419/433] relsim_732d878e03078756dcf37eb7be6b9aea status=ok neg=building in reason=None ok=892 drop=364 eta_min=10.2
+[420/433] relsim_de376b250c3091570b6e7fe811710638 status=ok neg=looking at reason=None ok=893 drop=364 eta_min=9.4
+[421/433] relsim_1610fb5225a15663a51cfbe571380f6c status=ok neg=playing with reason=None ok=894 drop=364 eta_min=8.7
+[422/433] relsim_728cf92723e6f6c914452ea10d4786f2 status=dropped neg=None reason=no_high_confidence_candidate ok=894 drop=365 eta_min=8.0
+[423/433] relsim_0496da61608c88a57e4e9f25052f2c60 status=ok neg=hanging from reason=None ok=895 drop=365 eta_min=7.2
+[424/433] relsim_aea7a35aa0d57e8e598a3ad59d461554 status=ok neg=landing on reason=None ok=896 drop=365 eta_min=6.5
+[425/433] relsim_330cf8379735eb6538d5becd50b6b8a7 status=ok neg=combing reason=None ok=897 drop=365 eta_min=5.8
+[426/433] relsim_b6c18ee259db7e38b33325ff66fc6ab1 status=dropped neg=None reason=no_high_confidence_candidate ok=897 drop=366 eta_min=5.1
+[427/433] relsim_6d96f22248d7088a2e8870c6f371b268 status=ok neg=hanging from reason=None ok=898 drop=366 eta_min=4.3
+[428/433] relsim_03cdb69f834ef83ac4171796a1452873 status=dropped neg=None reason=no_high_confidence_candidate ok=898 drop=367 eta_min=3.6
+[429/433] relsim_80c7bc8d25c3808f7761bf9c47be8c87 status=dropped neg=None reason=no_high_confidence_candidate ok=898 drop=368 eta_min=2.9
+[430/433] relsim_7d0a4747757fb276d5efb36ec3636282 status=ok neg=pushing reason=None ok=899 drop=368 eta_min=2.2
+[431/433] relsim_44459fb9576b63c0ee57681555ad3888 status=ok neg=casting shadows on reason=None ok=900 drop=368 eta_min=1.4
+[432/433] relsim_b0b4e203650a64c5d784c60e7d071dd2 status=ok neg=blocking reason=None ok=901 drop=368 eta_min=0.7
+[433/433] relsim_11f10dd8b74490fdcfa94903fe9f1591 status=ok neg=flying towards reason=None ok=902 drop=368 eta_min=0.0
+done ok=902 dropped=368 output=data/phase4a/shards/attempts.shard1.gpu4.jsonl

@@ -1,0 +1,135 @@
+# Phase 4C 训练结果：多格式 Prompt vs Clean 单一模板
+
+Qwen2.5-VL-3B LoRA（r=16, α=32），1 epoch，seed=42，同一 2156 对 / 4312 样本。唯一变量是训练 prompt 形式：clean 全为 F1 statement-verification；mf 按 `md5(sample_id) % 3` 混合 F1 / F2（R-Bench 风格直接疑问句）/ F3（MMRel 风格 one-word 后缀）。分配方式：`hash_md5_mod3`。
+
+本阶段只回答：训练 prompt 形式的单一性，是否是 clean 数据外部迁移失败的原因之一？
+
+## 数据构建
+
+- 样本顺序与 `train_clean.json` 一致：True
+- 格式计数：{'F3': 1442, 'F2': 1460, 'F1': 1410}
+- QC 失败数：0
+- Held-out F2 解析：n=393  canonical=0  fallback=393
+- 渲染抽检：`eval_results/qwen/phase4c/mf_render_sample.txt`
+
+| Format | n | pos | neg | pos rate |
+|---|---:|---:|---:|---:|
+| F1 | 1410 | 707 | 703 | 50.14 |
+| F2 | 1460 | 745 | 715 | 51.03 |
+| F3 | 1442 | 704 | 738 | 48.82 |
+
+## clean_vs_base 对账（必须与 Phase 4A 已发布数字一致）
+
+| Bench | 已发布 ΔAcc | 复算 ΔAcc | 已发布 p | 复算 p | match |
+|---|---:|---:|---:|---:|---|
+| rbench | -0.16 pp | -0.16 pp | 0.7705 | 0.7705 | True |
+| mmrel_adv | +1.82 pp | +1.82 pp | 0.1456 | 0.1456 | True |
+
+## 训练自检（mf 用混合格式原样评；clean 为 Phase 4A F1 自检）
+
+| Model | Acc | Pos Acc | Neg Acc | Yes | n |
+|---|---:|---:|---:|---:|---:|
+| clean | 79.66 | 75.83 | 83.49 | 46.17 | 4312 |
+| mf | 76.09 | 72.22 | 79.96 | 46.13 | 4312 |
+
+### mf 按训练格式分解
+
+| Slice | Acc | Yes | n |
+|---|---:|---:|---:|
+| F1 | 76.95 | 48.09 | 1410 |
+| F2 | 75.00 | 47.12 | 1460 |
+| F3 | 76.35 | 43.20 | 1442 |
+| F1:positive | 74.96 | 74.96 | 707 |
+| F1:clean_negative | 78.95 | 21.05 | 703 |
+| F2:positive | 71.68 | 71.68 | 745 |
+| F2:clean_negative | 78.46 | 21.54 | 715 |
+| F3:positive | 70.03 | 70.03 | 704 |
+| F3:clean_negative | 82.38 | 17.62 | 738 |
+
+## Gate 1：冻结 393 held-out verification（原 F1 模板，不允许改题）
+
+| Model | Acc | Pos Acc | Random Neg Acc | Hard Neg Acc | Hard FP | Yes | n |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| base | 58.27 | 87.56 | 21.00 | 39.00 | 61.00 | 78.63 | 393 |
+| clean | 67.18 | 86.01 | 41.00 | 57.00 | 43.00 | 68.19 | 393 |
+| mf | 65.90 | 81.87 | 43.00 | 58.00 | 42.00 | 65.39 | 393 |
+
+### Held-out F1 paired
+
+| Contrast | ΔAcc | 95% CI | McNemar p | n |
+|---|---:|---|---:|---:|
+| clean_vs_base | +8.91 pp | [+5.85, +12.21] | 7.071e-07 | 393 |
+| mf_vs_base | +7.63 pp | [+4.07, +11.20] | 7.933e-05 | 393 |
+| mf_vs_clean | -1.27 pp | [-3.56, +1.02] | 0.3588 | 393 |
+
+## Gate 2：冻结 external fast subsets（官方 prompt，主判据）
+
+| Model | R-Bench Acc | R-Bench F1 | MMRel Acc | MMRel F1 | AMBER Acc |
+|---|---:|---:|---:|---:|---:|
+| base | 81.54 | 82.72 | 69.01 | 74.95 | 79.56 |
+| clean | 81.39 | 82.73 | 70.83 | 75.55 | 80.16 |
+| mf | 82.19 | 82.78 | 74.48 | 75.86 | 79.16 |
+
+Gold Yes ratio：R-Bench unique=65.18，MMRel-Adv=51.04。
+
+R-Bench 表内 Acc 是 5-fold 均值；paired / confusion 用 unique questions。主判据以 paired ΔAcc 与 McNemar 为准。
+
+### Confusion（unique questions）
+
+| Model | Bench | Acc | FP | FN | Recall | Yes | Gold Yes |
+|---|---|---:|---:|---:|---:|---:|---:|
+| base | rbench | 83.11 | 166 | 159 | 87.32 | 65.54 | 65.18 |
+| base | mmrel_adv | 69.01 | 101 | 18 | 90.82 | 72.66 | 51.04 |
+| clean | rbench | 82.95 | 174 | 154 | 87.72 | 66.22 | 65.18 |
+| clean | mmrel_adv | 70.83 | 89 | 23 | 88.27 | 68.23 | 51.04 |
+| mf | rbench | 82.85 | 139 | 191 | 84.77 | 62.47 | 65.18 |
+| mf | mmrel_adv | 74.48 | 56 | 42 | 78.57 | 54.69 | 51.04 |
+
+## Paired tests（same frozen items）
+
+### rbench
+
+| Contrast | ΔAcc | 95% CI | McNemar p | n |
+|---|---:|---|---:|---:|
+| mf_vs_clean | -0.10 pp | [-1.09, +0.94] | 0.9203 | 1924 |
+| mf_vs_base | -0.26 pp | [-1.40, +0.78] | 0.7042 | 1924 |
+| clean_vs_base | -0.16 pp | [-0.83, +0.52] | 0.7705 | 1924 |
+
+### mmrel_adv
+
+| Contrast | ΔAcc | 95% CI | McNemar p | n |
+|---|---:|---|---:|---:|
+| mf_vs_clean | +3.65 pp | [+0.00, +7.29] | 0.07142 | 384 |
+| mf_vs_base | +5.47 pp | [+1.30, +9.38] | 0.01605 | 384 |
+| clean_vs_base | +1.82 pp | [-0.26, +3.91] | 0.1456 | 384 |
+
+## 格式内分解：同一 393 held-out 的 F2 渲染
+
+Held-out 原句是 RelSim 原始 caption，不是 renderer 的 `A {s} is {rel} a {o}`。F2 只做问句包装（A/An → `Is a/an …?`，其余句首小写后加 `Is`），不删内部 copula。clean 与 mf 都在这份 F2 题面上评。
+
+| Model | Acc | Pos Acc | Random Neg Acc | Hard Neg Acc | Yes | n |
+|---|---:|---:|---:|---:|---:|---:|
+| clean F2 | 58.52 | 87.05 | 26.00 | 36.00 | 77.86 | 393 |
+| mf F2 | 62.34 | 84.97 | 34.00 | 47.00 | 72.01 | 393 |
+
+| Contrast | ΔAcc | 95% CI | McNemar p | n |
+|---|---:|---|---:|---:|
+| mf_f2_vs_clean_f2 | +3.82 pp | [+1.27, +6.36] | 0.007054 | 393 |
+| clean_f2_vs_clean_f1 | -8.65 pp | [-12.72, -4.83] | 3.707e-05 | 393 |
+| mf_f2_vs_mf_f1 | -3.56 pp | [-7.63, +0.51] | 0.1042 | 393 |
+
+## 计划第 4 节判定
+
+**Case B：形式不是瓶颈。** 外部官方 prompt 上 mf ≈ clean（CI 含 0），但 mf 在 F2 held-out 上明显好于 clean——模型能学会跨格式，外部仍不迁移，瓶颈在内容/量级。
+
+mf − clean ΔAcc (paired, pp): rbench=-0.10 (p=0.9203, Yes-closer=False, FPΔ=-35, FNΔ=37), mmrel_adv=+3.65 (p=0.07142, Yes-closer=True, FPΔ=-33, FNΔ=19)
+Held-out F1 Acc: clean=67.18  mf=65.90  Δ=-1.27 pp
+Held-out F2 mf_vs_clean ΔAcc=+3.82 pp, McNemar p=0.007054
+
+## 本阶段问题
+
+> 训练 prompt 形式的单一性，是否是 clean 数据外部迁移失败的原因之一？
+
+
+wrote /data/storage22t/lht/works/relation_hallucination/eval_results/qwen/phase4c/metrics/phase4c_analysis.json
+wrote /data/storage22t/lht/works/relation_hallucination/eval_results/qwen/phase4c/phase4c_report.md

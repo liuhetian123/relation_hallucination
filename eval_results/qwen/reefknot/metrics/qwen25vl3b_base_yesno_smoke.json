@@ -1,0 +1,28 @@
+{
+  "perception": {
+    "n": 10,
+    "TP": 4,
+    "TN": 3,
+    "FP": 2,
+    "FN": 1,
+    "Accuracy": 0.7,
+    "Precision": 0.6666666666666666,
+    "Recall": 0.8,
+    "F1": 0.7272727272727272,
+    "Yes_ratio": 0.6,
+    "invalid": 0
+  },
+  "overall": {
+    "n": 10,
+    "TP": 4,
+    "TN": 3,
+    "FP": 2,
+    "FN": 1,
+    "Accuracy": 0.7,
+    "Precision": 0.6666666666666666,
+    "Recall": 0.8,
+    "F1": 0.7272727272727272,
+    "Yes_ratio": 0.6,
+    "invalid": 0
+  }
+}

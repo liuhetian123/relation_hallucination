@@ -1,0 +1,28 @@
+Questions=499 already=0 remaining=499
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 17/824 [00:00<00:04, 166.08it/s]Loading weights:   6%|▌         | 51/824 [00:00<00:03, 254.42it/s]Loading weights:   9%|▉         | 77/824 [00:00<00:02, 253.06it/s]Loading weights:  13%|█▎        | 111/824 [00:00<00:02, 279.41it/s]Loading weights:  17%|█▋        | 139/824 [00:00<00:03, 221.75it/s]Loading weights:  21%|██        | 173/824 [00:00<00:02, 247.83it/s]Loading weights:  24%|██▍       | 200/824 [00:00<00:02, 250.15it/s]Loading weights:  28%|██▊       | 229/824 [00:00<00:02, 259.46it/s]Loading weights:  31%|███       | 256/824 [00:01<00:02, 258.51it/s]Loading weights:  34%|███▍      | 283/824 [00:01<00:02, 258.34it/s]Loading weights:  38%|███▊      | 316/824 [00:01<00:01, 273.28it/s]Loading weights:  42%|████▏     | 344/824 [00:01<00:01, 265.21it/s]Loading weights:  46%|████▌     | 375/824 [00:01<00:01, 271.39it/s]Loading weights:  49%|████▉     | 403/824 [00:01<00:01, 235.01it/s]Loading weights:  54%|█████▎    | 441/824 [00:01<00:01, 272.12it/s]Loading weights:  68%|██████▊   | 557/824 [00:01<00:00, 510.78it/s]Loading weights:  78%|███████▊  | 643/824 [00:01<00:00, 607.65it/s]Loading weights:  90%|████████▉ | 738/824 [00:02<00:00, 704.06it/s]Loading weights:  99%|█████████▊| 812/824 [00:02<00:00, 713.62it/s]Loading weights: 100%|██████████| 824/824 [00:02<00:00, 385.32it/s]
+[1/499] 13565 'Yes, the person is directly in contact with the bicycle. The cyclist is riding'
+[20/499] 13641 'Yes, the woman is directly接触着沙滩。'
+[40/499] 13694 'Yes, the plane is on the ground, indicating that it is not in flight'
+[60/499] 13733 'There is no existence of any direct contact between the woman and the grass in t'
+[80/499] 13822 'No, there is no direct contact between the hat and the ground in the image'
+[100/499] 13884 'No, there is no direct contact between the tie and the wall in the image'
+[120/499] 13951 'Yes, there is direct contact between the tap and the sink.'
+[140/499] 14012 'There is no existence of any direct contact between the woman and the forest in '
+[160/499] 14062 'Yes, there is direct contact between the banana and the plate.'
+[180/499] 14130 'No, there is no direct contact between the fence and the cows in the image'
+[200/499] 14203 'Yes, the cat is directly resting its head on the keyboard.'
+[220/499] 14277 'Yes, the woman is holding the banana in her hand and appears to be eating'
+[240/499] 14353 'No, there is no direct contact between the person and the ship in the image'
+[260/499] 14440 'There is no existence of any direct contact between the giraffe and the tree in'
+[280/499] 14511 'Yes, there is direct contact between the bowl and the spoon. The spoon is'
+[300/499] 14558 'No, there is no direct contact between the grass and the train. The grass'
+[320/499] 14606 'There is no existence of any direct contact between the person and the dog in th'
+[340/499] 14681 'There is no existence of any clouds in the image description, so it would be'
+[360/499] 14753 'Yes, there is direct contact between the person and the sea. The surfer'
+[380/499] 14807 'No, there is no direct contact between the frisbee and the football in'
+[400/499] 14869 'Yes, the dog is lying on the grass.'
+[420/499] 14921 'No, there is no direct contact between the cup and the laptop. The cup'
+[440/499] 15012 'No, there is no direct contact between the cup and the book in the image'
+[460/499] 15069 'No, there is no direct contact between the train and the grass. The train'
+[480/499] 15164 'Yes, there is direct contact between the shrimp and ice in the image. The'
+Wrote eval_results/qwen/phase4c/answers/mf_amber_dr_fast.jsonl

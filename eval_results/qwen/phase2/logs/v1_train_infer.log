@@ -1,0 +1,51 @@
+Questions=955 already=0 remaining=955
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   0%|          | 4/824 [00:00<00:21, 38.96it/s]Loading weights:   3%|▎         | 27/824 [00:00<00:05, 147.70it/s]Loading weights:   6%|▌         | 46/824 [00:00<00:04, 166.38it/s]Loading weights:   8%|▊         | 65/824 [00:00<00:04, 171.55it/s]Loading weights:  11%|█         | 88/824 [00:00<00:03, 190.30it/s]Loading weights:  13%|█▎        | 108/824 [00:00<00:03, 188.70it/s]Loading weights:  15%|█▌        | 127/824 [00:00<00:03, 182.47it/s]Loading weights:  18%|█▊        | 147/824 [00:00<00:03, 185.50it/s]Loading weights:  21%|██        | 169/824 [00:00<00:03, 195.77it/s]Loading weights:  23%|██▎       | 189/824 [00:01<00:03, 191.00it/s]Loading weights:  25%|██▌       | 209/824 [00:01<00:03, 170.63it/s]Loading weights:  28%|██▊       | 229/824 [00:01<00:03, 177.67it/s]Loading weights:  30%|███       | 248/824 [00:01<00:03, 166.67it/s]Loading weights:  33%|███▎      | 268/824 [00:01<00:03, 172.91it/s]Loading weights:  35%|███▌      | 290/824 [00:01<00:02, 185.06it/s]Loading weights:  38%|███▊      | 309/824 [00:01<00:02, 173.29it/s]Loading weights:  40%|███▉      | 329/824 [00:01<00:02, 178.56it/s]Loading weights:  43%|████▎     | 352/824 [00:01<00:02, 189.25it/s]Loading weights:  46%|████▌     | 375/824 [00:02<00:02, 196.46it/s]Loading weights:  48%|████▊     | 395/824 [00:02<00:02, 191.23it/s]Loading weights:  50%|█████     | 415/824 [00:02<00:02, 179.37it/s]Loading weights:  54%|█████▍    | 443/824 [00:02<00:01, 204.32it/s]Loading weights:  60%|█████▉    | 493/824 [00:02<00:01, 284.74it/s]Loading weights:  66%|██████▌   | 545/824 [00:02<00:00, 348.72it/s]Loading weights:  72%|███████▏  | 593/824 [00:02<00:00, 379.89it/s]Loading weights:  77%|███████▋  | 632/824 [00:02<00:00, 351.98it/s]Loading weights:  81%|████████  | 669/824 [00:02<00:00, 355.51it/s]Loading weights:  86%|████████▌ | 709/824 [00:03<00:00, 367.07it/s]Loading weights:  92%|█████████▏| 757/824 [00:03<00:00, 398.49it/s]Loading weights:  98%|█████████▊| 809/824 [00:03<00:00, 427.35it/s]Loading weights: 100%|██████████| 824/824 [00:03<00:00, 247.43it/s]
+[1/955] relsim_40d7bc164c67d77f79867cc557e6c838__pos 'Yes'
+[20/955] relsim_3bcbb9bd52841562a3929acafee61f85__pos 'Yes'
+[40/955] relsim_4b3cb180175cd504a23757897c09d569__pos 'Yes'
+[60/955] relsim_3bc165db9d298331b6101fd56d5976e0__pos 'Yes'
+[80/955] relsim_57771964a951eb8e5c616319015e24f9__pos 'Yes'
+[100/955] relsim_4025e11fb7e5e2aa005a40ada31928c1__pos 'Yes'
+[120/955] relsim_426dec3c15816987de4dda2ea3d0b6f2__pos 'Yes'
+[140/955] relsim_40cba502df5ed890e798974b44c248bd__pos 'Yes'
+[160/955] relsim_410c6d998867b33872e81e866c493047__pos 'Yes'
+[180/955] relsim_30c137233e189cae9b29153ed219ae9d__pos 'Yes'
+[200/955] relsim_5a36b0aa411663c495deb109e4f8f57e__pos 'Yes'
+[220/955] relsim_5a763ec28c8d93f58679c4adfde9145e__pos 'Yes'
+[240/955] relsim_4cae573807e5a08896ac9ed7c573fe42__pos 'Yes'
+[260/955] relsim_5314a4bde8b7ffbb71a74217777e8a43__pos 'Yes'
+[280/955] relsim_3195736fba77c2258190e153abd191f1__pos 'Yes'
+[300/955] relsim_4aaeac50700844d2ff11f72edb4de781__pos 'Yes'
+[320/955] relsim_31c1be15592d977d149a252811dfdf0b__pos 'Yes'
+[340/955] relsim_45924b61535608da1fdaaa6381ab8692__pos 'Yes'
+[360/955] relsim_5b78da98c6e805cb827d6dab85811e27__pos 'Yes'
+[380/955] relsim_509ef0129b9ea3c7a95753efc08e3f3b__pos 'Yes'
+[400/955] relsim_39e03f48d3a65fafdb7a19afe6530543__pos 'Yes'
+[420/955] relsim_3836260340d9c8e4f3d24884f6d78d23__pos 'Yes'
+[440/955] relsim_4e115440afca0a10706fe4d5ada91b8c__pos 'Yes'
+[460/955] relsim_5df7c00dcbbd6341d11b982c0f708e2f__pos 'Yes'
+[480/955] relsim_56f0e1bd034163ccb7ebe819b7318fa8__pos 'Yes'
+[500/955] relsim_5d81e23d6c96ae7019cc8cf96c14fd72__pos 'Yes'
+[520/955] relsim_53beacf869dd86206d716b65cdd44d3c__pos 'Yes'
+[540/955] relsim_428b060afbae27f7888368e8830cce23__pos 'Yes'
+[560/955] relsim_4e6a03eee672690648bd408c0cd556eb__pos 'Yes'
+[580/955] relsim_4787985ef3c6a3a58bb9d12b47ce117d__pos 'Yes'
+[600/955] relsim_485e135a2b853c7b3c33ee47ebeb8dfe__pos 'Yes'
+[620/955] relsim_461e4eeff481c8d8be23daf983912e3d__pos 'Yes'
+[640/955] relsim_3431b029f22a6c94ffb2f67949d03c39__pos 'Yes'
+[660/955] relsim_47d647cdfbf3d0509144e84d65050e81__pos 'Yes'
+[680/955] relsim_5b6385970bf61d15fb8b4c550eabb50c__pos 'Yes'
+[700/955] relsim_4475259bbbab592405acabf9f5e7643f__pos 'Yes'
+[720/955] relsim_36309202ba0ef68fd5a4cbd4f2a42f1b__pos 'Yes'
+[740/955] relsim_4c489104743b6fe74bf4a464a2f9d784__pos 'Yes'
+[760/955] relsim_34b7da389c907ea1f69f1781dc1619d7__pos 'Yes'
+[780/955] relsim_5c24163ff4fff5712f04839b0888f73f__pos 'Yes'
+[800/955] relsim_56a1864880b8126871649b418c97801c__pos 'Yes'
+[820/955] relsim_34296509af33f7c769e5db18d1e01f98__pos 'No'
+[840/955] relsim_544da93fe795c6986ad0cbd01ab7e086__pos 'Yes'
+[860/955] relsim_51159e19843817b8f8fe230936db7d43__pos 'Yes'
+[880/955] relsim_3febab3d358e443713b16827b3966a36__pos 'Yes'
+[900/955] relsim_3dfceb4933b1db496632f510066d9b61__pos 'Yes'
+[920/955] relsim_43ba47a65720434542d1fa833c49e31e__pos 'Yes'
+[940/955] relsim_4ef9cace18801faf8ae68d2975fce4bd__pos 'Yes'
+Wrote eval_results/qwen/phase2/answers/v1_train.jsonl

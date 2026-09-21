@@ -1,0 +1,24 @@
+jobs=393 already=0 remaining=393
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   1%|          | 6/824 [00:00<00:13, 58.92it/s]Loading weights:   4%|▍         | 32/824 [00:00<00:04, 176.23it/s]Loading weights:   6%|▋         | 53/824 [00:00<00:04, 186.79it/s]Loading weights:  10%|▉         | 80/824 [00:00<00:03, 218.77it/s]Loading weights:  12%|█▏        | 102/824 [00:00<00:03, 202.44it/s]Loading weights:  15%|█▌        | 124/824 [00:00<00:03, 205.73it/s]Loading weights:  18%|█▊        | 149/824 [00:00<00:03, 213.49it/s]Loading weights:  21%|██        | 173/824 [00:00<00:02, 219.83it/s]Loading weights:  24%|██▍       | 197/824 [00:00<00:02, 217.36it/s]Loading weights:  27%|██▋       | 223/824 [00:01<00:02, 229.78it/s]Loading weights:  30%|██▉       | 247/824 [00:01<00:02, 213.53it/s]Loading weights:  33%|███▎      | 269/824 [00:01<00:02, 215.29it/s]Loading weights:  35%|███▌      | 291/824 [00:01<00:02, 203.76it/s]Loading weights:  38%|███▊      | 316/824 [00:01<00:02, 209.42it/s]Loading weights:  41%|████▏     | 340/824 [00:01<00:02, 215.39it/s]Loading weights:  44%|████▍     | 363/824 [00:01<00:02, 215.72it/s]Loading weights:  47%|████▋     | 387/824 [00:01<00:02, 215.14it/s]Loading weights:  50%|████▉     | 409/824 [00:01<00:01, 215.17it/s]Loading weights:  53%|█████▎    | 433/824 [00:02<00:01, 220.17it/s]Loading weights:  58%|█████▊    | 475/824 [00:02<00:01, 276.91it/s]Loading weights:  65%|██████▌   | 537/824 [00:02<00:00, 373.41it/s]Loading weights:  72%|███████▏  | 596/824 [00:02<00:00, 434.74it/s]Loading weights:  79%|███████▉  | 649/824 [00:02<00:00, 458.84it/s]Loading weights:  85%|████████▌ | 704/824 [00:02<00:00, 482.05it/s]Loading weights:  93%|█████████▎| 766/824 [00:02<00:00, 517.71it/s]Loading weights: 100%|█████████▉| 821/824 [00:02<00:00, 522.20it/s]Loading weights: 100%|██████████| 824/824 [00:02<00:00, 296.47it/s]
+Loaded LoRA checkpoints/qwen25vl3b_typed_1k
+[1/393] heldout_typed relsim_00209e22e3fb7d2da9b578c0ddca0940 full=2.765625 rel=2.109375
+[20/393] heldout_explicit relsim_08f4b241039d13b984c13678ac2ed693 full=4.125 rel=2.140625
+[40/393] heldout_typed relsim_175eef459f074eba0559214349277ab6 full=2.578125 rel=8.0
+[60/393] heldout_typed relsim_1ea339dfe8223a9462eea4b41e7ef9f1 full=2.640625 rel=1.4140625
+[80/393] heldout_explicit relsim_2a70b6795a5974bc597219b6f4431172 full=2.25 rel=1.921875
+[100/393] heldout_explicit relsim_325e23333ffcd90954116c93e6743df8 full=3.734375 rel=6.5
+[120/393] heldout_typed relsim_44b539f21aaa08b1a40d53bc3c4a76c0 full=2.8125 rel=7.4375
+[140/393] heldout_typed relsim_4bca8b00b634031b81793e6be406ff77 full=2.40625 rel=2.671875
+[160/393] heldout_typed relsim_550873153dd47433af125b2bbee03690 full=2.3125 rel=1.2109375
+[180/393] heldout_explicit relsim_5f8636e95860ba66c3792662a8aa662e full=3.8125 rel=2.78125
+[200/393] heldout_explicit relsim_72ea5a4c0cb37b9e787e477b7f5eaa25 full=3.03125 rel=4.125
+[220/393] heldout_explicit relsim_7aded29e8eb7461bceffc091ccc0c561 full=2.90625 rel=4.21875
+[240/393] heldout_typed relsim_88a4cd634aee87d9945f8a5568e06771 full=4.125 rel=9.1875
+[260/393] heldout_explicit relsim_99d20471b44e13af7232db9cfb3e2c09 full=2.71875 rel=1.34375
+[280/393] heldout_explicit relsim_a6477321e4b84a5e446df81764db5032 full=2.71875 rel=2.53125
+[300/393] heldout_explicit relsim_ae26f16596e6a05c3c92c9f89eea5c61 full=3.03125 rel=3.28125
+[320/393] heldout_explicit relsim_b8538cab40eabc176af76f82837d72cc full=3.484375 rel=4.96875
+[340/393] heldout_typed relsim_c374ccc2e1ca9574cee89744feb5912e full=2.828125 rel=1.484375
+[360/393] heldout_typed relsim_ce093014690b8b6585f57ff182299697 full=3.390625 rel=4.8125
+[380/393] heldout_typed relsim_d7a313430fa979279483131db7573180 full=1.8828125 rel=0.69140625
+Wrote /data/storage22t/lht/works/relation_hallucination/eval_results/qwen/phase16b/scores/typed_1k.jsonl

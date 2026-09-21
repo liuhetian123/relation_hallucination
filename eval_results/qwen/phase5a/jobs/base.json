@@ -1,0 +1,6 @@
+[
+  {"question_file": "eval_results/qwen/phase2b/fast_subsets/mmrel_adv_questions.jsonl", "answers_file": "eval_results/qwen/phase5a/answers/base_mmrel_adv_fast_textonly.jsonl"},
+  {"question_file": "eval_results/qwen/phase2b/fast_subsets/rbench_questions.jsonl", "answers_file": "eval_results/qwen/phase5a/answers/base_rbench_fast_textonly.jsonl"},
+  {"question_file": "eval_results/qwen/phase2b/fast_subsets/amber_dr_questions.jsonl", "answers_file": "eval_results/qwen/phase5a/answers/base_amber_dr_fast_textonly.jsonl"},
+  {"question_file": "data/phase2/heldout_verification.jsonl", "answers_file": "eval_results/qwen/phase5a/answers/base_heldout_textonly.jsonl"}
+]

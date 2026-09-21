@@ -1,0 +1,68 @@
+#!/bin/bash
+set -euo pipefail
+# Score a verification train split after LoRA training.
+# Usage: bash scripts/phase2/eval_train.sh <gpu> <v1|v2|v3> <adapter_path>
+if [ $# -lt 3 ]; then
+  echo "Usage: bash scripts/phase2/eval_train.sh <GPU_ID> <v1|v2|v3> <adapter_path>"
+  exit 1
+fi
+GPU_ID=$1
+SPLIT=$2
+ADAPTER=$3
+ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+cd "$ROOT"
+MODEL=/home/lht/.cache/huggingface/hub/models--Qwen--Qwen2.5-VL-3B-Instruct/snapshots/66285546d2b821cf421d4f5eb2576359d3770cd3
+
+if [ "$SPLIT" = "v1" ]; then
+  DATA=data/phase2/v1_positive.json
+elif [ "$SPLIT" = "v2" ]; then
+  DATA=data/phase2/v2_pos_random.json
+elif [ "$SPLIT" = "v3" ]; then
+  DATA=data/phase2/v3_pos_hard.json
+else
+  echo "SPLIT must be v1, v2, or v3"
+  exit 1
+fi
+
+Q=eval_results/qwen/phase2/questions/${SPLIT}_train.jsonl
+ANS=eval_results/qwen/phase2/answers/${SPLIT}_train.jsonl
+MET=eval_results/qwen/phase2/metrics/${SPLIT}_train.json
+mkdir -p eval_results/qwen/phase2/{questions,answers,metrics,logs}
+
+/data/storage22t/lht/envs/qwen25vl/bin/python - <<PY
+import json, sys
+from pathlib import Path
+sys.path.insert(0, "scripts/phase2")
+from common import load_json, verification_prompt
+data = load_json(Path("$DATA"))
+out = Path("$Q")
+out.parent.mkdir(parents=True, exist_ok=True)
+with out.open("w", encoding="utf-8") as f:
+    for rec in data:
+        f.write(json.dumps({
+            "question_id": rec["id"],
+            "id": rec.get("source_id", rec["id"]),
+            "image": rec["image"],
+            "text": verification_prompt(rec["statement"]),
+            "statement": rec["statement"],
+            "label": rec["label"].lower(),
+            "subset": rec.get("subset"),
+        }, ensure_ascii=False) + "\n")
+print("wrote", out, "n", len(data))
+PY
+
+PYTHONUNBUFFERED=1 HF_HUB_OFFLINE=1 /data/storage22t/lht/envs/qwen25vl/bin/python \
+  scripts/qwen_eval/infer_vqa.py \
+  --model_path "$MODEL" \
+  --question_file "$Q" \
+  --image_folder data/relsim_images \
+  --answers_file "$ANS" \
+  --gpu "$GPU_ID" \
+  --max_new_tokens 8 \
+  --adapter_path "$ADAPTER" \
+  2>&1 | tee "eval_results/qwen/phase2/logs/${SPLIT}_train_infer.log"
+
+/data/storage22t/lht/envs/qwen25vl/bin/python scripts/phase2/score_verification.py \
+  --question_file "$Q" \
+  --result_file "$ANS" \
+  --out_json "$MET"

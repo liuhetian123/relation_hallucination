@@ -1,0 +1,83 @@
+pairs=500 jobs=1500 already=0 todo=1500
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/841 [00:00<?, ?it/s]Loading weights:   0%|          | 1/841 [00:00<06:28,  2.16it/s]Loading weights:   1%|          | 7/841 [00:00<00:54, 15.38it/s]Loading weights:   2%|▏         | 15/841 [00:00<00:29, 28.36it/s]Loading weights:   3%|▎         | 27/841 [00:00<00:17, 45.70it/s]Loading weights:   5%|▍         | 39/841 [00:00<00:13, 61.06it/s]Loading weights:   6%|▌         | 48/841 [00:01<00:11, 67.42it/s]Loading weights:   7%|▋         | 58/841 [00:01<00:10, 71.39it/s]Loading weights:   8%|▊         | 67/841 [00:01<00:10, 74.97it/s]Loading weights:   9%|▉         | 76/841 [00:01<00:09, 77.14it/s]Loading weights:  10%|█         | 85/841 [00:01<00:10, 70.73it/s]Loading weights:  11%|█         | 93/841 [00:01<00:10, 72.65it/s]Loading weights:  12%|█▏        | 103/841 [00:01<00:09, 79.05it/s]Loading weights:  13%|█▎        | 112/841 [00:01<00:09, 80.95it/s]Loading weights:  14%|█▍        | 121/841 [00:02<00:09, 76.73it/s]Loading weights:  16%|█▌        | 131/841 [00:02<00:09, 77.70it/s]Loading weights:  17%|█▋        | 139/841 [00:02<00:09, 71.40it/s]Loading weights:  18%|█▊        | 149/841 [00:02<00:09, 74.31it/s]Loading weights:  19%|█▉        | 158/841 [00:02<00:08, 78.32it/s]Loading weights:  20%|█▉        | 166/841 [00:02<00:09, 73.95it/s]Loading weights:  21%|██        | 174/841 [00:02<00:08, 75.28it/s]Loading weights:  22%|██▏       | 182/841 [00:02<00:09, 68.76it/s]Loading weights:  23%|██▎       | 191/841 [00:02<00:08, 73.93it/s]Loading weights:  24%|██▎       | 199/841 [00:03<00:08, 73.04it/s]Loading weights:  25%|██▍       | 207/841 [00:03<00:09, 66.96it/s]Loading weights:  25%|██▌       | 214/841 [00:03<00:09, 64.93it/s]Loading weights:  26%|██▋       | 222/841 [00:03<00:10, 58.68it/s]Loading weights:  27%|██▋       | 230/841 [00:03<00:09, 63.06it/s]Loading weights:  28%|██▊       | 237/841 [00:03<00:10, 58.12it/s]Loading weights:  29%|██▉       | 248/841 [00:03<00:09, 62.49it/s]Loading weights:  31%|███       | 258/841 [00:04<00:08, 68.41it/s]Loading weights:  32%|███▏      | 268/841 [00:04<00:07, 73.12it/s]Loading weights:  33%|███▎      | 276/841 [00:04<00:07, 72.14it/s]Loading weights:  34%|███▍      | 284/841 [00:04<00:08, 67.90it/s]Loading weights:  35%|███▍      | 291/841 [00:04<00:08, 66.01it/s]Loading weights:  35%|███▌      | 298/841 [00:04<00:09, 54.54it/s]Loading weights:  37%|███▋      | 309/841 [00:04<00:07, 67.31it/s]Loading weights:  38%|███▊      | 317/841 [00:04<00:07, 66.42it/s]Loading weights:  39%|███▊      | 325/841 [00:05<00:08, 64.12it/s]Loading weights:  40%|███▉      | 335/841 [00:05<00:07, 70.04it/s]Loading weights:  41%|████      | 345/841 [00:05<00:06, 76.64it/s]Loading weights:  42%|████▏     | 353/841 [00:05<00:06, 75.61it/s]Loading weights:  43%|████▎     | 361/841 [00:05<00:07, 66.30it/s]Loading weights:  44%|████▍     | 368/841 [00:05<00:07, 65.35it/s]Loading weights:  45%|████▌     | 380/841 [00:06<00:10, 44.06it/s]Loading weights:  46%|████▌     | 386/841 [00:06<00:15, 29.72it/s]Loading weights:  46%|████▋     | 391/841 [00:06<00:19, 22.88it/s]Loading weights:  47%|████▋     | 395/841 [00:07<00:22, 19.91it/s]Loading weights:  47%|████▋     | 398/841 [00:07<00:22, 19.88it/s]Loading weights:  48%|████▊     | 403/841 [00:07<00:21, 20.06it/s]Loading weights:  49%|████▉     | 416/841 [00:07<00:12, 34.31it/s]Loading weights:  51%|█████     | 430/841 [00:07<00:08, 50.07it/s]Loading weights:  53%|█████▎    | 444/841 [00:07<00:06, 65.72it/s]Loading weights:  54%|█████▍    | 453/841 [00:08<00:06, 59.44it/s]Loading weights:  55%|█████▌    | 463/841 [00:08<00:06, 60.98it/s]Loading weights:  56%|█████▌    | 471/841 [00:08<00:05, 63.36it/s]Loading weights:  57%|█████▋    | 479/841 [00:08<00:07, 47.65it/s]Loading weights:  58%|█████▊    | 490/841 [00:08<00:05, 58.94it/s]Loading weights:  59%|█████▉    | 498/841 [00:08<00:05, 61.88it/s]Loading weights:  60%|██████    | 508/841 [00:09<00:05, 65.80it/s]Loading weights:  62%|██████▏   | 519/841 [00:09<00:04, 75.49it/s]Loading weights:  63%|██████▎   | 534/841 [00:09<00:03, 83.91it/s]Loading weights:  65%|██████▌   | 550/841 [00:09<00:03, 84.28it/s]Loading weights:  67%|██████▋   | 564/841 [00:09<00:02, 93.35it/s]Loading weights:  68%|██████▊   | 574/841 [00:09<00:03, 80.39it/s]Loading weights:  70%|██████▉   | 587/841 [00:10<00:03, 64.03it/s]Loading weights:  71%|███████   | 595/841 [00:10<00:03, 65.73it/s]Loading weights:  72%|███████▏  | 608/841 [00:10<00:03, 75.62it/s]Loading weights:  74%|███████▍  | 625/841 [00:10<00:02, 85.88it/s]Loading weights:  76%|███████▌  | 637/841 [00:10<00:02, 90.49it/s]Loading weights:  77%|███████▋  | 648/841 [00:10<00:02, 90.43it/s]Loading weights:  78%|███████▊  | 659/841 [00:10<00:01, 91.80it/s]Loading weights:  80%|███████▉  | 669/841 [00:10<00:01, 90.50it/s]Loading weights:  81%|████████  | 682/841 [00:11<00:01, 96.62it/s]Loading weights:  82%|████████▏ | 692/841 [00:11<00:01, 91.93it/s]Loading weights:  83%|████████▎ | 702/841 [00:11<00:01, 77.78it/s]Loading weights:  85%|████████▌ | 715/841 [00:11<00:01, 89.55it/s]Loading weights:  86%|████████▌ | 725/841 [00:11<00:01, 82.92it/s]Loading weights:  87%|████████▋ | 734/841 [00:11<00:01, 80.84it/s]Loading weights:  88%|████████▊ | 743/841 [00:11<00:01, 77.88it/s]Loading weights:  89%|████████▉ | 752/841 [00:11<00:01, 75.78it/s]Loading weights:  90%|█████████ | 760/841 [00:12<00:01, 76.68it/s]Loading weights:  92%|█████████▏| 772/841 [00:12<00:00, 82.29it/s]Loading weights:  93%|█████████▎| 782/841 [00:12<00:00, 80.76it/s]Loading weights:  94%|█████████▍| 791/841 [00:12<00:00, 64.78it/s]Loading weights:  95%|█████████▌| 803/841 [00:12<00:00, 75.87it/s]Loading weights:  97%|█████████▋| 812/841 [00:12<00:00, 75.12it/s]Loading weights:  98%|█████████▊| 828/841 [00:12<00:00, 92.30it/s]Loading weights: 100%|█████████▉| 840/841 [00:13<00:00, 93.15it/s]Loading weights: 100%|██████████| 841/841 [00:13<00:00, 64.52it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie model.language_model.embed_tokens.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+InternVL loaded path=/data/storage22t/lht/hf_cache/models--OpenGVLab--InternVL3_5-8B-HF/snapshots/741a7d03020411e666c6109218ab71e08151ef86 device=cuda:0 cuda=True max_patches=1
+GPU NVIDIA RTX 6000 Ada Generation free_gb=11.27
+[1/1500] relsim_1b3cf799b3823838bc70cbf1832cebf2__pos -> plausible
+[20/1500] relsim_aea0945294014fbc521f48cff473020e__clean_neg -> plausible
+[40/1500] relsim_96e9b6f05871c2b0a5dbd9cba2246adb__pos -> plausible
+[60/1500] relsim_5aea9cf42ddd103f173f464586821ed9__old_neg -> implausible
+[80/1500] relsim_5b4bfdb024607483ad8aa8e0df50b995__clean_neg -> plausible
+[100/1500] relsim_39dd437eea2755a96007d07faec2c0a3__pos -> plausible
+[120/1500] relsim_650cfcb6f9a3245c607f7dda631a89ef__old_neg -> implausible
+[140/1500] relsim_09ad586c7e218eb82be45cc67c84aa1a__clean_neg -> plausible
+[160/1500] relsim_3595084f6944e95162a052878b646f13__pos -> implausible
+[180/1500] relsim_55c4576791b1e6bcee1f17a5bfeb1fff__old_neg -> plausible
+[200/1500] relsim_72dedf2935945ef3a646e476ed445fc1__clean_neg -> plausible
+[220/1500] relsim_3b3d578a1e99616544f7a7491c546187__pos -> plausible
+[240/1500] relsim_2d45871ee2c9f6c9792878cfe0261b16__old_neg -> implausible
+[260/1500] relsim_0d17a988ad30cfb575d6babbded1360d__clean_neg -> plausible
+[280/1500] relsim_acf5d4501f67ff0e7229f6f4f50e4871__pos -> plausible
+[300/1500] relsim_34707173c9f830b871d000dce0d168a1__old_neg -> implausible
+[320/1500] relsim_4a81f82dc5fa77312525107d8e64b980__clean_neg -> plausible
+[340/1500] relsim_7adb3af1eedff0f625c993435821b14a__pos -> plausible
+[360/1500] relsim_3179b349a729ea38de2a97acf3965b65__old_neg -> implausible
+[380/1500] relsim_5b7e078856c1d7d3509f2d776be57622__clean_neg -> plausible
+[400/1500] relsim_7c9ea788d11e8bac601df53d15982f84__pos -> implausible
+[420/1500] relsim_7997e510e78440f75a7c560537202d3d__old_neg -> plausible
+[440/1500] relsim_0bf8ff2281a957cbdc92cc40eac79fca__clean_neg -> plausible
+[460/1500] relsim_30d263a889389d2ce6e6368b10a22baa__pos -> plausible
+[480/1500] relsim_25ea0b80115e619cbc59a47ce80d5b2d__old_neg -> plausible
+[500/1500] relsim_35e968facaa2619bbf56a2c710368642__clean_neg -> plausible
+[520/1500] relsim_ddc3cc2cd4394b109ad91847bcab552c__pos -> plausible
+[540/1500] relsim_82ff53df356c218b2185eae84eeaf57b__old_neg -> plausible
+[560/1500] relsim_0f9de30164aab3a634fdcdf1aaf5caf7__clean_neg -> plausible
+[580/1500] relsim_55af396fb7d9cd0782446e8440cd2757__pos -> plausible
+[600/1500] relsim_a423d38b5f1dfbcd0e906142d3d7f393__old_neg -> implausible
+[620/1500] relsim_b62ce3f16bf418fd4c438b1913c21f21__clean_neg -> plausible
+[640/1500] relsim_c1b5abb8b72dcdaa4d333ed9cf894f4f__pos -> plausible
+[660/1500] relsim_5c832784df6ca1a3a2a6d6a174a06e62__old_neg -> plausible
+[680/1500] relsim_8f69f7d4e32e3dae3a402fc129171ff5__clean_neg -> plausible
+[700/1500] relsim_d517e0c98752f24ce659152a473f3291__pos -> plausible
+[720/1500] relsim_265aff42552b4cfeaf83c1f1b35e320e__old_neg -> implausible
+[740/1500] relsim_8ea923978835eb36fca5e8869fb42221__clean_neg -> plausible
+[760/1500] relsim_b1184d6fdea96e9562cb252cc9820845__pos -> plausible
+[780/1500] relsim_b384326f35de642139a3a3c743a3fc00__old_neg -> implausible
+[800/1500] relsim_7e72f212f16acfeaa00fdfcc0d0e910e__clean_neg -> plausible
+[820/1500] relsim_d594c98457099b6f34e5e6984439e531__pos -> plausible
+[840/1500] relsim_0836cab49ae68446ab4151167bdc2558__old_neg -> plausible
+[860/1500] relsim_8ac1e9fcc4e29d85aa5521fa15b6ffd2__clean_neg -> plausible
+[880/1500] relsim_07218e93f8d523ae4f7024b69a974e46__pos -> plausible
+[900/1500] relsim_74caa06ed4b51fd2843761805ca0e502__old_neg -> plausible
+[920/1500] relsim_572bf02a8b3357127669f68fb34d5274__clean_neg -> plausible
+[940/1500] relsim_035f6e96c458f9bc269c6fbe4b6a3991__pos -> plausible
+[960/1500] relsim_7b41afcd0b92f0ad9abd2351e4d43d59__old_neg -> implausible
+[980/1500] relsim_57d1317cc85169e2a3071e26c6f51ff4__clean_neg -> plausible
+[1000/1500] relsim_5a19b42ce787b7720adba44fd182a799__pos -> plausible
+[1020/1500] relsim_0d1744dd67700f1b903fc50c3b6145f5__old_neg -> plausible
+[1040/1500] relsim_2001bcf09f99fdf13790b6319c307a72__clean_neg -> plausible
+[1060/1500] relsim_984c9a62ebf75821410be12125832a11__pos -> plausible
+[1080/1500] relsim_80e8e07084a1c828155a7d9acc5a812c__old_neg -> implausible
+[1100/1500] relsim_c87e9df2495016433e2d7dbecfe30b44__clean_neg -> plausible
+[1120/1500] relsim_a7b68bac2ad5e47f80dcbac72838d69e__pos -> plausible
+[1140/1500] relsim_061982773ca8a63effcc17d1d6901f0e__old_neg -> implausible
+[1160/1500] relsim_629466d892fa15fe4be2c05105bf2bb5__clean_neg -> plausible
+[1180/1500] relsim_1a4dad45380392d9b7f9f992ee163a5c__pos -> plausible
+[1200/1500] relsim_890f1a2d15389a74d245d16ed52ef463__old_neg -> plausible
+[1220/1500] relsim_a007dd80ee90c6f1f37c596584246e57__clean_neg -> plausible
+[1240/1500] relsim_8ef6b048bb2ba0d440081c91e7d5dd4c__pos -> plausible
+[1260/1500] relsim_9a883ccc9f18441843d715957fea4b9e__old_neg -> implausible
+[1280/1500] relsim_dbd919accb023201c8d1ddf767bfc669__clean_neg -> plausible
+[1300/1500] relsim_0135b662a7fb50bb19ca5064fbf95742__pos -> plausible
+[1320/1500] relsim_42e541405c0d1483ce20623446e2591c__old_neg -> plausible
+[1340/1500] relsim_7f38a2c3e4f614acd3797404515e1f48__clean_neg -> plausible
+[1360/1500] relsim_d370fa22c72ac4bdb4431413393223cd__pos -> plausible
+[1380/1500] relsim_b30988bcd3316860db6a244a0e654ad8__old_neg -> implausible
+[1400/1500] relsim_89de750a9b1f90ecf24473ed35df5e9c__clean_neg -> plausible
+[1420/1500] relsim_84ee7328f817afa0509934f80ce931be__pos -> plausible
+[1440/1500] relsim_916175585094ad12247d335a9df7db7e__old_neg -> plausible
+[1460/1500] relsim_3dfe2e03556a503481bd018f98db499f__clean_neg -> plausible
+[1480/1500] relsim_1f8a24317f8a61cfeb6ca791c5069d3f__pos -> plausible
+[1500/1500] relsim_417246e693d3bc26680c5c9d441a6fa7__old_neg -> implausible
+{'n_total': 1500, 'positive': {'n': 500, 'plausible_rate': 0.89, 'implausible_rate': 0.11, 'parse_error_rate': 0.0, 'shortcut_acc_implausible_means_negative': 0.89, 'n_pred_neg': 55, 'n_pred_pos': 445, 'gold_is_negative': False}, 'clean_negative': {'n': 500, 'plausible_rate': 1.0, 'implausible_rate': 0.0, 'parse_error_rate': 0.0, 'shortcut_acc_implausible_means_negative': 0.0, 'n_pred_neg': 0, 'n_pred_pos': 500, 'gold_is_negative': True}, 'old_negative': {'n': 500, 'plausible_rate': 0.338, 'implausible_rate': 0.662, 'parse_error_rate': 0.0, 'shortcut_acc_implausible_means_negative': 0.662, 'n_pred_neg': 331, 'n_pred_pos': 169, 'gold_is_negative': True}, 'paired_old_textonly_acc': {'n': 1000, 'acc': 0.776}, 'paired_clean_textonly_acc': {'n': 1000, 'acc': 0.445}}

@@ -1,0 +1,13 @@
+{
+  "image_root": "/data/lht/relsim_dataset/relsim_images",
+  "pool_n": 65946,
+  "exclude_train": 1000,
+  "exclude_heldout": 200,
+  "exclude_union": 1200,
+  "unused_n": 64746,
+  "bench_files_hashed": 8159,
+  "bench_hash_skipped": 0,
+  "queue_n": 12000,
+  "seed": 42,
+  "n_queue": 12000
+}

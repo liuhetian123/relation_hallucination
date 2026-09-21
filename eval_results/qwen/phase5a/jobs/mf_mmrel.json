@@ -1,0 +1,3 @@
+[
+  {"question_file": "eval_results/qwen/phase2b/fast_subsets/mmrel_adv_questions.jsonl", "answers_file": "eval_results/qwen/phase5a/answers/mf_mmrel_adv_fast_textonly.jsonl"}
+]

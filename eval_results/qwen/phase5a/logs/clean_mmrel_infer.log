@@ -1,0 +1,24 @@
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   3%|▎         | 28/824 [00:00<00:03, 229.35it/s]Loading weights:   8%|▊         | 64/824 [00:00<00:02, 289.62it/s]Loading weights:  12%|█▏        | 98/824 [00:00<00:02, 281.59it/s]Loading weights:  17%|█▋        | 136/824 [00:00<00:02, 302.63it/s]Loading weights:  21%|██        | 171/824 [00:00<00:02, 310.36it/s]Loading weights:  25%|██▍       | 203/824 [00:00<00:02, 308.16it/s]Loading weights:  29%|██▉       | 243/824 [00:00<00:01, 318.28it/s]Loading weights:  33%|███▎      | 275/824 [00:00<00:01, 312.90it/s]Loading weights:  37%|███▋      | 307/824 [00:01<00:01, 295.39it/s]Loading weights:  41%|████      | 339/824 [00:01<00:01, 302.24it/s]Loading weights:  46%|████▌     | 375/824 [00:01<00:01, 309.08it/s]Loading weights:  49%|████▉     | 407/824 [00:01<00:01, 305.72it/s]Loading weights:  55%|█████▍    | 450/824 [00:01<00:01, 340.03it/s]Loading weights:  66%|██████▌   | 544/824 [00:01<00:00, 511.33it/s]Loading weights:  79%|███████▉  | 652/824 [00:01<00:00, 671.46it/s]Loading weights:  93%|█████████▎| 767/824 [00:01<00:00, 804.40it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 457.86it/s]
+yes_ids=[9454, 9693] no_ids=[2753, 2152] device=cuda:0
+job mmrel_adv_questions.jsonl questions=384 already=0 remaining=384 fallback=False
+[1/384] 010l9bc0b9trxvw 'No'
+[20/384] 31j3wqk31oizgnn 'No'
+[40/384] 5owqb9zzyc1cnif 'Yes'
+[60/384] 7rmyiwgaj02w8fg 'No'
+[80/384] 9dzlh9pq3biqyjv 'Yes'
+[100/384] b8eouc1dlaq8egb 'No'
+[120/384] d5cfdhuz044z0at 'No'
+[140/384] f4ye0uoy02r11cv 'Yes'
+[160/384] h595uepuzul2p6n 'No'
+[180/384] idb4ippj7sa8x1w 'No'
+[200/384] jqoe30bbuzr465o 'Yes'
+[220/384] m1o6pld1ck023eb 'No'
+[240/384] nqixstt7uj0cv0n 'Yes'
+[260/384] ps919249fygxfla 'No'
+[280/384] ralh52iepoqao5y 'No'
+[300/384] tdfyob2bscio18q 'Yes'
+[320/384] vgvae8ffa30vbro 'Yes'
+[340/384] wvdjyvkyzp3fbf7 'No'
+[360/384] yf7mklbsdn634v7 'Yes'
+[380/384] zlepi9vs3fxchyh 'No'
+Wrote eval_results/qwen/phase5a/answers/clean_mmrel_adv_fast_textonly.jsonl

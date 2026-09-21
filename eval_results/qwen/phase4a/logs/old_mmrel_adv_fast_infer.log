@@ -1,0 +1,23 @@
+Questions=384 already=0 remaining=384
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 16/824 [00:00<00:05, 148.69it/s]Loading weights:   5%|▌         | 45/824 [00:00<00:03, 228.03it/s]Loading weights:   9%|▉         | 76/824 [00:00<00:02, 262.38it/s]Loading weights:  12%|█▎        | 103/824 [00:00<00:02, 263.94it/s]Loading weights:  16%|█▌        | 131/824 [00:00<00:02, 259.68it/s]Loading weights:  19%|█▉        | 160/824 [00:00<00:02, 267.09it/s]Loading weights:  23%|██▎       | 187/824 [00:00<00:02, 260.32it/s]Loading weights:  26%|██▌       | 214/824 [00:00<00:02, 243.00it/s]Loading weights:  29%|██▉       | 239/824 [00:00<00:02, 240.69it/s]Loading weights:  33%|███▎      | 268/824 [00:01<00:02, 248.49it/s]Loading weights:  36%|███▌      | 293/824 [00:01<00:02, 234.71it/s]Loading weights:  39%|███▉      | 324/824 [00:01<00:01, 254.84it/s]Loading weights:  42%|████▏     | 350/824 [00:01<00:01, 244.28it/s]Loading weights:  46%|████▌     | 376/824 [00:01<00:01, 245.61it/s]Loading weights:  49%|████▊     | 401/824 [00:01<00:01, 230.21it/s]Loading weights:  52%|█████▏    | 431/824 [00:01<00:01, 248.60it/s]Loading weights:  64%|██████▍   | 526/824 [00:01<00:00, 442.66it/s]Loading weights:  77%|███████▋  | 634/824 [00:01<00:00, 622.09it/s]Loading weights:  89%|████████▉ | 732/824 [00:02<00:00, 720.81it/s]Loading weights: 100%|█████████▉| 820/824 [00:02<00:00, 745.91it/s]Loading weights: 100%|██████████| 824/824 [00:02<00:00, 379.58it/s]
+[1/384] 010l9bc0b9trxvw 'yes'
+[20/384] 31j3wqk31oizgnn 'No'
+[40/384] 5owqb9zzyc1cnif 'no'
+[60/384] 7rmyiwgaj02w8fg 'no'
+[80/384] 9dzlh9pq3biqyjv 'yes'
+[100/384] b8eouc1dlaq8egb 'Yes'
+[120/384] d5cfdhuz044z0at 'yes'
+[140/384] f4ye0uoy02r11cv 'no'
+[160/384] h595uepuzul2p6n 'Yes'
+[180/384] idb4ippj7sa8x1w 'Yes'
+[200/384] jqoe30bbuzr465o 'no'
+[220/384] m1o6pld1ck023eb 'No'
+[240/384] nqixstt7uj0cv0n 'yes'
+[260/384] ps919249fygxfla 'yes'
+[280/384] ralh52iepoqao5y 'yes'
+[300/384] tdfyob2bscio18q 'Yes'
+[320/384] vgvae8ffa30vbro 'yes'
+[340/384] wvdjyvkyzp3fbf7 'no'
+[360/384] yf7mklbsdn634v7 'yes'
+[380/384] zlepi9vs3fxchyh 'yes'
+Wrote eval_results/qwen/phase4a/answers/old_mmrel_adv_fast.jsonl

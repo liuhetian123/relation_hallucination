@@ -1,0 +1,30 @@
+[
+  {
+    "id": "relsim_40d7bc164c67d77f79867cc557e6c838",
+    "image": "40d7bc164c67d77f79867cc557e6c838.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the primary relation shown in this image in one short sentence."
+      },
+      {
+        "from": "gpt",
+        "value": "Tiny hamster balancing on a person's finger."
+      }
+    ]
+  },
+  {
+    "id": "relsim_54f9b8107bf60448cdce4c0e3a1ca431",
+    "image": "54f9b8107bf60448cdce4c0e3a1ca431.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe the primary relation shown in this image in one short sentence."
+      },
+      {
+        "from": "gpt",
+        "value": "A 3D representation of a head submerged in water, showcasing its reflection on the surface."
+      }
+    ]
+  }
+]

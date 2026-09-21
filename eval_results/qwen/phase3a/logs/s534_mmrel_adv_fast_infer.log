@@ -1,0 +1,23 @@
+Questions=384 already=0 remaining=384
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 16/824 [00:00<00:05, 146.96it/s]Loading weights:   6%|▌         | 51/824 [00:00<00:02, 259.64it/s]Loading weights:  11%|█         | 87/824 [00:00<00:02, 303.75it/s]Loading weights:  14%|█▍        | 118/824 [00:00<00:02, 298.26it/s]Loading weights:  18%|█▊        | 149/824 [00:00<00:02, 293.11it/s]Loading weights:  22%|██▏       | 185/824 [00:00<00:02, 304.72it/s]Loading weights:  27%|██▋       | 219/824 [00:00<00:01, 314.37it/s]Loading weights:  30%|███       | 251/824 [00:00<00:01, 303.20it/s]Loading weights:  34%|███▍      | 282/824 [00:00<00:01, 291.22it/s]Loading weights:  38%|███▊      | 312/824 [00:01<00:01, 289.86it/s]Loading weights:  42%|████▏     | 342/824 [00:01<00:01, 257.64it/s]Loading weights:  46%|████▌     | 375/824 [00:01<00:01, 271.31it/s]Loading weights:  49%|████▉     | 403/824 [00:01<00:01, 256.72it/s]Loading weights:  57%|█████▋    | 468/824 [00:01<00:00, 359.90it/s]Loading weights:  72%|███████▏  | 590/824 [00:01<00:00, 596.28it/s]Loading weights:  85%|████████▍ | 697/824 [00:01<00:00, 728.86it/s]Loading weights:  96%|█████████▌| 792/824 [00:01<00:00, 786.75it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 432.43it/s]
+[1/384] 010l9bc0b9trxvw 'yes'
+[20/384] 31j3wqk31oizgnn 'Yes'
+[40/384] 5owqb9zzyc1cnif 'no'
+[60/384] 7rmyiwgaj02w8fg 'yes'
+[80/384] 9dzlh9pq3biqyjv 'yes'
+[100/384] b8eouc1dlaq8egb 'yes'
+[120/384] d5cfdhuz044z0at 'yes'
+[140/384] f4ye0uoy02r11cv 'no'
+[160/384] h595uepuzul2p6n 'yes'
+[180/384] idb4ippj7sa8x1w 'No'
+[200/384] jqoe30bbuzr465o 'no'
+[220/384] m1o6pld1ck023eb 'No'
+[240/384] nqixstt7uj0cv0n 'yes'
+[260/384] ps919249fygxfla 'yes'
+[280/384] ralh52iepoqao5y 'yes'
+[300/384] tdfyob2bscio18q 'Yes'
+[320/384] vgvae8ffa30vbro 'yes'
+[340/384] wvdjyvkyzp3fbf7 'no'
+[360/384] yf7mklbsdn634v7 'yes'
+[380/384] zlepi9vs3fxchyh 'yes'
+Wrote eval_results/qwen/phase3a/answers/s534_mmrel_adv_fast.jsonl

@@ -1,0 +1,34 @@
+{
+  "n_rbench": 1924,
+  "n_mmrel": 384,
+  "rbench_unparsed": 442,
+  "rbench_unparsed_rate": 0.22972972972972974,
+  "mmrel_unparsed": 0,
+  "mmrel_unparsed_rate": 0.0,
+  "parse_reasons": {
+    "rbench": {
+      "verb": 1295,
+      "unparsed": 29,
+      "prep": 187,
+      "existence": 257,
+      "attribute": 156
+    },
+    "mmrel_adv": {
+      "mmrel_action": 175,
+      "mmrel_spatial_to": 182,
+      "mmrel_spatial_prep": 27
+    }
+  },
+  "vocab_old_n": 424,
+  "vocab_clean_n": 535,
+  "lemma_old_n": 371,
+  "lemma_clean_n": 485,
+  "seen_lemma_old": {
+    "rbench": 1132,
+    "mmrel_adv": 258
+  },
+  "seen_lemma_clean": {
+    "rbench": 1119,
+    "mmrel_adv": 261
+  }
+}

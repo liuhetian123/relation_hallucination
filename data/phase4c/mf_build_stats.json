@@ -1,0 +1,120 @@
+{
+  "n_src": 4312,
+  "n_out": 4312,
+  "n_pairs": 2156,
+  "same_ids_order": true,
+  "assignment": "hash_md5_mod3",
+  "hash_rates": {
+    "F1": {
+      "n": 1410,
+      "n_pos": 707,
+      "n_neg": 703,
+      "pos_rate": 0.5014184397163121,
+      "neg_rate": 0.49858156028368794,
+      "pos_pp_from_50": 0.14184397163120588
+    },
+    "F2": {
+      "n": 1460,
+      "n_pos": 745,
+      "n_neg": 715,
+      "pos_rate": 0.5102739726027398,
+      "neg_rate": 0.4897260273972603,
+      "pos_pp_from_50": 1.0273972602739767
+    },
+    "F3": {
+      "n": 1442,
+      "n_pos": 704,
+      "n_neg": 738,
+      "pos_rate": 0.4882108183079057,
+      "neg_rate": 0.5117891816920943,
+      "pos_pp_from_50": 1.1789181692094308
+    }
+  },
+  "final_rates": {
+    "F1": {
+      "n": 1410,
+      "n_pos": 707,
+      "n_neg": 703,
+      "pos_rate": 0.5014184397163121,
+      "neg_rate": 0.49858156028368794,
+      "pos_pp_from_50": 0.14184397163120588
+    },
+    "F2": {
+      "n": 1460,
+      "n_pos": 745,
+      "n_neg": 715,
+      "pos_rate": 0.5102739726027398,
+      "neg_rate": 0.4897260273972603,
+      "pos_pp_from_50": 1.0273972602739767
+    },
+    "F3": {
+      "n": 1442,
+      "n_pos": 704,
+      "n_neg": 738,
+      "pos_rate": 0.4882108183079057,
+      "neg_rate": 0.5117891816920943,
+      "pos_pp_from_50": 1.1789181692094308
+    }
+  },
+  "format_counts": {
+    "F3": 1442,
+    "F2": 1460,
+    "F1": 1410
+  },
+  "format_labels": {
+    "F3": {
+      "Yes": 704,
+      "No": 738
+    },
+    "F2": {
+      "Yes": 745,
+      "No": 715
+    },
+    "F1": {
+      "No": 703,
+      "Yes": 707
+    }
+  },
+  "n_qc_fail": 0,
+  "qc_sample_ids": [
+    "relsim_886883bfcbe29c1876ff3d705b45201f__pos",
+    "relsim_9c7ec2ef117fb14ebb591fbbd5e345e3__neg",
+    "relsim_dd206d8c3614f7efdc16651df834cc3b__pos",
+    "relsim_63c61953e5e350c0fc05933728ced4aa__pos",
+    "relsim_2941f28686e1719b52eb5ff7072ee381__pos",
+    "relsim_390a753ccfbf65fd9bab6a25f6ffb9d4__pos",
+    "relsim_901f92f6f001b3483cc15b780a79ed7d__pos",
+    "relsim_ce42a14b70aa71d95d58bca05b0f032c__neg",
+    "relsim_9ba156a696c8aac72f3bab0b70123726__pos",
+    "relsim_0831dd7e3e3a4f0d872005490a4b97eb__neg",
+    "relsim_70ef12c590ce3a77a3cbc35b9b61e5c5__pos",
+    "relsim_b88e33fedc13217a0d04b5e9147260fe__pos",
+    "relsim_740c0510aa71c82b5b0800813076d4c4__pos",
+    "relsim_958cdf767be687f0014f10cfcfadafe7__neg",
+    "relsim_bb1b0ffc31597e0de3ad8f6142b4325f__neg",
+    "relsim_b1412bf0d84fa66083619450562dd734__neg",
+    "relsim_7280955d10a2d8a8b5a465f8959fa584__neg",
+    "relsim_2cc633dbcc4d72552cef2a178f563ed0__pos",
+    "relsim_0719486a398de93cf87577aab42a30e5__neg",
+    "relsim_31ad9ddeeab8d2df733cad7cbed69f3d__pos",
+    "relsim_ae1526ae446128dc041de7bda7864185__pos",
+    "relsim_70bcb3d8860384891f6bc264ab4f16b8__pos",
+    "relsim_d2acb82f6bfe6a1c5626bf0fa8590b52__neg",
+    "relsim_d04f79bfa25f720ac3bb4ed5ca3d2092__pos",
+    "relsim_13efc72a56b7f6ec821c681d1bb300a4__neg",
+    "relsim_159acd95f4f9eb54aca42ec406541cc6__pos",
+    "relsim_740c0510aa71c82b5b0800813076d4c4__neg",
+    "relsim_c1b5abb8b72dcdaa4d333ed9cf894f4f__pos",
+    "relsim_7dcbc6ceb5b04dc23c60d3b4f7abba4b__pos",
+    "relsim_7023e8c40bf3c36df121943cdb566276__pos"
+  ],
+  "heldout_f2": {
+    "n": 393,
+    "parse_mode": {
+      "fallback_prefix": 250,
+      "fallback_article": 143
+    },
+    "n_noncanonical": 393,
+    "note": "Held-out captions are original RelSim text, not renderer A/An {s} is {rel} a/an {o}. F2 wrapping never drops an internal copula; A/An captions use fallback_article, others fallback_prefix."
+  }
+}

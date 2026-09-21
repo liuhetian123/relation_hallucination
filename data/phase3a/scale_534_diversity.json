@@ -1,0 +1,134 @@
+{
+  "n": 534,
+  "unique_images": 534,
+  "unique_relations": 145,
+  "unique_subjects": 272,
+  "unique_objects": 345,
+  "unique_subject_object": 516,
+  "unique_subject_relation": 425,
+  "unique_relation_object": 472,
+  "unique_sro": 525,
+  "max_relation_frac": 0.15730337078651685,
+  "top_relations": [
+    [
+      "holding",
+      84
+    ],
+    [
+      "wearing",
+      45
+    ],
+    [
+      "sitting on",
+      28
+    ],
+    [
+      "standing on",
+      26
+    ],
+    [
+      "contains",
+      20
+    ],
+    [
+      "looking at",
+      14
+    ],
+    [
+      "attached to",
+      14
+    ],
+    [
+      "on",
+      13
+    ],
+    [
+      "riding",
+      12
+    ],
+    [
+      "hanging from",
+      12
+    ],
+    [
+      "standing next to",
+      10
+    ],
+    [
+      "touching",
+      10
+    ],
+    [
+      "resting on",
+      8
+    ],
+    [
+      "surrounded by",
+      8
+    ],
+    [
+      "jumping over",
+      8
+    ],
+    [
+      "supports",
+      8
+    ],
+    [
+      "carrying",
+      7
+    ],
+    [
+      "beside",
+      6
+    ],
+    [
+      "lying on",
+      6
+    ],
+    [
+      "pointing at",
+      5
+    ],
+    [
+      "crossing",
+      5
+    ],
+    [
+      "held by",
+      5
+    ],
+    [
+      "standing in front of",
+      5
+    ],
+    [
+      "surrounding",
+      5
+    ],
+    [
+      "rests on",
+      4
+    ],
+    [
+      "stands on",
+      4
+    ],
+    [
+      "in front of",
+      4
+    ],
+    [
+      "leads to",
+      3
+    ],
+    [
+      "leaning on",
+      3
+    ],
+    [
+      "inside",
+      3
+    ]
+  ]
+}

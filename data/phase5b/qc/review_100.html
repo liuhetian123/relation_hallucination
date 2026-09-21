@@ -1,0 +1,984 @@
+<!doctype html><meta charset="utf-8"><title>Phase 5B QC</title>
+<style>body{font:15px system-ui;max-width:1400px;margin:auto;padding:20px}section{border-top:2px solid #555;padding:16px}.imgs{display:flex;gap:16px}figure{width:48%;margin:0}img{max-width:100%;max-height:620px}li{margin:10px 0;white-space:pre-wrap}</style>
+<h1>Phase 5B — 100 triplet human QC</h1><p>Do not train before all five TSV columns are filled with 1/0.</p><section><h2>001 · psg_2350797_1 · about to hit · F3</h2>
+<div class="imgs"><figure><img src="images/001_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/001_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → sports ball</p>
+<ol><li><b>Factual / Yes:</b> Is a person about to hit a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person holding a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person about to hit a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>002 · psg_2374090_1 · attached to · F3</h2>
+<div class="imgs"><figure><img src="images/002_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/002_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → person</p>
+<ol><li><b>Factual / Yes:</b> Is a person attached to a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person standing on a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person attached to a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>003 · psg_2323138_0 · beside · F3</h2>
+<div class="imgs"><figure><img src="images/003_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/003_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → person</p>
+<ol><li><b>Factual / Yes:</b> Is a person beside a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person in front of a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person beside a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>004 · psg_2360008_1 · carrying · F1</h2>
+<div class="imgs"><figure><img src="images/004_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/004_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → handbag</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is carrying a handbag.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is holding a handbag.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is carrying a handbag.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>005 · psg_2326330_2 · catching · F3</h2>
+<div class="imgs"><figure><img src="images/005_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/005_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → frisbee</p>
+<ol><li><b>Factual / Yes:</b> Is a person catching a frisbee in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person holding a frisbee in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person catching a frisbee in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>006 · psg_2379109_0 · cleaning · F1</h2>
+<div class="imgs"><figure><img src="images/006_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/006_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → elephant</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is cleaning an elephant.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is riding an elephant.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is cleaning an elephant.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>007 · psg_2391955_3 · drinking · F3</h2>
+<div class="imgs"><figure><img src="images/007_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/007_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> bird → river</p>
+<ol><li><b>Factual / Yes:</b> Is a bird drinking from a river in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a bird looking at a river in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a bird drinking from a river in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>008 · psg_2399281_0 · driving · F2</h2>
+<div class="imgs"><figure><img src="images/008_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/008_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → car</p>
+<ol><li><b>Factual / Yes:</b> Is a person driving a car?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person looking at a car?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person driving a car?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>009 · psg_2404250_0 · driving on · F1</h2>
+<div class="imgs"><figure><img src="images/009_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/009_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> car → road</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A car is driving on a road.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A car is walking on a road.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A car is driving on a road.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>010 · psg_2376836_2 · eating · F1</h2>
+<div class="imgs"><figure><img src="images/010_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/010_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> zebra → grass</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A zebra is eating a grass.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A zebra is walking on a grass.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A zebra is eating a grass.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>011 · psg_2382417_5 · enclosing · F2</h2>
+<div class="imgs"><figure><img src="images/011_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/011_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> fence → grass</p>
+<ol><li><b>Factual / Yes:</b> Is a fence enclosing a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a fence beside a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a fence enclosing a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>012 · psg_2388289_1 · entering · F2</h2>
+<div class="imgs"><figure><img src="images/012_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/012_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → airplane</p>
+<ol><li><b>Factual / Yes:</b> Is a person entering an airplane?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person driving an airplane?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person entering an airplane?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>013 · psg_2319077_0 · feeding · F1</h2>
+<div class="imgs"><figure><img src="images/013_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/013_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → cat</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is feeding a cat.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is holding a cat.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is feeding a cat.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>014 · psg_2376607_7 · flying over · F1</h2>
+<div class="imgs"><figure><img src="images/014_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/014_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> airplane → road</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: An airplane is flying over a road.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: An airplane is driving on a road.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: An airplane is flying over a road.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>015 · psg_2343894_0 · guiding · F1</h2>
+<div class="imgs"><figure><img src="images/015_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/015_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → horse</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is guiding a horse.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is riding a horse.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is guiding a horse.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>016 · psg_2351084_1 · hanging from · F3</h2>
+<div class="imgs"><figure><img src="images/016_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/016_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> toilet → wall</p>
+<ol><li><b>Factual / Yes:</b> Is a toilet hanging from a wall in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a toilet leaning on a wall in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a toilet hanging from a wall in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>017 · psg_2390954_1 · holding · F3</h2>
+<div class="imgs"><figure><img src="images/017_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/017_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> teddy bear → book</p>
+<ol><li><b>Factual / Yes:</b> Is a teddy bear holding a book in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a teddy bear in front of a book in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a teddy bear holding a book in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>018 · psg_2409081_9 · in · F3</h2>
+<div class="imgs"><figure><img src="images/018_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/018_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → person</p>
+<ol><li><b>Factual / Yes:</b> Is a person in a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person beside a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person in a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>019 · psg_2345460_1 · in front of · F2</h2>
+<div class="imgs"><figure><img src="images/019_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/019_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> vase → person</p>
+<ol><li><b>Factual / Yes:</b> Is a vase in front of a person?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a vase over a person?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a vase in front of a person?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>020 · psg_2338277_1 · jumping from · F3</h2>
+<div class="imgs"><figure><img src="images/020_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/020_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → floor</p>
+<ol><li><b>Factual / Yes:</b> Is a person jumping from a floor in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person walking on a floor in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person jumping from a floor in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>021 · psg_2343642_0 · jumping over · F1</h2>
+<div class="imgs"><figure><img src="images/021_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/021_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → fire hydrant</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is jumping over a fire hydrant.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is holding a fire hydrant.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is jumping over a fire hydrant.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>022 · psg_2331975_3 · leaning on · F3</h2>
+<div class="imgs"><figure><img src="images/022_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/022_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> potted plant → window</p>
+<ol><li><b>Factual / Yes:</b> Is a potted plant leaning on a window in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a potted plant hanging from a window in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a potted plant leaning on a window in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>023 · psg_2390744_0 · looking at · F1</h2>
+<div class="imgs"><figure><img src="images/023_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/023_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → clock</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is looking at a clock.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is wearing a clock.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is looking at a clock.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>024 · psg_2352432_0 · lying on · F1</h2>
+<div class="imgs"><figure><img src="images/024_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/024_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> zebra → dirt</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A zebra is lying on a dirt.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A zebra is standing on a dirt.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A zebra is lying on a dirt.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>025 · psg_2398827_3 · on · F1</h2>
+<div class="imgs"><figure><img src="images/025_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/025_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> light → table</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A light is on a table.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A light is over a table.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A light is on a table.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>026 · psg_2350206_0 · over · F1</h2>
+<div class="imgs"><figure><img src="images/026_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/026_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> sky → tree</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A sky is over a tree.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A sky is on a tree.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A sky is over a tree.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>027 · psg_2333426_1 · painted on · F1</h2>
+<div class="imgs"><figure><img src="images/027_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/027_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> cell phone → wall</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A cell phone is painted on a wall.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A cell phone is in front of a wall.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A cell phone is painted on a wall.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>028 · psg_2345771_0 · parked on · F1</h2>
+<div class="imgs"><figure><img src="images/028_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/028_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> car → road</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A car is parked on a road.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A car is attached to a road.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A car is parked on a road.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>029 · psg_2371115_3 · picking · F2</h2>
+<div class="imgs"><figure><img src="images/029_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/029_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → sports ball</p>
+<ol><li><b>Factual / Yes:</b> Is a person picking up a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person about to hit a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person picking up a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>030 · psg_2408487_2 · playing · F3</h2>
+<div class="imgs"><figure><img src="images/030_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/030_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> dog → sports ball</p>
+<ol><li><b>Factual / Yes:</b> Is a dog playing a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a dog biting a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a dog playing a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>031 · psg_2317054_0 · playing with · F3</h2>
+<div class="imgs"><figure><img src="images/031_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/031_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → person</p>
+<ol><li><b>Factual / Yes:</b> Is a person playing with a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person looking at a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person playing with a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>032 · psg_2406769_8 · riding · F3</h2>
+<div class="imgs"><figure><img src="images/032_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/032_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → elephant</p>
+<ol><li><b>Factual / Yes:</b> Is a person riding an elephant in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person looking at an elephant in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person riding an elephant in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>033 · psg_2334529_0 · running on · F2</h2>
+<div class="imgs"><figure><img src="images/033_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/033_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> cow → grass</p>
+<ol><li><b>Factual / Yes:</b> Is a cow running on a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a cow eating a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a cow running on a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>034 · psg_2388510_2 · sitting on · F3</h2>
+<div class="imgs"><figure><img src="images/034_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/034_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → dirt</p>
+<ol><li><b>Factual / Yes:</b> Is a person sitting on a dirt in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person standing on a dirt in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person sitting on a dirt in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>035 · psg_2367972_0 · standing on · F3</h2>
+<div class="imgs"><figure><img src="images/035_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/035_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → floor</p>
+<ol><li><b>Factual / Yes:</b> Is a person standing on a floor in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person sitting on a floor in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person standing on a floor in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>036 · psg_2416320_2 · talking to · F1</h2>
+<div class="imgs"><figure><img src="images/036_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/036_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → person</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is talking to a person.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is holding a person.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is talking to a person.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>037 · psg_2348653_1 · throwing · F2</h2>
+<div class="imgs"><figure><img src="images/037_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/037_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → sports ball</p>
+<ol><li><b>Factual / Yes:</b> Is a person throwing a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person about to hit a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person throwing a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>038 · psg_2339743_0 · touching · F3</h2>
+<div class="imgs"><figure><img src="images/038_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/038_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → person</p>
+<ol><li><b>Factual / Yes:</b> Is a person touching a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person attached to a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person touching a person in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>039 · psg_2344979_3 · walking on · F2</h2>
+<div class="imgs"><figure><img src="images/039_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/039_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → pavement</p>
+<ol><li><b>Factual / Yes:</b> Is a person walking on a pavement?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person looking at a pavement?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person walking on a pavement?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>040 · psg_2342383_1 · wearing · F2</h2>
+<div class="imgs"><figure><img src="images/040_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/040_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → clock</p>
+<ol><li><b>Factual / Yes:</b> Is a person wearing a clock?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person looking at a clock?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person wearing a clock?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>041 · psg_2351868_0 · about to hit · F3</h2>
+<div class="imgs"><figure><img src="images/041_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/041_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → sports ball</p>
+<ol><li><b>Factual / Yes:</b> Is a person about to hit a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person looking at a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person about to hit a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>042 · psg_2393377_3 · attached to · F3</h2>
+<div class="imgs"><figure><img src="images/042_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/042_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> sheep → sheep</p>
+<ol><li><b>Factual / Yes:</b> Is a sheep attached to a sheep in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a sheep standing on a sheep in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a sheep attached to a sheep in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>043 · psg_2388787_3 · beside · F3</h2>
+<div class="imgs"><figure><img src="images/043_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/043_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> umbrella → wall</p>
+<ol><li><b>Factual / Yes:</b> Is an umbrella beside a wall in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is an umbrella painted on a wall in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is an umbrella beside a wall in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>044 · psg_150436_8 · carrying · F3</h2>
+<div class="imgs"><figure><img src="images/044_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/044_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → backpack</p>
+<ol><li><b>Factual / Yes:</b> Is a person carrying a backpack in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person wearing a backpack in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person carrying a backpack in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>045 · psg_2347290_1 · catching · F3</h2>
+<div class="imgs"><figure><img src="images/045_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/045_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → sports ball</p>
+<ol><li><b>Factual / Yes:</b> Is a person catching a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person about to hit a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person catching a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>046 · psg_2317687_1 · driving · F2</h2>
+<div class="imgs"><figure><img src="images/046_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/046_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → truck</p>
+<ol><li><b>Factual / Yes:</b> Is a person driving a truck?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person looking at a truck?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person driving a truck?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>047 · psg_2370228_2 · driving on · F2</h2>
+<div class="imgs"><figure><img src="images/047_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/047_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> car → road</p>
+<ol><li><b>Factual / Yes:</b> Is a car driving on a road?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a car walking on a road?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a car driving on a road?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>048 · psg_2399999_6 · eating · F3</h2>
+<div class="imgs"><figure><img src="images/048_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/048_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> cow → grass</p>
+<ol><li><b>Factual / Yes:</b> Is a cow eating a grass in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a cow walking on a grass in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a cow eating a grass in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>049 · psg_2353113_6 · enclosing · F2</h2>
+<div class="imgs"><figure><img src="images/049_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/049_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> fence → water</p>
+<ol><li><b>Factual / Yes:</b> Is a fence enclosing a water?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a fence over a water?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a fence enclosing a water?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>050 · psg_2415186_1 · feeding · F1</h2>
+<div class="imgs"><figure><img src="images/050_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/050_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → elephant</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is feeding an elephant.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is riding an elephant.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is feeding an elephant.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>051 · psg_2376622_0 · flying over · F2</h2>
+<div class="imgs"><figure><img src="images/051_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/051_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> airplane → sky</p>
+<ol><li><b>Factual / Yes:</b> Is an airplane flying over a sky?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is an airplane driving on a sky?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is an airplane flying over a sky?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>052 · psg_2347106_3 · hanging from · F2</h2>
+<div class="imgs"><figure><img src="images/052_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/052_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> tv → wall</p>
+<ol><li><b>Factual / Yes:</b> Is a tv hanging from a wall?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a tv in front of a wall?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a tv hanging from a wall?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>053 · psg_2392190_0 · holding · F3</h2>
+<div class="imgs"><figure><img src="images/053_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/053_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → banana</p>
+<ol><li><b>Factual / Yes:</b> Is a person holding a banana in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person eating a banana in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person holding a banana in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>054 · psg_2403996_0 · in · F3</h2>
+<div class="imgs"><figure><img src="images/054_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/054_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> dog → car</p>
+<ol><li><b>Factual / Yes:</b> Is a dog in a car in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a dog in front of a car in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a dog in a car in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>055 · psg_2358431_1 · in front of · F2</h2>
+<div class="imgs"><figure><img src="images/055_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/055_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → tree</p>
+<ol><li><b>Factual / Yes:</b> Is a person in front of a tree?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person beside a tree?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person in front of a tree?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>056 · psg_2396749_2 · jumping from · F1</h2>
+<div class="imgs"><figure><img src="images/056_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/056_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → pavement</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is jumping from a pavement.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is walking on a pavement.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is jumping from a pavement.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>057 · psg_1593213_1 · jumping over · F1</h2>
+<div class="imgs"><figure><img src="images/057_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/057_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> horse → grass</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A horse is jumping over a grass.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A horse is walking on a grass.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A horse is jumping over a grass.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>058 · psg_2407402_5 · leaning on · F1</h2>
+<div class="imgs"><figure><img src="images/058_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/058_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> paper → motorcycle</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A paper is leaning on a motorcycle.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A paper is over a motorcycle.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A paper is leaning on a motorcycle.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>059 · psg_1159434_4 · looking at · F2</h2>
+<div class="imgs"><figure><img src="images/059_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/059_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → person</p>
+<ol><li><b>Factual / Yes:</b> Is a person looking at a person?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person talking to a person?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person looking at a person?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>060 · psg_2348158_2 · lying on · F2</h2>
+<div class="imgs"><figure><img src="images/060_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/060_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> sheep → grass</p>
+<ol><li><b>Factual / Yes:</b> Is a sheep lying on a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a sheep standing on a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a sheep lying on a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>061 · psg_2391707_0 · on · F1</h2>
+<div class="imgs"><figure><img src="images/061_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/061_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> bird → tree</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A bird is on a tree.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A bird is over a tree.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A bird is on a tree.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>062 · psg_2342580_2 · over · F1</h2>
+<div class="imgs"><figure><img src="images/062_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/062_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> banana → person</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A banana is over a person.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A banana is in front of a person.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A banana is over a person.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>063 · psg_2392925_7 · painted on · F1</h2>
+<div class="imgs"><figure><img src="images/063_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/063_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> bird → wall</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A bird is painted on a wall.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A bird is in front of a wall.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A bird is painted on a wall.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>064 · psg_713685_3 · parked on · F1</h2>
+<div class="imgs"><figure><img src="images/064_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/064_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> motorcycle → grass</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A motorcycle is parked on a grass.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A motorcycle is driving on a grass.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A motorcycle is parked on a grass.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>065 · psg_2365526_1 · playing · F3</h2>
+<div class="imgs"><figure><img src="images/065_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/065_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → surfboard</p>
+<ol><li><b>Factual / Yes:</b> Is a person playing a surfboard in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person holding a surfboard in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person playing a surfboard in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>066 · psg_2398548_6 · playing with · F3</h2>
+<div class="imgs"><figure><img src="images/066_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/066_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → frisbee</p>
+<ol><li><b>Factual / Yes:</b> Is a person playing with a frisbee in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person holding a frisbee in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person playing with a frisbee in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>067 · psg_2340798_4 · riding · F1</h2>
+<div class="imgs"><figure><img src="images/067_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/067_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → horse</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is riding a horse.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is looking at a horse.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is riding a horse.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>068 · psg_2365153_2 · running on · F1</h2>
+<div class="imgs"><figure><img src="images/068_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/068_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → grass</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is running on a grass.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is walking on a grass.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is running on a grass.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>069 · psg_2370047_1 · sitting on · F3</h2>
+<div class="imgs"><figure><img src="images/069_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/069_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → rug</p>
+<ol><li><b>Factual / Yes:</b> Is a person sitting on a rug in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person standing on a rug in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person sitting on a rug in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>070 · psg_2353305_0 · standing on · F3</h2>
+<div class="imgs"><figure><img src="images/070_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/070_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → sand</p>
+<ol><li><b>Factual / Yes:</b> Is a person standing on a sand in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person sitting on a sand in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person standing on a sand in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>071 · psg_2404172_1 · talking to · F2</h2>
+<div class="imgs"><figure><img src="images/071_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/071_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → person</p>
+<ol><li><b>Factual / Yes:</b> Is a person talking to a person?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person holding a person?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person talking to a person?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>072 · psg_2342646_2 · throwing · F2</h2>
+<div class="imgs"><figure><img src="images/072_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/072_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → sports ball</p>
+<ol><li><b>Factual / Yes:</b> Is a person throwing a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person about to hit a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person throwing a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>073 · psg_2315791_0 · touching · F3</h2>
+<div class="imgs"><figure><img src="images/073_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/073_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → horse</p>
+<ol><li><b>Factual / Yes:</b> Is a person touching a horse in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person sitting on a horse in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person touching a horse in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>074 · psg_2369843_2 · walking on · F1</h2>
+<div class="imgs"><figure><img src="images/074_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/074_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> horse → pavement</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A horse is walking on a pavement.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A horse is looking at a pavement.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A horse is walking on a pavement.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>075 · psg_2333374_2 · wearing · F3</h2>
+<div class="imgs"><figure><img src="images/075_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/075_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → clock</p>
+<ol><li><b>Factual / Yes:</b> Is a person wearing a clock in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person looking at a clock in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person wearing a clock in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>076 · psg_2397925_0 · about to hit · F3</h2>
+<div class="imgs"><figure><img src="images/076_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/076_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → sports ball</p>
+<ol><li><b>Factual / Yes:</b> Is a person about to hit a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person looking at a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person about to hit a sports ball in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>077 · psg_2367807_1 · attached to · F2</h2>
+<div class="imgs"><figure><img src="images/077_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/077_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → wine glass</p>
+<ol><li><b>Factual / Yes:</b> Is a person attached to a wine glass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person sitting on a wine glass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person attached to a wine glass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>078 · psg_2358115_3 · beside · F3</h2>
+<div class="imgs"><figure><img src="images/078_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/078_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> tree → building</p>
+<ol><li><b>Factual / Yes:</b> Is a tree beside a building in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a tree in front of a building in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a tree beside a building in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>079 · psg_2327609_0 · driving · F1</h2>
+<div class="imgs"><figure><img src="images/079_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/079_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → car</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is driving a car.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is looking at a car.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is driving a car.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>080 · psg_2399208_1 · driving on · F3</h2>
+<div class="imgs"><figure><img src="images/080_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/080_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> car → road</p>
+<ol><li><b>Factual / Yes:</b> Is a car driving on a road in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a car crossing a road in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a car driving on a road in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>081 · psg_2332003_0 · eating · F2</h2>
+<div class="imgs"><figure><img src="images/081_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/081_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> zebra → grass</p>
+<ol><li><b>Factual / Yes:</b> Is a zebra eating a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a zebra walking on a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a zebra eating a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>082 · psg_2404936_1 · feeding · F1</h2>
+<div class="imgs"><figure><img src="images/082_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/082_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → horse</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is feeding a horse.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is riding a horse.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is feeding a horse.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>083 · psg_2378321_3 · flying over · F3</h2>
+<div class="imgs"><figure><img src="images/083_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/083_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> bird → mountain</p>
+<ol><li><b>Factual / Yes:</b> Is a bird flying over a mountain in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a bird standing on a mountain in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a bird flying over a mountain in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>084 · psg_2353539_0 · hanging from · F2</h2>
+<div class="imgs"><figure><img src="images/084_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/084_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> shelf → wall brick</p>
+<ol><li><b>Factual / Yes:</b> Is a shelf hanging from a wall brick?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a shelf over a wall brick?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a shelf hanging from a wall brick?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>085 · psg_2370123_0 · holding · F2</h2>
+<div class="imgs"><figure><img src="images/085_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/085_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → sports ball</p>
+<ol><li><b>Factual / Yes:</b> Is a person holding a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person about to hit a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person holding a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>086 · psg_2405505_1 · in · F3</h2>
+<div class="imgs"><figure><img src="images/086_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/086_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> elephant → tree</p>
+<ol><li><b>Factual / Yes:</b> Is an elephant in a tree in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is an elephant in front of a tree in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is an elephant in a tree in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>087 · psg_2387190_1 · in front of · F3</h2>
+<div class="imgs"><figure><img src="images/087_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/087_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> car → mountain</p>
+<ol><li><b>Factual / Yes:</b> Is a car in front of a mountain in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a car on a mountain in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a car in front of a mountain in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>088 · psg_2352881_3 · jumping from · F2</h2>
+<div class="imgs"><figure><img src="images/088_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/088_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → platform</p>
+<ol><li><b>Factual / Yes:</b> Is a person jumping from a platform?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person walking on a platform?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person jumping from a platform?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>089 · psg_2347082_1 · jumping over · F1</h2>
+<div class="imgs"><figure><img src="images/089_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/089_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → snow</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is jumping over a snow.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is walking on a snow.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is jumping over a snow.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>090 · psg_2332079_0 · leaning on · F1</h2>
+<div class="imgs"><figure><img src="images/090_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/090_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> cat → wall</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A cat is leaning on a wall.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A cat is attached to a wall.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A cat is leaning on a wall.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>091 · psg_2339064_3 · looking at · F1</h2>
+<div class="imgs"><figure><img src="images/091_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/091_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> bird → sea</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A bird is looking at a sea.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A bird is flying over a sea.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A bird is looking at a sea.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>092 · psg_2354598_2 · lying on · F2</h2>
+<div class="imgs"><figure><img src="images/092_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/092_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> cow → grass</p>
+<ol><li><b>Factual / Yes:</b> Is a cow lying on a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a cow standing on a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a cow lying on a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>093 · psg_2333586_0 · on · F1</h2>
+<div class="imgs"><figure><img src="images/093_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/093_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> knife → table</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A knife is on a table.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A knife is over a table.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A knife is on a table.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>094 · psg_2360280_0 · painted on · F3</h2>
+<div class="imgs"><figure><img src="images/094_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/094_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> stop sign → rock</p>
+<ol><li><b>Factual / Yes:</b> Is a stop sign painted on a rock in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a stop sign over a rock in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a stop sign painted on a rock in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>095 · psg_2406572_2 · parked on · F2</h2>
+<div class="imgs"><figure><img src="images/095_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/095_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> motorcycle → gravel</p>
+<ol><li><b>Factual / Yes:</b> Is a motorcycle parked on a gravel?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a motorcycle driving on a gravel?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a motorcycle parked on a gravel?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>096 · psg_2377883_1 · riding · F3</h2>
+<div class="imgs"><figure><img src="images/096_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/096_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → horse</p>
+<ol><li><b>Factual / Yes:</b> Is a person riding a horse in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person looking at a horse in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person riding a horse in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>097 · psg_2385808_1 · sitting on · F1</h2>
+<div class="imgs"><figure><img src="images/097_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/097_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → pavement</p>
+<ol><li><b>Factual / Yes:</b> Does the image support this statement?
+Statement: A person is sitting on a pavement.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Does the image support this statement?
+Statement: A person is standing on a pavement.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Does the image support this statement?
+Statement: A person is sitting on a pavement.
+Answer Yes or No only.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>098 · psg_2362512_8 · standing on · F2</h2>
+<div class="imgs"><figure><img src="images/098_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/098_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> elephant → grass</p>
+<ol><li><b>Factual / Yes:</b> Is an elephant standing on a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is an elephant attached to a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is an elephant standing on a grass?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>099 · psg_2397637_8 · throwing · F2</h2>
+<div class="imgs"><figure><img src="images/099_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/099_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → sports ball</p>
+<ol><li><b>Factual / Yes:</b> Is a person throwing a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person about to hit a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person throwing a sports ball?
+Answer Yes or No.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>
+<section><h2>100 · psg_2366932_2 · touching · F3</h2>
+<div class="imgs"><figure><img src="images/100_positive.jpg"><figcaption>I+ (green=subject, red=object)</figcaption></figure>
+<figure><img src="images/100_visual_cf.jpg"><figcaption>I− (green=subject, red=object)</figcaption></figure></div>
+<p><b>Entities:</b> person → building</p>
+<ol><li><b>Factual / Yes:</b> Is a person touching a building in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;yes&#x27;, &#x27;raw&#x27;: &#x27;Yes.&#x27;}</li>
+<li><b>Relation CF / No:</b> Is a person standing on a building in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li>
+<li><b>Visual CF / No; text identical to factual:</b> Is a person touching a building in the image? Please answer with one word.<br>auto={&#x27;judgment&#x27;: &#x27;no&#x27;, &#x27;raw&#x27;: &#x27;No.&#x27;}</li></ol></section>

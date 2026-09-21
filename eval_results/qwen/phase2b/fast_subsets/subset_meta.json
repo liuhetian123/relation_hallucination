@@ -1,0 +1,81 @@
+{
+  "seed": 42,
+  "ratios": {
+    "rbench": 0.25,
+    "mmrel_adv": 0.5,
+    "amber_dr": 0.3
+  },
+  "rbench": {
+    "union_unique": 7692,
+    "sampled_unique": 1924,
+    "sampled_in_llava": 1924,
+    "per_fold": [
+      1381,
+      1363,
+      1346,
+      1362,
+      1400
+    ],
+    "label": {
+      "no": 676,
+      "yes": 1248
+    },
+    "qtype": {
+      "opposite": 526,
+      "positive": 1250,
+      "random": 148
+    },
+    "full_label": {
+      "yes": 4991,
+      "no": 2701
+    },
+    "full_qtype": {
+      "positive": 5000,
+      "opposite": 2102,
+      "random": 590
+    }
+  },
+  "mmrel_adv": {
+    "full": 949,
+    "effective": 770,
+    "skipped_spec": 179,
+    "sampled": 384,
+    "full_label": {
+      "yes": 392,
+      "no": 378
+    },
+    "full_source": {
+      "vg": 671,
+      "dalle": 99
+    },
+    "sampled_label": {
+      "yes": 196,
+      "no": 188
+    },
+    "sampled_source": {
+      "vg": 335,
+      "dalle": 49
+    }
+  },
+  "amber_dr": {
+    "full": 1664,
+    "sampled": 499,
+    "full_label": {
+      "yes": 975,
+      "no": 689
+    },
+    "sampled_label": {
+      "yes": 292,
+      "no": 207
+    },
+    "full_type": {
+      "discriminative-relation": 975,
+      "relation": 689
+    },
+    "sampled_type": {
+      "discriminative-relation": 292,
+      "relation": 207
+    }
+  },
+  "note": "Frozen at creation. Do not resample because a model looks weak on this subset."
+}

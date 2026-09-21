@@ -1,0 +1,44 @@
+{
+  "all": {
+    "n": 1068,
+    "TP": 396,
+    "FP": 206,
+    "TN": 328,
+    "FN": 138,
+    "Accuracy": 0.6779026217228464,
+    "Precision": 0.6578073089700996,
+    "Recall": 0.7415730337078652,
+    "F1": 0.6971830985915493,
+    "Yes_ratio": 0.5636704119850188,
+    "skipped_empty": 0,
+    "subset": "all"
+  },
+  "positive": {
+    "n": 534,
+    "TP": 396,
+    "FP": 0,
+    "TN": 0,
+    "FN": 138,
+    "Accuracy": 0.7415730337078652,
+    "Precision": 1.0,
+    "Recall": 0.7415730337078652,
+    "F1": 0.8516129032258065,
+    "Yes_ratio": 0.7415730337078652,
+    "skipped_empty": 0,
+    "subset": "positive"
+  },
+  "random_negative": {
+    "n": 534,
+    "TP": 0,
+    "FP": 206,
+    "TN": 328,
+    "FN": 0,
+    "Accuracy": 0.6142322097378277,
+    "Precision": 0.0,
+    "Recall": 0.0,
+    "F1": 0.0,
+    "Yes_ratio": 0.3857677902621723,
+    "skipped_empty": 0,
+    "subset": "random_negative"
+  }
+}

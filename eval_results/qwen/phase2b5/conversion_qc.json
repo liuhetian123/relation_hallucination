@@ -1,0 +1,37 @@
+{
+  "rbench": {
+    "total": 1924,
+    "converted_successfully": 1924,
+    "failed_conversion": 0,
+    "failed_examples": [],
+    "tags": {
+      "rbench_does": 110,
+      "rbench_is_are": 1493,
+      "rbench_fallback_ing": 36,
+      "rbench_there": 257,
+      "rbench_fallback_comp": 8,
+      "rbench_does_fallback": 7,
+      "rbench_fallback_loc": 3,
+      "rbench_fallback_ed": 6,
+      "rbench_fallback_last": 4
+    },
+    "duplicate_statement": 211,
+    "gold_unchanged": true,
+    "image_unchanged": true
+  },
+  "mmrel_adv": {
+    "total": 384,
+    "converted_successfully": 384,
+    "failed_conversion": 0,
+    "failed_examples": [],
+    "tags": {
+      "mmrel_action": 175,
+      "mmrel_spatial_to": 182,
+      "mmrel_spatial_prep": 27
+    },
+    "duplicate_statement": 10,
+    "gold_unchanged": true,
+    "image_unchanged": true
+  },
+  "seed": 42
+}

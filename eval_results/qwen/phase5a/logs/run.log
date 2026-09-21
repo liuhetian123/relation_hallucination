@@ -1,0 +1,670 @@
+[phase5a] using GPU 6
+[phase5a] infer base
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 13/824 [00:00<00:06, 120.60it/s]Loading weights:   5%|▍         | 41/824 [00:00<00:03, 197.33it/s]Loading weights:   8%|▊         | 69/824 [00:00<00:03, 232.67it/s]Loading weights:  12%|█▏        | 97/824 [00:00<00:02, 249.86it/s]Loading weights:  15%|█▍        | 123/824 [00:00<00:02, 239.08it/s]Loading weights:  18%|█▊        | 148/824 [00:00<00:03, 221.63it/s]Loading weights:  22%|██▏       | 185/824 [00:00<00:02, 259.62it/s]Loading weights:  27%|██▋       | 221/824 [00:00<00:02, 278.35it/s]Loading weights:  30%|███       | 250/824 [00:00<00:02, 277.92it/s]Loading weights:  34%|███▍      | 280/824 [00:01<00:01, 283.75it/s]Loading weights:  38%|███▊      | 316/824 [00:01<00:01, 300.42it/s]Loading weights:  43%|████▎     | 351/824 [00:01<00:01, 312.23it/s]Loading weights:  47%|████▋     | 388/824 [00:01<00:01, 324.43it/s]Loading weights:  51%|█████     | 421/824 [00:01<00:01, 316.24it/s]Loading weights:  62%|██████▏   | 508/824 [00:01<00:00, 472.70it/s]Loading weights:  75%|███████▌  | 621/824 [00:01<00:00, 662.98it/s]Loading weights:  88%|████████▊ | 728/824 [00:01<00:00, 782.06it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 833.73it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 428.83it/s]
+yes_ids=[9454, 9693] no_ids=[2753, 2152] device=cuda:0
+job mmrel_adv_questions.jsonl questions=384 already=0 remaining=384 fallback=False
+[1/384] 010l9bc0b9trxvw 'No'
+[20/384] 31j3wqk31oizgnn 'No.'
+[40/384] 5owqb9zzyc1cnif 'Yes'
+[60/384] 7rmyiwgaj02w8fg 'No'
+[80/384] 9dzlh9pq3biqyjv 'Yes.'
+[100/384] b8eouc1dlaq8egb 'No.'
+[120/384] d5cfdhuz044z0at 'No'
+[140/384] f4ye0uoy02r11cv 'Yes.'
+[160/384] h595uepuzul2p6n 'No'
+[180/384] idb4ippj7sa8x1w 'No'
+[200/384] jqoe30bbuzr465o 'Yes'
+[220/384] m1o6pld1ck023eb 'Yes.'
+[240/384] nqixstt7uj0cv0n 'Yes'
+[260/384] ps919249fygxfla 'No'
+[280/384] ralh52iepoqao5y 'No'
+[300/384] tdfyob2bscio18q 'Yes'
+[320/384] vgvae8ffa30vbro 'Yes.'
+[340/384] wvdjyvkyzp3fbf7 'No'
+[360/384] yf7mklbsdn634v7 'Yes.'
+[380/384] zlepi9vs3fxchyh 'No.'
+Wrote eval_results/qwen/phase5a/answers/base_mmrel_adv_fast_textonly.jsonl
+job rbench_questions.jsonl questions=1924 already=0 remaining=1924 fallback=False
+[1/1924] 13 "I'm sorry, but I'm unable to see any image attached to your question"
+[20/1924] 222 "I'm sorry, but I am unable to see any image or visual content as"
+[40/1924] 395 "I'm sorry, but I am unable to see any images as I am a"
+[60/1924] 515 'Yes, the seahorse is swimming near some plants in the image.'
+[80/1924] 667 'Yes, the ladybug is resting on a blade of grass in the image.'
+[100/1924] 840 "I'm sorry, but I'm unable to see any image attached to your question"
+[120/1924] 1003 "I'm sorry, but as an AI language model, I don't have the"
+[140/1924] 1147 "I'm sorry, but I cannot answer this question as there is no information provided"
+[160/1924] 1283 'Yes, the cookies on the pan are covered with parchment paper.'
+[180/1924] 1416 "I'm sorry, but I am unable to see any images as I am a"
+[200/1924] 1640 "I'm sorry, but I'm unable to see any image attached to your question"
+[220/1924] 1741 "I'm sorry, but I'm unable to see any image attached to your question"
+[240/1924] 1914 'Yes, the pair of shorts is hanging from a wooden hanger.'
+[260/1924] 2062 "I'm sorry, but I'm unable to see images as I am a text"
+[280/1924] 2172 "I'm sorry, but I cannot answer this question as I do not have access"
+[300/1924] 2336 "I'm sorry, but as an AI language model, I don't have access"
+[320/1924] 2420 "I'm sorry, but as an AI language model, I don't have access"
+[340/1924] 2599 "I'm sorry, but as an AI language model, I don't have access"
+[360/1924] 2721 "I'm sorry, but I am unable to see any images as I am a"
+[380/1924] 2812 "I'm sorry, but I'm unable to see any image attached to your question"
+[400/1924] 2926 "I'm sorry, but I am unable to see any images or visual content as"
+[420/1924] 3047 "I'm sorry, but as an AI language model, I don't have access"
+[440/1924] 3192 "I'm sorry, but I am unable to see any images or visual content as"
+[460/1924] 3345 "I'm sorry, but I'm unable to see any images as I am a"
+[480/1924] 3495 "I'm sorry, but I don't have any information about whether the bike is"
+[500/1924] 3646 "I'm sorry, but I'm unable to see any image attached to your question"
+[520/1924] 3788 "I'm sorry, but I cannot answer this question as there is no information provided"
+[540/1924] 3962 "I'm sorry, but as an AI language model, I don't have access"
+[560/1924] 4073 "I'm sorry, but I'm unable to see any image attached to your question"
+[580/1924] 4276 "I'm sorry, but I am unable to see any images as I am a"
+[600/1924] 4414 "I'm sorry, but I'm unable to see any image or visual content as"
+[620/1924] 4594 "I'm sorry, but as an AI language model, I do not have the"
+[640/1924] 4722 "I'm sorry, but I cannot answer this question as there is no information provided"
+[660/1924] 4855 "I'm sorry, but I cannot see any image attached to your question. Could"
+[680/1924] 4998 "I'm sorry, but I am unable to see any image attached to your question"
+[700/1924] 5205 'Yes, there may be other types of trees near the pool besides palm trees.'
+[720/1924] 5402 "I'm sorry, but as an AI language model, I don't have access"
+[740/1924] 5573 "I'm sorry, but I'm unable to see any image attached to your question"
+[760/1924] 5762 "I'm sorry, as an AI language model, I don't have access to"
+[780/1924] 5886 'Yes, the pasta is on a plate.'
+[800/1924] 6042 "I'm sorry, but I am unable to see any images as I am a"
+[820/1924] 6190 'Yes, the bee is sitting on the sunflower in the image.'
+[840/1924] 6316 "I'm sorry, as an AI language model, I don't have access to"
+[860/1924] 6450 'No, the burrito is not typically served on a black plate. Burritos'
+[880/1924] 6599 "I'm unable to identify individuals or determine actions of people in images. I d"
+[900/1924] 6774 "I'm sorry, but I don't have any information about the location of the"
+[920/1924] 6937 "I'm sorry, as an AI language model, I don't have access to"
+[940/1924] 7125 "I'm sorry, but I don't have any information about what is in your"
+[960/1924] 7278 "I'm sorry, but I am unable to see any images as I am a"
+[980/1924] 7466 'There is no existence of any person wearing a reflective vest in the image descr'
+[1000/1924] 7609 'Yes, the coffee cup is on the saucer.'
+[1020/1924] 7805 "I'm sorry, but I cannot answer your question as there is no person or"
+[1040/1924] 7977 "I'm sorry, but I am unable to see any images or visual content as"
+[1060/1924] 8160 'Yes, the plant is inside the vase.'
+[1080/1924] 8330 "I'm sorry, but I'm unable to see any images or visual content as"
+[1100/1924] 8484 'To determine if the microphone is placed in front of all three computers, we nee'
+[1120/1924] 8648 "I'm sorry, but I'm unable to see any image attached to your question"
+[1140/1924] 8829 "I'm sorry, but I cannot answer this question as there is no context provided"
+[1160/1924] 9027 "I'm sorry, but I'm unable to see any images or visual content as"
+[1180/1924] 9181 "I'm sorry, but I'm unable to see any image attached to your question"
+[1200/1924] 9392 "I'm sorry, but I'm unable to see any images or visual content as"
+[1220/1924] 9543 "I'm sorry, but I am unable to see any images or visual content as"
+[1240/1924] 9706 "I'm sorry, but I'm unable to see any images or visual content as"
+[1260/1924] 9845 "I'm sorry, but I am unable to see any images or visual content as"
+[1280/1924] 9938 "I'm sorry, but as an AI language model, I do not have the"
+[1300/1924] 10095 'Yes, the sculpture is located near a building.'
+[1320/1924] 10398 "I'm sorry, but I'm unable to see any image attached to your question"
+[1340/1924] 10631 "I'm sorry, but I can't answer this question. This might be a"
+[1360/1924] 10752 "I'm sorry, but I don't have any information about your specific location or"
+[1380/1924] 10922 "I'm sorry, but as an AI language model, I don't have access"
+[1400/1924] 11063 "I'm sorry, but as an AI language model, I don't have access"
+[1420/1924] 11319 "I'm sorry, but I am unable to see any images as I am a"
+[1440/1924] 11454 'Yes, the fig plants are growing on the tree.'
+[1460/1924] 11674 "I'm sorry, but I cannot answer this question as there is no tree building"
+[1480/1924] 11806 "I'm sorry, but as an AI language model, I don't have access"
+[1500/1924] 11953 "I'm sorry, but I am unable to see any images as I am a"
+[1520/1924] 12067 "I'm sorry, but I am unable to see any images or visual content as"
+[1540/1924] 12152 "I'm sorry, but I'm unable to see any image or visual content as"
+[1560/1924] 12303 "I'm sorry, but I am unable to see any images or visual content as"
+[1580/1924] 12458 "I'm sorry, but I'm unable to see any images or visual content as"
+[1600/1924] 12573 "I'm sorry, but I am unable to see any image attached to your question"
+[1620/1924] 12750 "I'm sorry, but I'm unable to see any images as I am a"
+[1640/1924] 12968 "I'm sorry, but I am unable to see any image or visual content as"
+[1660/1924] 13121 "I'm sorry, but I cannot answer this question as there is no information provided"
+[1680/1924] 13251 "I'm sorry, but I am unable to see any images or visual content as"
+[1700/1924] 13402 "I'm sorry, but I don't have any information about a woman standing at"
+[1720/1924] 13529 "I'm sorry, but I am unable to see any images as I am a"
+[1740/1924] 13687 "I'm sorry, but I'm unable to see any images or visual content as"
+[1760/1924] 13832 "I'm sorry, but as an AI language model, I don't have access"
+[1780/1924] 13976 "I'm sorry, but I am unable to see the image you are referring to"
+[1800/1924] 14110 "I'm sorry, but I don't have any information about the location of the"
+[1820/1924] 14261 "I'm sorry, but I cannot answer this question without more information about your"
+[1840/1924] 14451 'Yes, the machine is powered by the cord connected to the wall. The cord'
+[1860/1924] 14614 "I'm sorry, but I am an AI language model and do not have the"
+[1880/1924] 14769 "I'm sorry, but I am unable to see any images as I am a"
+[1900/1924] 14927 "I'm sorry, but I don't have any information about whether the bride is"
+[1920/1924] 15103 "To determine if the red spots on the moth's body are the same color as"
+Wrote eval_results/qwen/phase5a/answers/base_rbench_fast_textonly.jsonl
+job amber_dr_questions.jsonl questions=499 already=0 remaining=499 fallback=False
+[1/499] 13565 'No, there is no direct contact between the person and the bicycle. The person'
+[20/499] 13641 "I'm sorry, but I don't have enough context to answer your question accurately"
+[40/499] 13694 'No, there is no direct contact between the plane and the ground. The plane'
+[60/499] 13733 'No, there is no direct contact between the woman and grass. The woman is'
+[80/499] 13822 'No, there is no direct contact between the hat and the ground. The hat'
+[100/499] 13884 'No, there is no direct contact between the tie and the wall. The tie'
+[120/499] 13951 'No, there is no direct contact between the tap and the sink. The tap'
+[140/499] 14012 'No, there is no direct contact between the woman and the forest. The woman'
+[160/499] 14062 'No, there is no direct contact between the banana and the plate. The banana'
+[180/499] 14130 'No, there is no direct contact between the fence and the cow. The fence'
+[200/499] 14203 'No, there is no direct contact between the cat and the keyboard. The cat'
+[220/499] 14277 'No, there is no direct contact between the woman and the banana in the image'
+[240/499] 14353 'Yes, there is direct contact between the person and the ship. The person can'
+[260/499] 14440 'No, there is no direct contact between the giraffe and the tree. The'
+[280/499] 14511 "I'm sorry, but I don't have enough context to answer your question accurately"
+[300/499] 14558 'No, there is no direct contact between the grass and the train. The train'
+[320/499] 14606 "I'm sorry, but as an AI language model, I don't have access"
+[340/499] 14681 'No, there is no direct contact between the sky and clouds. The sky is'
+[360/499] 14753 'Yes, there is direct contact between people and the sea. People can swim in'
+[380/499] 14807 'No, there is no direct contact between a frisbee and a football.'
+[400/499] 14869 'Yes, dogs can have direct contact with grass. Dogs often play in grassy'
+[420/499] 14921 'No, there is no direct contact between the cup and the laptop. The cup'
+[440/499] 15012 'No, there is no direct contact between the cup and the book. The cup'
+[460/499] 15069 'No, there is no direct contact between the train and grass. The train runs'
+[480/499] 15164 'Yes, shrimp can be directly contacted with ice. Ice is often used to keep'
+Wrote eval_results/qwen/phase5a/answers/base_amber_dr_fast_textonly.jsonl
+job heldout_verification.jsonl questions=393 already=0 remaining=393 fallback=False
+[1/393] relsim_033e43dd0433601ab2529e1be5d8a27e__hard__climbing_on 'No.'
+[20/393] relsim_25ef9f946d7ac7f697f4d10a9baff6f0__hard__behind 'No.'
+[40/393] relsim_4de1476961e665525b5b24ab8e287b2a__hard__climbing_on 'No.'
+[60/393] relsim_80f7072df29ee266e0ae3113eca6c848__hard__falling_from 'No.'
+[80/393] relsim_b910783a8441f2979318abc70fa26b0f__hard__in_front_of 'Yes.'
+[100/393] relsim_ddd46b8cb2267a5ed61f238a74dec957__hard__playing_with 'No.'
+[120/393] relsim_175eef459f074eba0559214349277ab6__pos 'Yes.'
+[140/393] relsim_2add1e05dd56d979d8d52e1b5acaa139__pos 'Yes.'
+[160/393] relsim_44dc36afa36f4370a448c0f3755c6f99__pos 'No.'
+[180/393] relsim_563b210316278d411c3b848ce0c45ac4__pos 'Yes.'
+[200/393] relsim_74cff7aae4c90085bc6d86ff9df44a47__pos 'No.'
+[220/393] relsim_8f7997d5ac6cfe69c330d5081b7baab8__pos 'Yes.'
+[240/393] relsim_a7bd3e643c109e84aa4eb181dc4573be__pos 'No.'
+[260/393] relsim_ba6bcc5a71e5bdac84088c2d7813dce0__pos 'Yes.'
+[280/393] relsim_d12cc83c72982b442263dbc31288b5f8__pos 'No.'
+[300/393] relsim_1014555354c75c127852bd3b1fb6e46b__random_negative__floating_beside 'No.'
+[320/393] relsim_329db8de42857ebe703283430ee635e2__random_negative__unified_in 'No.'
+[340/393] relsim_5ded2c3d2478654ff471f6b1e612b5e5__random_negative__encasing 'Yes.'
+[360/393] relsim_8f938db75f1ef164b7b3247f151f8240__random_negative__styled_to 'Yes.'
+[380/393] relsim_b647eae0abf16b5c125eb5f54aa5488a__random_negative__bursting_into 'No.'
+Wrote eval_results/qwen/phase5a/answers/base_heldout_textonly.jsonl
+[phase5a] infer clean_mmrel
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   3%|▎         | 28/824 [00:00<00:03, 229.35it/s]Loading weights:   8%|▊         | 64/824 [00:00<00:02, 289.62it/s]Loading weights:  12%|█▏        | 98/824 [00:00<00:02, 281.59it/s]Loading weights:  17%|█▋        | 136/824 [00:00<00:02, 302.63it/s]Loading weights:  21%|██        | 171/824 [00:00<00:02, 310.36it/s]Loading weights:  25%|██▍       | 203/824 [00:00<00:02, 308.16it/s]Loading weights:  29%|██▉       | 243/824 [00:00<00:01, 318.28it/s]Loading weights:  33%|███▎      | 275/824 [00:00<00:01, 312.90it/s]Loading weights:  37%|███▋      | 307/824 [00:01<00:01, 295.39it/s]Loading weights:  41%|████      | 339/824 [00:01<00:01, 302.24it/s]Loading weights:  46%|████▌     | 375/824 [00:01<00:01, 309.08it/s]Loading weights:  49%|████▉     | 407/824 [00:01<00:01, 305.72it/s]Loading weights:  55%|█████▍    | 450/824 [00:01<00:01, 340.03it/s]Loading weights:  66%|██████▌   | 544/824 [00:01<00:00, 511.33it/s]Loading weights:  79%|███████▉  | 652/824 [00:01<00:00, 671.46it/s]Loading weights:  93%|█████████▎| 767/824 [00:01<00:00, 804.40it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 457.86it/s]
+yes_ids=[9454, 9693] no_ids=[2753, 2152] device=cuda:0
+job mmrel_adv_questions.jsonl questions=384 already=0 remaining=384 fallback=False
+[1/384] 010l9bc0b9trxvw 'No'
+[20/384] 31j3wqk31oizgnn 'No'
+[40/384] 5owqb9zzyc1cnif 'Yes'
+[60/384] 7rmyiwgaj02w8fg 'No'
+[80/384] 9dzlh9pq3biqyjv 'Yes'
+[100/384] b8eouc1dlaq8egb 'No'
+[120/384] d5cfdhuz044z0at 'No'
+[140/384] f4ye0uoy02r11cv 'Yes'
+[160/384] h595uepuzul2p6n 'No'
+[180/384] idb4ippj7sa8x1w 'No'
+[200/384] jqoe30bbuzr465o 'Yes'
+[220/384] m1o6pld1ck023eb 'No'
+[240/384] nqixstt7uj0cv0n 'Yes'
+[260/384] ps919249fygxfla 'No'
+[280/384] ralh52iepoqao5y 'No'
+[300/384] tdfyob2bscio18q 'Yes'
+[320/384] vgvae8ffa30vbro 'Yes'
+[340/384] wvdjyvkyzp3fbf7 'No'
+[360/384] yf7mklbsdn634v7 'Yes'
+[380/384] zlepi9vs3fxchyh 'No'
+Wrote eval_results/qwen/phase5a/answers/clean_mmrel_adv_fast_textonly.jsonl
+[phase5a] infer mf_mmrel
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 16/824 [00:00<00:05, 150.28it/s]Loading weights:   8%|▊         | 63/824 [00:00<00:02, 324.41it/s]Loading weights:  12%|█▏        | 96/824 [00:00<00:02, 317.33it/s]Loading weights:  16%|█▌        | 128/824 [00:00<00:02, 309.50it/s]Loading weights:  21%|██        | 169/824 [00:00<00:01, 335.05it/s]Loading weights:  25%|██▌       | 208/824 [00:00<00:01, 343.15it/s]Loading weights:  29%|██▉       | 243/824 [00:00<00:01, 333.92it/s]Loading weights:  34%|███▎      | 277/824 [00:00<00:01, 298.87it/s]Loading weights:  37%|███▋      | 308/824 [00:01<00:01, 272.30it/s]Loading weights:  41%|████      | 339/824 [00:01<00:01, 269.56it/s]Loading weights:  45%|████▍     | 367/824 [00:01<00:01, 267.77it/s]Loading weights:  48%|████▊     | 399/824 [00:01<00:01, 272.84it/s]Loading weights:  52%|█████▏    | 427/824 [00:01<00:01, 267.10it/s]Loading weights:  65%|██████▍   | 534/824 [00:01<00:00, 487.26it/s]Loading weights:  78%|███████▊  | 645/824 [00:01<00:00, 662.37it/s]Loading weights:  91%|█████████▏| 752/824 [00:01<00:00, 778.36it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 441.51it/s]
+yes_ids=[9454, 9693] no_ids=[2753, 2152] device=cuda:0
+job mmrel_adv_questions.jsonl questions=384 already=0 remaining=384 fallback=False
+[1/384] 010l9bc0b9trxvw 'No'
+[20/384] 31j3wqk31oizgnn 'No'
+[40/384] 5owqb9zzyc1cnif 'No'
+[60/384] 7rmyiwgaj02w8fg 'No'
+[80/384] 9dzlh9pq3biqyjv 'No'
+[100/384] b8eouc1dlaq8egb 'No'
+[120/384] d5cfdhuz044z0at 'No'
+[140/384] f4ye0uoy02r11cv 'No'
+[160/384] h595uepuzul2p6n 'No'
+[180/384] idb4ippj7sa8x1w 'No'
+[200/384] jqoe30bbuzr465o 'No'
+[220/384] m1o6pld1ck023eb 'No'
+[240/384] nqixstt7uj0cv0n 'Yes'
+[260/384] ps919249fygxfla 'No'
+[280/384] ralh52iepoqao5y 'No'
+[300/384] tdfyob2bscio18q 'No'
+[320/384] vgvae8ffa30vbro 'No'
+[340/384] wvdjyvkyzp3fbf7 'No'
+[360/384] yf7mklbsdn634v7 'No'
+[380/384] zlepi9vs3fxchyh 'No'
+Wrote eval_results/qwen/phase5a/answers/mf_mmrel_adv_fast_textonly.jsonl
+[phase5a] validity check / maybe fallback
+[phase5a] invalid rate >10%, rerunning with fallback prompt
+[phase5a] infer base_fallback
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 16/824 [00:00<00:05, 148.88it/s]Loading weights:   6%|▋         | 52/824 [00:00<00:03, 257.21it/s]Loading weights:  11%|█         | 87/824 [00:00<00:02, 277.88it/s]Loading weights:  15%|█▌        | 124/824 [00:00<00:02, 308.58it/s]Loading weights:  19%|█▉        | 158/824 [00:00<00:02, 314.90it/s]Loading weights:  23%|██▎       | 190/824 [00:00<00:02, 302.58it/s]Loading weights:  27%|██▋       | 221/824 [00:00<00:02, 267.66it/s]Loading weights:  31%|███       | 255/824 [00:00<00:02, 274.82it/s]Loading weights:  35%|███▌      | 291/824 [00:01<00:01, 284.47it/s]Loading weights:  39%|███▉      | 320/824 [00:01<00:01, 277.89it/s]Loading weights:  43%|████▎     | 351/824 [00:01<00:01, 284.43it/s]Loading weights:  47%|████▋     | 385/824 [00:01<00:01, 292.33it/s]Loading weights:  51%|█████▏    | 424/824 [00:01<00:01, 314.49it/s]Loading weights:  64%|██████▍   | 528/824 [00:01<00:00, 519.46it/s]Loading weights:  82%|████████▏ | 676/824 [00:01<00:00, 793.59it/s]Loading weights: 100%|█████████▉| 821/824 [00:01<00:00, 980.27it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 465.71it/s]
+yes_ids=[9454, 9693] no_ids=[2753, 2152] device=cuda:0
+job mmrel_adv_questions.jsonl questions=384 already=0 remaining=384 fallback=True
+[1/384] 010l9bc0b9trxvw 'No.'
+[20/384] 31j3wqk31oizgnn 'No.'
+[40/384] 5owqb9zzyc1cnif 'No.'
+[60/384] 7rmyiwgaj02w8fg 'No.'
+[80/384] 9dzlh9pq3biqyjv 'No.'
+[100/384] b8eouc1dlaq8egb 'No.'
+[120/384] d5cfdhuz044z0at 'No.'
+[140/384] f4ye0uoy02r11cv 'No.'
+[160/384] h595uepuzul2p6n 'No.'
+[180/384] idb4ippj7sa8x1w 'No.'
+[200/384] jqoe30bbuzr465o 'No.'
+[220/384] m1o6pld1ck023eb 'No.'
+[240/384] nqixstt7uj0cv0n 'No.'
+[260/384] ps919249fygxfla 'No.'
+[280/384] ralh52iepoqao5y 'No.'
+[300/384] tdfyob2bscio18q 'No.'
+[320/384] vgvae8ffa30vbro 'No.'
+[340/384] wvdjyvkyzp3fbf7 'No.'
+[360/384] yf7mklbsdn634v7 'No.'
+[380/384] zlepi9vs3fxchyh 'No.'
+Wrote eval_results/qwen/phase5a/answers/base_mmrel_adv_fast_textonly_fallback.jsonl
+job rbench_questions.jsonl questions=1924 already=0 remaining=1924 fallback=True
+[1/1924] 13 'No.'
+[20/1924] 222 'No.'
+[40/1924] 395 'No.'
+[60/1924] 515 'No.'
+[80/1924] 667 'No.'
+[100/1924] 840 'No.'
+[120/1924] 1003 'No.'
+[140/1924] 1147 'No.'
+[160/1924] 1283 'No.'
+[180/1924] 1416 'No.'
+[200/1924] 1640 'No.'
+[220/1924] 1741 'No.'
+[240/1924] 1914 'No.'
+[260/1924] 2062 'No.'
+[280/1924] 2172 'No.'
+[300/1924] 2336 'No.'
+[320/1924] 2420 'No.'
+[340/1924] 2599 'No.'
+[360/1924] 2721 'No.'
+[380/1924] 2812 'No.'
+[400/1924] 2926 'No.'
+[420/1924] 3047 'No.'
+[440/1924] 3192 'No.'
+[460/1924] 3345 'No.'
+[480/1924] 3495 'No.'
+[500/1924] 3646 'No.'
+[520/1924] 3788 'No.'
+[540/1924] 3962 'No.'
+[560/1924] 4073 'No.'
+[580/1924] 4276 'No.'
+[600/1924] 4414 'No.'
+[620/1924] 4594 'No.'
+[640/1924] 4722 'No.'
+[660/1924] 4855 'No.'
+[680/1924] 4998 'No.'
+[700/1924] 5205 'Yes.'
+[720/1924] 5402 'No.'
+[740/1924] 5573 'No.'
+[760/1924] 5762 'No.'
+[780/1924] 5886 'No.'
+[800/1924] 6042 'No.'
+[820/1924] 6190 'No.'
+[840/1924] 6316 'No.'
+[860/1924] 6450 'No.'
+[880/1924] 6599 'No.'
+[900/1924] 6774 'No.'
+[920/1924] 6937 'No.'
+[940/1924] 7125 'No.'
+[960/1924] 7278 'No.'
+[980/1924] 7466 'No.'
+[1000/1924] 7609 'No.'
+[1020/1924] 7805 'No.'
+[1040/1924] 7977 'No.'
+[1060/1924] 8160 'No.'
+[1080/1924] 8330 'No.'
+[1100/1924] 8484 'No.'
+[1120/1924] 8648 'No.'
+[1140/1924] 8829 'No.'
+[1160/1924] 9027 'No.'
+[1180/1924] 9181 'No.'
+[1200/1924] 9392 'No.'
+[1220/1924] 9543 'No.'
+[1240/1924] 9706 'No.'
+[1260/1924] 9845 'No.'
+[1280/1924] 9938 'No.'
+[1300/1924] 10095 'No.'
+[1320/1924] 10398 'No.'
+[1340/1924] 10631 'No.'
+[1360/1924] 10752 'No.'
+[1380/1924] 10922 'No.'
+[1400/1924] 11063 'No.'
+[1420/1924] 11319 'No.'
+[1440/1924] 11454 'No.'
+[1460/1924] 11674 'No.'
+[1480/1924] 11806 'No.'
+[1500/1924] 11953 'No.'
+[1520/1924] 12067 'No.'
+[1540/1924] 12152 'No.'
+[1560/1924] 12303 'No.'
+[1580/1924] 12458 'No.'
+[1600/1924] 12573 'No.'
+[1620/1924] 12750 'No.'
+[1640/1924] 12968 'No.'
+[1660/1924] 13121 'No.'
+[1680/1924] 13251 'No.'
+[1700/1924] 13402 'No.'
+[1720/1924] 13529 'No.'
+[1740/1924] 13687 'No.'
+[1760/1924] 13832 'No.'
+[1780/1924] 13976 'No.'
+[1800/1924] 14110 'No.'
+[1820/1924] 14261 'No.'
+[1840/1924] 14451 'Yes.'
+[1860/1924] 14614 'No.'
+[1880/1924] 14769 'No.'
+[1900/1924] 14927 'No.'
+[1920/1924] 15103 'No.'
+Wrote eval_results/qwen/phase5a/answers/base_rbench_fast_textonly_fallback.jsonl
+job amber_dr_questions.jsonl questions=499 already=0 remaining=499 fallback=True
+[1/499] 13565 'No.'
+[20/499] 13641 'No.'
+[40/499] 13694 'No.'
+[60/499] 13733 'No.'
+[80/499] 13822 'No.'
+[100/499] 13884 'No.'
+[120/499] 13951 'No.'
+[140/499] 14012 'No.'
+[160/499] 14062 'No.'
+[180/499] 14130 'No.'
+[200/499] 14203 'No.'
+[220/499] 14277 'No.'
+[240/499] 14353 'No.'
+[260/499] 14440 'No.'
+[280/499] 14511 'No.'
+[300/499] 14558 'No.'
+[320/499] 14606 'No.'
+[340/499] 14681 'No.'
+[360/499] 14753 'No.'
+[380/499] 14807 'No.'
+[400/499] 14869 'Yes.'
+[420/499] 14921 'No.'
+[440/499] 15012 'No.'
+[460/499] 15069 'No.'
+[480/499] 15164 'No.'
+Wrote eval_results/qwen/phase5a/answers/base_amber_dr_fast_textonly_fallback.jsonl
+job heldout_verification.jsonl questions=393 already=0 remaining=393 fallback=True
+[1/393] relsim_033e43dd0433601ab2529e1be5d8a27e__hard__climbing_on 'No.'
+[20/393] relsim_25ef9f946d7ac7f697f4d10a9baff6f0__hard__behind 'No.'
+[40/393] relsim_4de1476961e665525b5b24ab8e287b2a__hard__climbing_on 'No.'
+[60/393] relsim_80f7072df29ee266e0ae3113eca6c848__hard__falling_from 'No.'
+[80/393] relsim_b910783a8441f2979318abc70fa26b0f__hard__in_front_of 'No.'
+[100/393] relsim_ddd46b8cb2267a5ed61f238a74dec957__hard__playing_with 'No.'
+[120/393] relsim_175eef459f074eba0559214349277ab6__pos 'No.'
+[140/393] relsim_2add1e05dd56d979d8d52e1b5acaa139__pos 'No.'
+[160/393] relsim_44dc36afa36f4370a448c0f3755c6f99__pos 'No.'
+[180/393] relsim_563b210316278d411c3b848ce0c45ac4__pos 'No.'
+[200/393] relsim_74cff7aae4c90085bc6d86ff9df44a47__pos 'No.'
+[220/393] relsim_8f7997d5ac6cfe69c330d5081b7baab8__pos 'No.'
+[240/393] relsim_a7bd3e643c109e84aa4eb181dc4573be__pos 'No.'
+[260/393] relsim_ba6bcc5a71e5bdac84088c2d7813dce0__pos 'No.'
+[280/393] relsim_d12cc83c72982b442263dbc31288b5f8__pos 'No.'
+[300/393] relsim_1014555354c75c127852bd3b1fb6e46b__random_negative__floating_beside 'No.'
+[320/393] relsim_329db8de42857ebe703283430ee635e2__random_negative__unified_in 'No.'
+[340/393] relsim_5ded2c3d2478654ff471f6b1e612b5e5__random_negative__encasing 'No.'
+[360/393] relsim_8f938db75f1ef164b7b3247f151f8240__random_negative__styled_to 'No.'
+[380/393] relsim_b647eae0abf16b5c125eb5f54aa5488a__random_negative__bursting_into 'No.'
+Wrote eval_results/qwen/phase5a/answers/base_heldout_textonly_fallback.jsonl
+[phase5a] infer clean_mmrel_fallback
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 17/824 [00:00<00:04, 169.38it/s]Loading weights:   6%|▌         | 50/824 [00:00<00:03, 246.22it/s]Loading weights:   9%|▉         | 75/824 [00:00<00:03, 247.46it/s]Loading weights:  12%|█▏        | 101/824 [00:00<00:03, 240.24it/s]Loading weights:  16%|█▋        | 135/824 [00:00<00:02, 267.05it/s]Loading weights:  20%|█▉        | 162/824 [00:00<00:02, 242.64it/s]Loading weights:  23%|██▎       | 187/824 [00:00<00:02, 239.49it/s]Loading weights:  26%|██▌       | 212/824 [00:00<00:02, 230.22it/s]Loading weights:  30%|██▉       | 245/824 [00:00<00:02, 254.71it/s]Loading weights:  34%|███▍      | 281/824 [00:01<00:01, 277.11it/s]Loading weights:  38%|███▊      | 317/824 [00:01<00:01, 298.80it/s]Loading weights:  42%|████▏     | 348/824 [00:01<00:01, 297.13it/s]Loading weights:  46%|████▌     | 378/824 [00:01<00:01, 290.44it/s]Loading weights:  51%|█████▏    | 424/824 [00:01<00:01, 335.65it/s]Loading weights:  66%|██████▌   | 540/824 [00:01<00:00, 572.54it/s]Loading weights:  78%|███████▊  | 644/824 [00:01<00:00, 707.95it/s]Loading weights:  90%|████████▉ | 740/824 [00:01<00:00, 779.71it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 427.76it/s]
+yes_ids=[9454, 9693] no_ids=[2753, 2152] device=cuda:0
+job mmrel_adv_questions.jsonl questions=384 already=0 remaining=384 fallback=True
+[1/384] 010l9bc0b9trxvw 'No'
+[20/384] 31j3wqk31oizgnn 'No'
+[40/384] 5owqb9zzyc1cnif 'No'
+[60/384] 7rmyiwgaj02w8fg 'No'
+[80/384] 9dzlh9pq3biqyjv 'No'
+[100/384] b8eouc1dlaq8egb 'No'
+[120/384] d5cfdhuz044z0at 'No'
+[140/384] f4ye0uoy02r11cv 'No'
+[160/384] h595uepuzul2p6n 'No'
+[180/384] idb4ippj7sa8x1w 'No'
+[200/384] jqoe30bbuzr465o 'No'
+[220/384] m1o6pld1ck023eb 'No'
+[240/384] nqixstt7uj0cv0n 'No'
+[260/384] ps919249fygxfla 'No'
+[280/384] ralh52iepoqao5y 'No'
+[300/384] tdfyob2bscio18q 'No'
+[320/384] vgvae8ffa30vbro 'No'
+[340/384] wvdjyvkyzp3fbf7 'No'
+[360/384] yf7mklbsdn634v7 'No'
+[380/384] zlepi9vs3fxchyh 'No'
+Wrote eval_results/qwen/phase5a/answers/clean_mmrel_adv_fast_textonly_fallback.jsonl
+[phase5a] infer mf_mmrel_fallback
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 20/824 [00:00<00:04, 199.86it/s]Loading weights:   6%|▋         | 52/824 [00:00<00:03, 232.66it/s]Loading weights:  11%|█         | 88/824 [00:00<00:02, 276.03it/s]Loading weights:  15%|█▌        | 124/824 [00:00<00:02, 278.60it/s]Loading weights:  19%|█▊        | 153/824 [00:00<00:02, 280.69it/s]Loading weights:  22%|██▏       | 182/824 [00:00<00:02, 263.26it/s]Loading weights:  25%|██▌       | 209/824 [00:00<00:02, 243.88it/s]Loading weights:  29%|██▉       | 242/824 [00:00<00:02, 255.31it/s]Loading weights:  33%|███▎      | 268/824 [00:01<00:02, 241.57it/s]Loading weights:  36%|███▌      | 293/824 [00:01<00:02, 228.27it/s]Loading weights:  40%|███▉      | 327/824 [00:01<00:01, 254.61it/s]Loading weights:  43%|████▎     | 353/824 [00:01<00:02, 235.24it/s]Loading weights:  48%|████▊     | 397/824 [00:01<00:01, 289.04it/s]Loading weights:  52%|█████▏    | 428/824 [00:01<00:01, 294.58it/s]Loading weights:  66%|██████▋   | 546/824 [00:01<00:00, 539.93it/s]Loading weights:  83%|████████▎ | 684/824 [00:01<00:00, 778.62it/s]Loading weights:  98%|█████████▊| 806/824 [00:01<00:00, 899.57it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 422.91it/s]
+yes_ids=[9454, 9693] no_ids=[2753, 2152] device=cuda:0
+job mmrel_adv_questions.jsonl questions=384 already=0 remaining=384 fallback=True
+[1/384] 010l9bc0b9trxvw 'No'
+[20/384] 31j3wqk31oizgnn 'No'
+[40/384] 5owqb9zzyc1cnif 'No'
+[60/384] 7rmyiwgaj02w8fg 'No'
+[80/384] 9dzlh9pq3biqyjv 'No'
+[100/384] b8eouc1dlaq8egb 'No'
+[120/384] d5cfdhuz044z0at 'No'
+[140/384] f4ye0uoy02r11cv 'No'
+[160/384] h595uepuzul2p6n 'No'
+[180/384] idb4ippj7sa8x1w 'No'
+[200/384] jqoe30bbuzr465o 'No'
+[220/384] m1o6pld1ck023eb 'No'
+[240/384] nqixstt7uj0cv0n 'No'
+[260/384] ps919249fygxfla 'No'
+[280/384] ralh52iepoqao5y 'No'
+[300/384] tdfyob2bscio18q 'No'
+[320/384] vgvae8ffa30vbro 'No'
+[340/384] wvdjyvkyzp3fbf7 'No'
+[360/384] yf7mklbsdn634v7 'No'
+[380/384] zlepi9vs3fxchyh 'No'
+Wrote eval_results/qwen/phase5a/answers/mf_mmrel_adv_fast_textonly_fallback.jsonl
+[phase5a] analyze + report
+[rbench] unique=1924 relation-only=1482
+[reconcile] base/rbench 83.11 vs 83.11 match=True
+[reconcile] base/mmrel_adv 69.01 vs 69.01 match=True
+[reconcile] base/heldout 58.27 vs 58.27 match=True
+[reconcile] base/amber_dr 79.56 vs 79.56 match=True
+[reconcile] clean/rbench 82.95 vs 82.95 match=True
+[reconcile] clean/mmrel_adv 70.83 vs 70.83 match=True
+[reconcile] clean/heldout 67.18 vs 67.18 match=True
+[reconcile] clean/amber_dr 80.16 vs 80.16 match=True
+[reconcile] mf/rbench 82.85 vs 82.85 match=True
+[reconcile] mf/mmrel_adv 74.48 vs 74.48 match=True
+[reconcile] mf/heldout 65.90 vs 65.90 match=True
+[reconcile] mf/amber_dr 79.16 vs 79.16 match=True
+[reconcile] s3000/rbench 83.58 vs 83.58 match=True
+[reconcile] s3000/mmrel_adv 71.09 vs 71.09 match=True
+[reconcile] s3000/heldout 72.77 vs 72.77 match=True
+[prior] mmrel_adv used=main rows=main invalid=0.0
+[prior] rbench used=logprob rows=fallback invalid=0.0
+[prior] amber_dr used=main rows=main invalid=0.04609218436873747
+[prior] heldout used=main rows=main invalid=0.0
+# Phase 5A 结果：语言先验冲突分解
+
+本阶段不训练。用 base 的 text-only 回答把每道题切成 prior-consistent / prior-conflict，再在冻结看图预测上分层。
+
+> 必须看图才能答对的先验冲突子集，是否既是 base 幻觉的集中地，也是 mf 增益的集中地？
+
+**判定：Case C。** 先验测不出：MMRel base 层差仅 -2.19 pp（< 5 pp）。
+
+## 有效性检查
+
+| Bench | source | n | invalid% | Yes | No | degenerate | mode |
+|---|---|---:|---:|---:|---:|---|---|
+| mmrel_adv | main | 384 | 0.00 | 48.70 | 51.30 | False | main |
+| rbench | fallback | 1924 | 0.00 | 1.30 | 98.70 | True | logprob |
+| rbench (main raw) | main | 1924 | 79.05 | 59.55 | 40.45 | False | text |
+| amber_dr | main | 499 | 4.61 | 26.26 | 73.74 | False | main |
+| heldout | main | 393 | 0.00 | 47.33 | 52.67 | False | main |
+
+无效/拒答率阈值 10%；Yes/No 单边阈值 95%。分层用上表 `mode` 列。
+
+## 对账（冻结看图 unique Acc，必须与已发布数字一致 ±0.05 pp）
+
+| Model | Bench | 已发布 | 复算 | match |
+|---|---|---:|---:|---|
+| base | rbench | 83.11 | 83.11 | True |
+| base | mmrel_adv | 69.01 | 69.01 | True |
+| base | heldout | 58.27 | 58.27 | True |
+| base | amber_dr | 79.56 | 79.56 | True |
+| clean | rbench | 82.95 | 82.95 | True |
+| clean | mmrel_adv | 70.83 | 70.83 | True |
+| clean | heldout | 67.18 | 67.18 | True |
+| clean | amber_dr | 80.16 | 80.16 | True |
+| mf | rbench | 82.85 | 82.85 | True |
+| mf | mmrel_adv | 74.48 | 74.48 | True |
+| mf | heldout | 65.90 | 65.90 | True |
+| mf | amber_dr | 79.16 | 79.16 | True |
+| s3000 | rbench | 83.58 | 83.58 | True |
+| s3000 | mmrel_adv | 71.09 | 71.09 | True |
+| s3000 | heldout | 72.77 | 72.77 | True |
+
+## 层规模（由 base text-only 定义）
+
+| Bench | slice | n | gold Yes | prior Yes |
+|---|---|---:|---:|---:|
+| mmrel_adv | all | 384 | 51.04 | 48.70 |
+| mmrel_adv | consistent | 203 | 49.75 | 49.75 |
+| mmrel_adv | conflict | 181 | 52.49 | 47.51 |
+| mmrel_adv | invalid | 0 | 0.00 | 0.00 |
+| rbench | all | 1482 | 68.76 | 1.21 |
+| rbench | consistent | 477 | 3.35 | 3.35 |
+| rbench | conflict | 1005 | 99.80 | 0.20 |
+| rbench | invalid | 0 | 0.00 | 0.00 |
+| rbench_full | all | 1924 | 65.18 | 1.30 |
+| rbench_full | consistent | 685 | 2.92 | 2.92 |
+| rbench_full | conflict | 1239 | 99.60 | 0.40 |
+| rbench_full | invalid | 0 | 0.00 | 0.00 |
+| amber_dr | all | 499 | 58.52 | 25.05 |
+| amber_dr | consistent | 250 | 35.20 | 35.20 |
+| amber_dr | conflict | 226 | 83.63 | 16.37 |
+| amber_dr | invalid | 23 | 65.22 | 0.00 |
+| heldout | all | 393 | 49.11 | 47.33 |
+| heldout | consistent | 234 | 47.01 | 47.01 |
+| heldout | conflict | 159 | 52.20 | 47.80 |
+| heldout | invalid | 0 | 0.00 | 0.00 |
+
+R-Bench 主分析只用 relation-only（verb+prep）；`rbench_full` 仅附录。
+
+## 诊断一：Base 看图 Acc 分层 + 先验锁定率
+
+| Bench | consistent Acc | conflict Acc | 层差 | 95% CI | lock rate | n_cons | n_conf |
+|---|---:|---:|---:|---|---:|---:|---:|
+| mmrel_adv | 67.98 | 70.17 | -2.19 pp | [-11.43, +6.85] | 50.00 | 203 | 181 |
+| rbench | 74.63 | 88.86 | -14.22 pp | [-18.61, -9.92] | 31.58 | 477 | 1005 |
+| rbench_full | 75.62 | 87.25 | -11.63 pp | [-15.34, -7.97] | 35.14 | 685 | 1239 |
+| amber_dr | 88.00 | 72.57 | +15.43 pp | [+8.46, +22.57] | 59.24 | 250 | 226 |
+| heldout | 61.97 | 52.83 | +9.14 pp | [-1.00, +19.14] | 55.98 | 234 | 159 |
+
+层差 = consistent Acc − conflict Acc。锁定率 = 看图预测与 text-only 预测相同的比例（valid 题）。
+
+## 诊断二：微调增益分层（主假设：mf 的 MMRel +5.47 pp 集中在 conflict）
+
+### mmrel_adv
+
+| Contrast | layer | ΔAcc | 95% CI | McNemar p | Yes_a | Yes_b | FP/FN_a | FP/FN_b | n |
+|---|---|---:|---|---:|---:|---:|---|---|---:|
+| mf_vs_base | conflict | +3.87 pp | [-2.21, +9.94] | 0.2811980995641792 | 70.17 | 53.04 | 43/11 | 24/23 | 181 |
+| mf_vs_base | consistent | +6.90 pp | [+0.99, +12.81] | 0.03495507264363054 | 74.88 | 56.16 | 58/7 | 32/19 | 203 |
+| mf_vs_base | DiD=Δconf−Δcons | -3.03 pp | [-11.40, +5.20] |  |  |  |  |  |  |
+| clean_vs_base | conflict | +0.55 pp | [-2.21, +3.31] | 1.0 | 70.17 | 66.30 | 43/11 | 39/14 | 181 |
+| clean_vs_base | consistent | +2.96 pp | [+0.00, +5.91] | 0.11384629800665803 | 74.88 | 69.95 | 58/7 | 50/9 | 203 |
+| clean_vs_base | DiD=Δconf−Δcons | -2.40 pp | [-6.58, +1.72] |  |  |  |  |  |  |
+| s3000_vs_base | conflict | +1.10 pp | [-1.66, +3.87] | 0.6830913983096087 | 70.17 | 66.85 | 43/11 | 39/13 | 181 |
+| s3000_vs_base | consistent | +2.96 pp | [-0.99, +6.90] | 0.2112995473337105 | 74.88 | 68.97 | 58/7 | 49/10 | 203 |
+| s3000_vs_base | DiD=Δconf−Δcons | -1.85 pp | [-6.46, +2.64] |  |  |  |  |  |  |
+
+### rbench
+
+| Contrast | layer | ΔAcc | 95% CI | McNemar p | Yes_a | Yes_b | FP/FN_a | FP/FN_b | n |
+|---|---|---:|---|---:|---:|---:|---|---|---:|
+| mf_vs_base | conflict | -2.79 pp | [-4.18, -1.49] | 9.734567564713259e-05 | 89.05 | 86.07 | 2/110 | 1/139 | 1005 |
+| mf_vs_base | consistent | +4.40 pp | [+2.10, +6.92] | 0.0007232327164301939 | 27.88 | 23.06 | 119/2 | 97/3 | 477 |
+| mf_vs_base | DiD=Δconf−Δcons | -7.19 pp | [-9.99, -4.50] |  |  |  |  |  |  |
+| clean_vs_base | conflict | +0.20 pp | [-0.60, +1.00] | 0.8025873486341526 | 89.05 | 89.05 | 2/110 | 1/109 | 1005 |
+| clean_vs_base | consistent | -1.26 pp | [-2.94, +0.21] | 0.18144920772142034 | 27.88 | 28.72 | 119/2 | 124/3 | 477 |
+| clean_vs_base | DiD=Δconf−Δcons | +1.46 pp | [-0.29, +3.23] |  |  |  |  |  |  |
+| s3000_vs_base | conflict | +1.69 pp | [+0.70, +2.79] | 0.00405713603237129 | 89.05 | 90.55 | 2/110 | 1/94 | 1005 |
+| s3000_vs_base | consistent | -3.35 pp | [-5.45, -1.47] | 0.0032637169016702366 | 27.88 | 30.82 | 119/2 | 134/3 | 477 |
+| s3000_vs_base | DiD=Δconf−Δcons | +5.05 pp | [+2.75, +7.44] |  |  |  |  |  |  |
+
+### rbench_full
+
+| Contrast | layer | ΔAcc | 95% CI | McNemar p | Yes_a | Yes_b | FP/FN_a | FP/FN_b | n |
+|---|---|---:|---|---:|---:|---:|---|---|---:|
+| mf_vs_base | conflict | -2.50 pp | [-3.79, -1.21] | 0.0001984024045859721 | 87.17 | 84.67 | 2/156 | 2/187 | 1239 |
+| mf_vs_base | consistent | +3.80 pp | [+1.90, +5.69] | 0.00022776260245036965 | 26.42 | 22.34 | 164/3 | 137/4 | 685 |
+| mf_vs_base | DiD=Δconf−Δcons | -6.30 pp | [-8.63, -4.05] |  |  |  |  |  |  |
+| clean_vs_base | conflict | +0.48 pp | [-0.32, +1.29] | 0.326799567668966 | 87.17 | 87.65 | 2/156 | 2/150 | 1239 |
+| clean_vs_base | consistent | -1.31 pp | [-2.63, +0.00] | 0.0808555983700523 | 26.42 | 27.45 | 164/3 | 172/4 | 685 |
+| clean_vs_base | DiD=Δconf−Δcons | +1.80 pp | [+0.31, +3.35] |  |  |  |  |  |  |
+| s3000_vs_base | conflict | +2.58 pp | [+1.53, +3.71] | 1.1648657367199589e-05 | 87.17 | 89.75 | 2/156 | 2/124 | 1239 |
+| s3000_vs_base | consistent | -3.36 pp | [-5.11, -1.75] | 0.00029829324714201756 | 26.42 | 29.49 | 164/3 | 186/4 | 685 |
+| s3000_vs_base | DiD=Δconf−Δcons | +5.94 pp | [+3.88, +8.01] |  |  |  |  |  |  |
+
+### amber_dr
+
+| Contrast | layer | ΔAcc | 95% CI | McNemar p | Yes_a | Yes_b | FP/FN_a | FP/FN_b | n |
+|---|---|---:|---|---:|---:|---:|---|---|---:|
+| mf_vs_base | conflict | -3.54 pp | [-7.08, +0.00] | 0.0989601540194058 | 59.73 | 56.19 | 4/58 | 4/66 | 226 |
+| mf_vs_base | consistent | +0.00 pp | [-2.40, +2.00] | 0.7236736098317631 | 33.60 | 31.20 | 13/17 | 10/20 | 250 |
+| mf_vs_base | DiD=Δconf−Δcons | -3.54 pp | [-7.88, +0.72] |  |  |  |  |  |  |
+| clean_vs_base | conflict | -0.44 pp | [-3.10, +2.21] | 1.0 | 59.73 | 60.18 | 4/58 | 5/58 | 226 |
+| clean_vs_base | consistent | -0.40 pp | [-2.40, +1.60] | 1.0 | 33.60 | 33.20 | 13/17 | 13/18 | 250 |
+| clean_vs_base | DiD=Δconf−Δcons | -0.04 pp | [-3.41, +3.33] |  |  |  |  |  |  |
+| s3000_vs_base | conflict | +0.44 pp | [-3.54, +4.42] | 1.0 | 59.73 | 61.95 | 4/58 | 6/55 | 226 |
+| s3000_vs_base | consistent | +0.80 pp | [-1.60, +3.20] | 0.7236736098317631 | 33.60 | 34.40 | 13/17 | 13/15 | 250 |
+| s3000_vs_base | DiD=Δconf−Δcons | -0.36 pp | [-5.01, +4.15] |  |  |  |  |  |  |
+
+### heldout
+
+| Contrast | layer | ΔAcc | 95% CI | McNemar p | Yes_a | Yes_b | FP/FN_a | FP/FN_b | n |
+|---|---|---:|---|---:|---:|---:|---|---|---:|
+| mf_vs_base | conflict | +1.89 pp | [-3.14, +6.92] | 0.6276258050283593 | 81.76 | 72.33 | 61/14 | 52/20 | 159 |
+| mf_vs_base | consistent | +11.54 pp | [+6.84, +16.24] | 1.9167534556697482e-05 | 76.50 | 60.68 | 79/10 | 47/15 | 234 |
+| mf_vs_base | DiD=Δconf−Δcons | -9.65 pp | [-16.57, -2.48] |  |  |  |  |  |  |
+| clean_vs_base | conflict | +6.29 pp | [+1.89, +11.32] | 0.02444894531008941 | 81.76 | 74.21 | 61/14 | 50/15 | 159 |
+| clean_vs_base | consistent | +10.68 pp | [+6.41, +14.96] | 1.628657576647954e-05 | 76.50 | 64.10 | 79/10 | 52/12 | 234 |
+| clean_vs_base | DiD=Δconf−Δcons | -4.39 pp | [-10.96, +2.17] |  |  |  |  |  |  |
+| s3000_vs_base | conflict | +8.81 pp | [+2.52, +15.09] | 0.01078744925467036 | 81.76 | 79.25 | 61/14 | 52/9 | 159 |
+| s3000_vs_base | consistent | +18.38 pp | [+13.25, +23.93] | 1.9731752900754024e-09 | 76.50 | 64.96 | 79/10 | 44/2 | 234 |
+| s3000_vs_base | DiD=Δconf−Δcons | -9.57 pp | [-17.62, -1.30] |  |  |  |  |  |  |
+
+conflict 层 gold 与先验反向，「无脑翻转先验」也能涨分；须同时看 consistent 层是否对称下降，以及 Yes ratio / FP/FN。
+
+## 次要：微调是否改写了先验（MMRel text-only）
+
+| Contrast | n | 一致率 |
+|---|---:|---:|
+| clean_vs_base | 384 | 93.49 |
+| mf_vs_base | 384 | 63.80 |
+
+## 交叉：conflict × Phase 4B lemma seen/unseen（n<50 只描述）
+
+| Contrast | Bench | cell | n | ΔAcc | 检验 |
+|---|---|---|---:|---:|---|
+| mf_vs_base | mmrel_adv | conflict×seen | 112 | +8.04 pp | p=0.09529283802345662 |
+| mf_vs_base | mmrel_adv | conflict×unseen | 69 | -2.90 pp | p=0.7236736098317631 |
+| mf_vs_base | mmrel_adv | consistent×seen | 149 | +6.71 pp | p=0.06619257972219343 |
+| mf_vs_base | mmrel_adv | consistent×unseen | 54 | +7.41 pp | p=0.4226780741706354 |
+| clean_vs_base | mmrel_adv | conflict×seen | 112 | +0.89 pp | p=1.0 |
+| clean_vs_base | mmrel_adv | conflict×unseen | 69 | +0.00 pp | p=0.4795001221869535 |
+| clean_vs_base | mmrel_adv | consistent×seen | 149 | +4.03 pp | p=0.07709987174354177 |
+| clean_vs_base | mmrel_adv | consistent×unseen | 54 | +0.00 pp | p=0.4795001221869535 |
+| s3000_vs_base | mmrel_adv | conflict×seen | 112 | +2.68 pp | p=0.37109336952269756 |
+| s3000_vs_base | mmrel_adv | conflict×unseen | 69 | -1.45 pp | p=1.0 |
+| s3000_vs_base | mmrel_adv | consistent×seen | 146 | +2.74 pp | p=0.3864762307712327 |
+| s3000_vs_base | mmrel_adv | consistent×unseen | 57 | +3.51 pp | p=0.6170750774519738 |
+| mf_vs_base | rbench | conflict×seen | 783 | -3.07 pp | p=0.00012641846373680543 |
+| mf_vs_base | rbench | conflict×unseen | 222 | -1.80 pp | p=0.3864762307712327 |
+| mf_vs_base | rbench | consistent×seen | 336 | +4.46 pp | p=0.003509289704745073 |
+| mf_vs_base | rbench | consistent×unseen | 141 | +4.26 pp | p=0.14891467317876567 |
+| clean_vs_base | rbench | conflict×seen | 783 | +0.38 pp | p=0.5790997419539188 |
+| clean_vs_base | rbench | conflict×unseen | 222 | -0.45 pp | p=1.0 |
+| clean_vs_base | rbench | consistent×seen | 336 | -1.19 pp | p=0.28884436634648486 |
+| clean_vs_base | rbench | consistent×unseen | 141 | -1.42 pp | p=0.6830913983096087 |
+| s3000_vs_base | rbench | conflict×seen | 795 | +1.64 pp | p=0.01234336035345503 |
+| s3000_vs_base | rbench | conflict×unseen | 210 | +1.90 pp | p=0.28884436634648486 |
+| s3000_vs_base | rbench | consistent×seen | 337 | -3.26 pp | p=0.015293371030198946 |
+| s3000_vs_base | rbench | consistent×unseen | 140 | -3.57 pp | p=0.18242243945173575 |
+
+## 本阶段问题
+
+> **Base 模型的关系幻觉是否集中在 prior-conflict 子集？Phase 4C 的 mf 增益是否也集中在该子集？**
+
+Case C → 换先验测量方式（对比式正反两问）再试一轮后再定去留。
+
+
+wrote /data/storage22t/lht/works/relation_hallucination/eval_results/qwen/phase5a/metrics/phase5a_prior_analysis.json
+wrote /data/storage22t/lht/works/relation_hallucination/eval_results/qwen/phase5a/metrics/prior_labels.jsonl
+wrote /data/storage22t/lht/works/relation_hallucination/eval_results/qwen/phase5a/phase5a_report.md
+[phase5a] done

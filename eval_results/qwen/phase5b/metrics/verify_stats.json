@@ -1,0 +1,154 @@
+{
+  "n": 3500,
+  "pass_yes_no_no": 217,
+  "marginal": {
+    "factual": {
+      "yes": 3077,
+      "no": 401,
+      "uncertain": 22
+    },
+    "relation_cf": {
+      "yes": 2608,
+      "no": 877,
+      "uncertain": 15
+    },
+    "visual_cf": {
+      "yes": 2424,
+      "no": 1063,
+      "uncertain": 13
+    }
+  },
+  "top_combos": [
+    {
+      "factual": "yes",
+      "relation_cf": "yes",
+      "visual_cf": "yes",
+      "n": 1795
+    },
+    {
+      "factual": "yes",
+      "relation_cf": "yes",
+      "visual_cf": "no",
+      "n": 638
+    },
+    {
+      "factual": "yes",
+      "relation_cf": "no",
+      "visual_cf": "yes",
+      "n": 407
+    },
+    {
+      "factual": "yes",
+      "relation_cf": "no",
+      "visual_cf": "no",
+      "n": 217
+    },
+    {
+      "factual": "no",
+      "relation_cf": "no",
+      "visual_cf": "yes",
+      "n": 134
+    },
+    {
+      "factual": "no",
+      "relation_cf": "no",
+      "visual_cf": "no",
+      "n": 102
+    },
+    {
+      "factual": "no",
+      "relation_cf": "yes",
+      "visual_cf": "no",
+      "n": 90
+    },
+    {
+      "factual": "no",
+      "relation_cf": "yes",
+      "visual_cf": "yes",
+      "n": 71
+    },
+    {
+      "factual": "yes",
+      "relation_cf": "yes",
+      "visual_cf": "uncertain",
+      "n": 7
+    },
+    {
+      "factual": "uncertain",
+      "relation_cf": "no",
+      "visual_cf": "no",
+      "n": 6
+    },
+    {
+      "factual": "uncertain",
+      "relation_cf": "no",
+      "visual_cf": "yes",
+      "n": 6
+    },
+    {
+      "factual": "yes",
+      "relation_cf": "uncertain",
+      "visual_cf": "no",
+      "n": 6
+    },
+    {
+      "factual": "uncertain",
+      "relation_cf": "yes",
+      "visual_cf": "yes",
+      "n": 4
+    },
+    {
+      "factual": "yes",
+      "relation_cf": "no",
+      "visual_cf": "uncertain",
+      "n": 4
+    },
+    {
+      "factual": "yes",
+      "relation_cf": "uncertain",
+      "visual_cf": "yes",
+      "n": 3
+    },
+    {
+      "factual": "uncertain",
+      "relation_cf": "yes",
+      "visual_cf": "no",
+      "n": 3
+    },
+    {
+      "factual": "no",
+      "relation_cf": "uncertain",
+      "visual_cf": "yes",
+      "n": 2
+    },
+    {
+      "factual": "uncertain",
+      "relation_cf": "uncertain",
+      "visual_cf": "yes",
+      "n": 2
+    },
+    {
+      "factual": "no",
+      "relation_cf": "uncertain",
+      "visual_cf": "no",
+      "n": 1
+    },
+    {
+      "factual": "uncertain",
+      "relation_cf": "uncertain",
+      "visual_cf": "uncertain",
+      "n": 1
+    },
+    {
+      "factual": "no",
+      "relation_cf": "no",
+      "visual_cf": "uncertain",
+      "n": 1
+    }
+  ],
+  "elapsed_hours": 3.6072930555555556,
+  "pass_rate": 0.062,
+  "rebuild_train": 212,
+  "rebuild_heldout": 5,
+  "eligible_after_verification": 217
+}

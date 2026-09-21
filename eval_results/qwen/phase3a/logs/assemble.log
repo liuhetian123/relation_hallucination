@@ -1,0 +1,153 @@
+scale_534: pairs=534 train=1068
+scale_1500: pairs=1500 train=3000
+scale_3000: pairs=3000 train=6000
+{
+  "n_sro_ok": 5000,
+  "n_images_with_no": 4957,
+  "n_paired": 4957,
+  "n_master": 3000,
+  "select": {
+    "requested": 3000,
+    "selected": 3000,
+    "leftover": 1957,
+    "cap_start": 0.05,
+    "relaxed_to": null,
+    "max_relation_count": 150
+  },
+  "nested": "S534 \u2282 S1500 \u2282 S3000",
+  "seed": 42
+}
+diversity {
+  "n": 3000,
+  "unique_images": 3000,
+  "unique_relations": 370,
+  "unique_subjects": 823,
+  "unique_objects": 1089,
+  "unique_subject_object": 2540,
+  "unique_subject_relation": 1932,
+  "unique_relation_object": 2219,
+  "unique_sro": 2783,
+  "max_relation_frac": 0.05,
+  "top_relations": [
+    [
+      "standing on",
+      150
+    ],
+    [
+      "sitting on",
+      150
+    ],
+    [
+      "holding",
+      150
+    ],
+    [
+      "wearing",
+      150
+    ],
+    [
+      "looking at",
+      113
+    ],
+    [
+      "contains",
+      109
+    ],
+    [
+      "lying on",
+      92
+    ],
+    [
+      "carrying",
+      74
+    ],
+    [
+      "supports",
+      72
+    ],
+    [
+      "attached to",
+      69
+    ],
+    [
+      "touching",
+      69
+    ],
+    [
+      "hanging from",
+      62
+    ],
+    [
+      "riding",
+      53
+    ],
+    [
+      "resting on",
+      52
+    ],
+    [
+      "on",
+      46
+    ],
+    [
+      "surrounded by",
+      45
+    ],
+    [
+      "jumping over",
+      43
+    ],
+    [
+      "beside",
+      41
+    ],
+    [
+      "stands on",
+      38
+    ],
+    [
+      "pointing at",
+      34
+    ],
+    [
+      "standing next to",
+      34
+    ],
+    [
+      "covering",
+      31
+    ],
+    [
+      "climbing",
+      30
+    ],
+    [
+      "forming",
+      29
+    ],
+    [
+      "standing in front of",
+      28
+    ],
+    [
+      "inside",
+      26
+    ],
+    [
+      "surrounding",
+      25
+    ],
+    [
+      "in front of",
+      25
+    ],
+    [
+      "sitting in",
+      24
+    ],
+    [
+      "biting",
+      24
+    ]
+  ]
+}

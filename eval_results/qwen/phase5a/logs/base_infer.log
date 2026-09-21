@@ -1,0 +1,172 @@
+Loading weights:   0%|          | 0/824 [00:00<?, ?it/s]Loading weights:   2%|▏         | 13/824 [00:00<00:06, 120.60it/s]Loading weights:   5%|▍         | 41/824 [00:00<00:03, 197.33it/s]Loading weights:   8%|▊         | 69/824 [00:00<00:03, 232.67it/s]Loading weights:  12%|█▏        | 97/824 [00:00<00:02, 249.86it/s]Loading weights:  15%|█▍        | 123/824 [00:00<00:02, 239.08it/s]Loading weights:  18%|█▊        | 148/824 [00:00<00:03, 221.63it/s]Loading weights:  22%|██▏       | 185/824 [00:00<00:02, 259.62it/s]Loading weights:  27%|██▋       | 221/824 [00:00<00:02, 278.35it/s]Loading weights:  30%|███       | 250/824 [00:00<00:02, 277.92it/s]Loading weights:  34%|███▍      | 280/824 [00:01<00:01, 283.75it/s]Loading weights:  38%|███▊      | 316/824 [00:01<00:01, 300.42it/s]Loading weights:  43%|████▎     | 351/824 [00:01<00:01, 312.23it/s]Loading weights:  47%|████▋     | 388/824 [00:01<00:01, 324.43it/s]Loading weights:  51%|█████     | 421/824 [00:01<00:01, 316.24it/s]Loading weights:  62%|██████▏   | 508/824 [00:01<00:00, 472.70it/s]Loading weights:  75%|███████▌  | 621/824 [00:01<00:00, 662.98it/s]Loading weights:  88%|████████▊ | 728/824 [00:01<00:00, 782.06it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 833.73it/s]Loading weights: 100%|██████████| 824/824 [00:01<00:00, 428.83it/s]
+yes_ids=[9454, 9693] no_ids=[2753, 2152] device=cuda:0
+job mmrel_adv_questions.jsonl questions=384 already=0 remaining=384 fallback=False
+[1/384] 010l9bc0b9trxvw 'No'
+[20/384] 31j3wqk31oizgnn 'No.'
+[40/384] 5owqb9zzyc1cnif 'Yes'
+[60/384] 7rmyiwgaj02w8fg 'No'
+[80/384] 9dzlh9pq3biqyjv 'Yes.'
+[100/384] b8eouc1dlaq8egb 'No.'
+[120/384] d5cfdhuz044z0at 'No'
+[140/384] f4ye0uoy02r11cv 'Yes.'
+[160/384] h595uepuzul2p6n 'No'
+[180/384] idb4ippj7sa8x1w 'No'
+[200/384] jqoe30bbuzr465o 'Yes'
+[220/384] m1o6pld1ck023eb 'Yes.'
+[240/384] nqixstt7uj0cv0n 'Yes'
+[260/384] ps919249fygxfla 'No'
+[280/384] ralh52iepoqao5y 'No'
+[300/384] tdfyob2bscio18q 'Yes'
+[320/384] vgvae8ffa30vbro 'Yes.'
+[340/384] wvdjyvkyzp3fbf7 'No'
+[360/384] yf7mklbsdn634v7 'Yes.'
+[380/384] zlepi9vs3fxchyh 'No.'
+Wrote eval_results/qwen/phase5a/answers/base_mmrel_adv_fast_textonly.jsonl
+job rbench_questions.jsonl questions=1924 already=0 remaining=1924 fallback=False
+[1/1924] 13 "I'm sorry, but I'm unable to see any image attached to your question"
+[20/1924] 222 "I'm sorry, but I am unable to see any image or visual content as"
+[40/1924] 395 "I'm sorry, but I am unable to see any images as I am a"
+[60/1924] 515 'Yes, the seahorse is swimming near some plants in the image.'
+[80/1924] 667 'Yes, the ladybug is resting on a blade of grass in the image.'
+[100/1924] 840 "I'm sorry, but I'm unable to see any image attached to your question"
+[120/1924] 1003 "I'm sorry, but as an AI language model, I don't have the"
+[140/1924] 1147 "I'm sorry, but I cannot answer this question as there is no information provided"
+[160/1924] 1283 'Yes, the cookies on the pan are covered with parchment paper.'
+[180/1924] 1416 "I'm sorry, but I am unable to see any images as I am a"
+[200/1924] 1640 "I'm sorry, but I'm unable to see any image attached to your question"
+[220/1924] 1741 "I'm sorry, but I'm unable to see any image attached to your question"
+[240/1924] 1914 'Yes, the pair of shorts is hanging from a wooden hanger.'
+[260/1924] 2062 "I'm sorry, but I'm unable to see images as I am a text"
+[280/1924] 2172 "I'm sorry, but I cannot answer this question as I do not have access"
+[300/1924] 2336 "I'm sorry, but as an AI language model, I don't have access"
+[320/1924] 2420 "I'm sorry, but as an AI language model, I don't have access"
+[340/1924] 2599 "I'm sorry, but as an AI language model, I don't have access"
+[360/1924] 2721 "I'm sorry, but I am unable to see any images as I am a"
+[380/1924] 2812 "I'm sorry, but I'm unable to see any image attached to your question"
+[400/1924] 2926 "I'm sorry, but I am unable to see any images or visual content as"
+[420/1924] 3047 "I'm sorry, but as an AI language model, I don't have access"
+[440/1924] 3192 "I'm sorry, but I am unable to see any images or visual content as"
+[460/1924] 3345 "I'm sorry, but I'm unable to see any images as I am a"
+[480/1924] 3495 "I'm sorry, but I don't have any information about whether the bike is"
+[500/1924] 3646 "I'm sorry, but I'm unable to see any image attached to your question"
+[520/1924] 3788 "I'm sorry, but I cannot answer this question as there is no information provided"
+[540/1924] 3962 "I'm sorry, but as an AI language model, I don't have access"
+[560/1924] 4073 "I'm sorry, but I'm unable to see any image attached to your question"
+[580/1924] 4276 "I'm sorry, but I am unable to see any images as I am a"
+[600/1924] 4414 "I'm sorry, but I'm unable to see any image or visual content as"
+[620/1924] 4594 "I'm sorry, but as an AI language model, I do not have the"
+[640/1924] 4722 "I'm sorry, but I cannot answer this question as there is no information provided"
+[660/1924] 4855 "I'm sorry, but I cannot see any image attached to your question. Could"
+[680/1924] 4998 "I'm sorry, but I am unable to see any image attached to your question"
+[700/1924] 5205 'Yes, there may be other types of trees near the pool besides palm trees.'
+[720/1924] 5402 "I'm sorry, but as an AI language model, I don't have access"
+[740/1924] 5573 "I'm sorry, but I'm unable to see any image attached to your question"
+[760/1924] 5762 "I'm sorry, as an AI language model, I don't have access to"
+[780/1924] 5886 'Yes, the pasta is on a plate.'
+[800/1924] 6042 "I'm sorry, but I am unable to see any images as I am a"
+[820/1924] 6190 'Yes, the bee is sitting on the sunflower in the image.'
+[840/1924] 6316 "I'm sorry, as an AI language model, I don't have access to"
+[860/1924] 6450 'No, the burrito is not typically served on a black plate. Burritos'
+[880/1924] 6599 "I'm unable to identify individuals or determine actions of people in images. I d"
+[900/1924] 6774 "I'm sorry, but I don't have any information about the location of the"
+[920/1924] 6937 "I'm sorry, as an AI language model, I don't have access to"
+[940/1924] 7125 "I'm sorry, but I don't have any information about what is in your"
+[960/1924] 7278 "I'm sorry, but I am unable to see any images as I am a"
+[980/1924] 7466 'There is no existence of any person wearing a reflective vest in the image descr'
+[1000/1924] 7609 'Yes, the coffee cup is on the saucer.'
+[1020/1924] 7805 "I'm sorry, but I cannot answer your question as there is no person or"
+[1040/1924] 7977 "I'm sorry, but I am unable to see any images or visual content as"
+[1060/1924] 8160 'Yes, the plant is inside the vase.'
+[1080/1924] 8330 "I'm sorry, but I'm unable to see any images or visual content as"
+[1100/1924] 8484 'To determine if the microphone is placed in front of all three computers, we nee'
+[1120/1924] 8648 "I'm sorry, but I'm unable to see any image attached to your question"
+[1140/1924] 8829 "I'm sorry, but I cannot answer this question as there is no context provided"
+[1160/1924] 9027 "I'm sorry, but I'm unable to see any images or visual content as"
+[1180/1924] 9181 "I'm sorry, but I'm unable to see any image attached to your question"
+[1200/1924] 9392 "I'm sorry, but I'm unable to see any images or visual content as"
+[1220/1924] 9543 "I'm sorry, but I am unable to see any images or visual content as"
+[1240/1924] 9706 "I'm sorry, but I'm unable to see any images or visual content as"
+[1260/1924] 9845 "I'm sorry, but I am unable to see any images or visual content as"
+[1280/1924] 9938 "I'm sorry, but as an AI language model, I do not have the"
+[1300/1924] 10095 'Yes, the sculpture is located near a building.'
+[1320/1924] 10398 "I'm sorry, but I'm unable to see any image attached to your question"
+[1340/1924] 10631 "I'm sorry, but I can't answer this question. This might be a"
+[1360/1924] 10752 "I'm sorry, but I don't have any information about your specific location or"
+[1380/1924] 10922 "I'm sorry, but as an AI language model, I don't have access"
+[1400/1924] 11063 "I'm sorry, but as an AI language model, I don't have access"
+[1420/1924] 11319 "I'm sorry, but I am unable to see any images as I am a"
+[1440/1924] 11454 'Yes, the fig plants are growing on the tree.'
+[1460/1924] 11674 "I'm sorry, but I cannot answer this question as there is no tree building"
+[1480/1924] 11806 "I'm sorry, but as an AI language model, I don't have access"
+[1500/1924] 11953 "I'm sorry, but I am unable to see any images as I am a"
+[1520/1924] 12067 "I'm sorry, but I am unable to see any images or visual content as"
+[1540/1924] 12152 "I'm sorry, but I'm unable to see any image or visual content as"
+[1560/1924] 12303 "I'm sorry, but I am unable to see any images or visual content as"
+[1580/1924] 12458 "I'm sorry, but I'm unable to see any images or visual content as"
+[1600/1924] 12573 "I'm sorry, but I am unable to see any image attached to your question"
+[1620/1924] 12750 "I'm sorry, but I'm unable to see any images as I am a"
+[1640/1924] 12968 "I'm sorry, but I am unable to see any image or visual content as"
+[1660/1924] 13121 "I'm sorry, but I cannot answer this question as there is no information provided"
+[1680/1924] 13251 "I'm sorry, but I am unable to see any images or visual content as"
+[1700/1924] 13402 "I'm sorry, but I don't have any information about a woman standing at"
+[1720/1924] 13529 "I'm sorry, but I am unable to see any images as I am a"
+[1740/1924] 13687 "I'm sorry, but I'm unable to see any images or visual content as"
+[1760/1924] 13832 "I'm sorry, but as an AI language model, I don't have access"
+[1780/1924] 13976 "I'm sorry, but I am unable to see the image you are referring to"
+[1800/1924] 14110 "I'm sorry, but I don't have any information about the location of the"
+[1820/1924] 14261 "I'm sorry, but I cannot answer this question without more information about your"
+[1840/1924] 14451 'Yes, the machine is powered by the cord connected to the wall. The cord'
+[1860/1924] 14614 "I'm sorry, but I am an AI language model and do not have the"
+[1880/1924] 14769 "I'm sorry, but I am unable to see any images as I am a"
+[1900/1924] 14927 "I'm sorry, but I don't have any information about whether the bride is"
+[1920/1924] 15103 "To determine if the red spots on the moth's body are the same color as"
+Wrote eval_results/qwen/phase5a/answers/base_rbench_fast_textonly.jsonl
+job amber_dr_questions.jsonl questions=499 already=0 remaining=499 fallback=False
+[1/499] 13565 'No, there is no direct contact between the person and the bicycle. The person'
+[20/499] 13641 "I'm sorry, but I don't have enough context to answer your question accurately"
+[40/499] 13694 'No, there is no direct contact between the plane and the ground. The plane'
+[60/499] 13733 'No, there is no direct contact between the woman and grass. The woman is'
+[80/499] 13822 'No, there is no direct contact between the hat and the ground. The hat'
+[100/499] 13884 'No, there is no direct contact between the tie and the wall. The tie'
+[120/499] 13951 'No, there is no direct contact between the tap and the sink. The tap'
+[140/499] 14012 'No, there is no direct contact between the woman and the forest. The woman'
+[160/499] 14062 'No, there is no direct contact between the banana and the plate. The banana'
+[180/499] 14130 'No, there is no direct contact between the fence and the cow. The fence'
+[200/499] 14203 'No, there is no direct contact between the cat and the keyboard. The cat'
+[220/499] 14277 'No, there is no direct contact between the woman and the banana in the image'
+[240/499] 14353 'Yes, there is direct contact between the person and the ship. The person can'
+[260/499] 14440 'No, there is no direct contact between the giraffe and the tree. The'
+[280/499] 14511 "I'm sorry, but I don't have enough context to answer your question accurately"
+[300/499] 14558 'No, there is no direct contact between the grass and the train. The train'
+[320/499] 14606 "I'm sorry, but as an AI language model, I don't have access"
+[340/499] 14681 'No, there is no direct contact between the sky and clouds. The sky is'
+[360/499] 14753 'Yes, there is direct contact between people and the sea. People can swim in'
+[380/499] 14807 'No, there is no direct contact between a frisbee and a football.'
+[400/499] 14869 'Yes, dogs can have direct contact with grass. Dogs often play in grassy'
+[420/499] 14921 'No, there is no direct contact between the cup and the laptop. The cup'
+[440/499] 15012 'No, there is no direct contact between the cup and the book. The cup'
+[460/499] 15069 'No, there is no direct contact between the train and grass. The train runs'
+[480/499] 15164 'Yes, shrimp can be directly contacted with ice. Ice is often used to keep'
+Wrote eval_results/qwen/phase5a/answers/base_amber_dr_fast_textonly.jsonl
+job heldout_verification.jsonl questions=393 already=0 remaining=393 fallback=False
+[1/393] relsim_033e43dd0433601ab2529e1be5d8a27e__hard__climbing_on 'No.'
+[20/393] relsim_25ef9f946d7ac7f697f4d10a9baff6f0__hard__behind 'No.'
+[40/393] relsim_4de1476961e665525b5b24ab8e287b2a__hard__climbing_on 'No.'
+[60/393] relsim_80f7072df29ee266e0ae3113eca6c848__hard__falling_from 'No.'
+[80/393] relsim_b910783a8441f2979318abc70fa26b0f__hard__in_front_of 'Yes.'
+[100/393] relsim_ddd46b8cb2267a5ed61f238a74dec957__hard__playing_with 'No.'
+[120/393] relsim_175eef459f074eba0559214349277ab6__pos 'Yes.'
+[140/393] relsim_2add1e05dd56d979d8d52e1b5acaa139__pos 'Yes.'
+[160/393] relsim_44dc36afa36f4370a448c0f3755c6f99__pos 'No.'
+[180/393] relsim_563b210316278d411c3b848ce0c45ac4__pos 'Yes.'
+[200/393] relsim_74cff7aae4c90085bc6d86ff9df44a47__pos 'No.'
+[220/393] relsim_8f7997d5ac6cfe69c330d5081b7baab8__pos 'Yes.'
+[240/393] relsim_a7bd3e643c109e84aa4eb181dc4573be__pos 'No.'
+[260/393] relsim_ba6bcc5a71e5bdac84088c2d7813dce0__pos 'Yes.'
+[280/393] relsim_d12cc83c72982b442263dbc31288b5f8__pos 'No.'
+[300/393] relsim_1014555354c75c127852bd3b1fb6e46b__random_negative__floating_beside 'No.'
+[320/393] relsim_329db8de42857ebe703283430ee635e2__random_negative__unified_in 'No.'
+[340/393] relsim_5ded2c3d2478654ff471f6b1e612b5e5__random_negative__encasing 'Yes.'
+[360/393] relsim_8f938db75f1ef164b7b3247f151f8240__random_negative__styled_to 'Yes.'
+[380/393] relsim_b647eae0abf16b5c125eb5f54aa5488a__random_negative__bursting_into 'No.'
+Wrote eval_results/qwen/phase5a/answers/base_heldout_textonly.jsonl
