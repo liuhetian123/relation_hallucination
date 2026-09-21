@@ -19,16 +19,16 @@ __pycache__/
 # editor
 .cursor/
 
-# third-party repositories
-/LLaVA/
-/POPE/
-/R-Bench/
-/AMBER/
-/relsim/
-/MMRel/
+# third-party repositories (no trailing slash: also ignore collab worktree symlinks)
+/LLaVA
+/POPE
+/R-Bench
+/AMBER
+/relsim
+/MMRel
 
 # RelSim data
-/data/relsim_images/
+/data/relsim_images
 /data/*.json
 /data/*.jsonl
 /data/*.zip
@@ -41,8 +41,8 @@ __pycache__/
 /eval_results/**/composites/
 
 # checkpoints / weights
-/checkpoints/
-/outputs/
+/checkpoints
+/outputs
 *.pt
 *.pth
 *.bin
